@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyFinder India — The Ultimate Education Discovery, Ranking & Talent Platform</title>
+  <meta name="description" content="Discover, compare, rank, and contact educational institutions anywhere in India. Transparent 12-category rankings, verified admissions, sports achievements, and AI EduMatch.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            },
+            saffron: {
+              500: '#f97316',
+              600: '#ea580c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased min-h-screen flex flex-col pb-20 md:pb-0">
+
+  <!-- Toast Container -->
+  <div id="toast-container" class="fixed top-5 right-5 z-50 flex flex-col gap-2.5 max-w-sm pointer-events-none"></div>
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-gradient-to-r from-orange-600 via-blue-700 to-emerald-700 text-white text-[11px] md:text-xs font-semibold py-1.5 px-4 text-center tracking-wide">
+    🇮🇳 StudyFinder India 2026 Academic Audit Released • 100% Transparent Category Rankings & Zero Fake Reviews
+  </div>
+
+  <!-- Primary Desktop & Tablet Header -->
+  <header class="glass-nav sticky top-0 z-30 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        
+        <!-- Logo & Tagline -->
+        <div class="flex items-center gap-3 cursor-pointer" onclick="switchTab('discovery')">
+          <div class="w-10 h-10 md:w-12 md:h-12 rounded-2xl bg-gradient-to-tr from-blue-700 via-blue-600 to-orange-500 flex items-center justify-center text-white font-black text-xl shadow-md shadow-blue-500/20">
+            SF
+          </div>
+          <div>
+            <div class="flex items-center gap-1.5">
+              <span class="text-lg md:text-xl font-extrabold text-slate-900 tracking-tight">StudyFinder</span>
+              <span class="px-1.5 py-0.5 rounded text-[10px] font-black uppercase bg-orange-100 text-orange-700 border border-orange-200">India</span>
+            </div>
+            <p class="text-[10px] md:text-[11px] font-semibold text-slate-500 tracking-wider">Find. Compare. Rank. Choose. Succeed.</p>
+          </div>
+        </div>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center space-x-1 text-sm font-medium">
+          <button data-tab="discovery" class="nav-link px-3.5 py-2 text-blue-600 font-semibold border-b-2 border-blue-600 transition flex items-center gap-1.5">
+            <span>🔍</span> Discovery
+          </button>
+          <button data-tab="rankings" class="nav-link px-3.5 py-2 text-slate-600 hover:text-blue-600 transition flex items-center gap-1.5">
+            <span>🏆</span> All-India Rankings
+          </button>
+          <button data-tab="recommender" class="nav-link px-3.5 py-2 text-slate-600 hover:text-blue-600 transition flex items-center gap-1.5">
+            <span>🤖</span> EduMatch AI
+          </button>
+          <button data-tab="compare" class="nav-link px-3.5 py-2 text-slate-600 hover:text-blue-600 transition flex items-center gap-1.5">
+            <span>⚖️</span> Compare
+            <span class="bookmark-count hidden ml-1 px-1.5 py-0.2 bg-blue-600 text-white rounded-full text-[10px] font-bold">0</span>
+          </button>
+          <button data-tab="verification" class="nav-link px-3.5 py-2 text-slate-600 hover:text-blue-600 transition flex items-center gap-1.5">
+            <span>🛡️</span> Trust & Verification
+          </button>
+          <button data-tab="admin" class="nav-link px-3.5 py-2 text-slate-600 hover:text-blue-600 transition flex items-center gap-1.5">
+            <span>🏢</span> Institution Portal
+          </button>
+        </nav>
+
+        <!-- Right Header Actions -->
+        <div class="flex items-center gap-2.5">
+          <!-- Live Counselor Chat trigger -->
+          <button onclick="ProfileController.openChatModal()" class="px-3 py-2 bg-blue-50 text-blue-700 hover:bg-blue-100 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse-subtle"></span>
+            <span class="hidden sm:inline">Ask Counselor</span>
+            <span class="sm:hidden">Chat</span>
+          </button>
+
+          <!-- Compare shortcut badge -->
+          <button onclick="switchTab('compare')" class="p-2 text-slate-600 hover:text-blue-600 transition relative" title="Side-by-side Compare">
+            <span class="text-lg">⚖️</span>
+            <span id="header-compare-badge" class="bookmark-count hidden absolute -top-1 -right-1 px-1.5 py-0.2 bg-amber-500 text-white rounded-full text-[10px] font-bold">0</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== VIEW 1: DISCOVERY & HERO ==================== -->
+  <main id="discovery-view" class="flex-1">
+    
+    <!-- Hero Banner with Nationwide Search Bar -->
+    <section class="relative bg-gradient-to-b from-blue-900 via-slate-900 to-slate-900 text-white py-12 md:py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <!-- Decorative background blur elements -->
+      <div class="absolute -top-24 -left-24 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-orange-500/15 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="max-w-5xl mx-auto text-center relative z-10">
+        
+        <!-- Nationwide Badge -->
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 text-orange-300 text-xs font-semibold backdrop-blur-md border border-white/10 mb-6">
+          <span>🇮🇳</span>
+          <span>Nationwide Institution Directory • Pan-India Coverage</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+        </div>
+
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight leading-tight mb-4 text-white">
+          Discover Every Educational Landmark in <span class="text-gradient-tricolor">India</span>
+        </h1>
+        
+        <p class="text-sm sm:text-base md:text-lg text-slate-300 max-w-2xl mx-auto mb-8 font-normal">
+          From premier universities and IITs to elite sports academies, boarding schools, coaching institutes, and verified student coliving.
+        </p>
+
+        <!-- Omnipresent Multi-Parameter Search Card -->
+        <div class="glass-card rounded-2xl md:rounded-3xl p-3 sm:p-4 text-slate-800 shadow-2xl border border-white/20 max-w-4xl mx-auto text-left">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5">
+            
+            <!-- Keyword search -->
+            <div class="lg:col-span-1">
+              <label class="block text-[10px] uppercase font-bold text-slate-500 mb-1">Institution or Course</label>
+              <input type="text" id="hero-search-input" placeholder="e.g. IIT Bombay, MBBS, Doon..." class="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none">
+            </div>
+
+            <!-- Category Type -->
+            <div>
+              <label class="block text-[10px] uppercase font-bold text-slate-500 mb-1">Category Type</label>
+              <select id="hero-type-select" class="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none">
+                <option value="all">All Categories</option>
+                <option value="School">Schools & Junior Colleges</option>
+                <option value="Degree College">Junior & Degree Colleges</option>
+                <option value="Engineering">Engineering Colleges (IITs/NITs)</option>
+                <option value="Medical">Medical Colleges (AIIMS/CMC)</option>
+                <option value="Management">Management & B-Schools (IIMs)</option>
+                <option value="Law">Law Colleges (NLUs)</option>
+                <option value="Sports & Arts Academy">Sports, Music & Arts Academies</option>
+                <option value="Research">Research & Vocational</option>
+                <option value="Coaching & Test Prep">Coaching & Skill Academies</option>
+                <option value="Student Hostel">Hostels & Accommodations</option>
+              </select>
+            </div>
+
+            <!-- State Filter -->
+            <div>
+              <label class="block text-[10px] uppercase font-bold text-slate-500 mb-1">State / Region</label>
+              <select id="hero-state-select" class="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none">
+                <option value="all">All States (Pan-India)</option>
+                <option value="Delhi">Delhi NCR</option>
+                <option value="Maharashtra">Maharashtra (Mumbai/Pune)</option>
+                <option value="Karnataka">Karnataka (Bengaluru)</option>
+                <option value="Tamil Nadu">Tamil Nadu (Chennai/Trichy)</option>
+                <option value="Gujarat">Gujarat (Ahmedabad)</option>
+                <option value="Rajasthan">Rajasthan (Kota/Pilani)</option>
+                <option value="Telangana">Telangana (Hyderabad)</option>
+                <option value="Uttarakhand">Uttarakhand (Dehradun)</option>
+              </select>
+            </div>
+
+            <!-- PIN Code & Search Action Button -->
+            <div class="flex items-end gap-2">
+              <div class="flex-1">
+                <label class="block text-[10px] uppercase font-bold text-slate-500 mb-1">PIN Code</label>
+                <input type="text" id="hero-pin-input" placeholder="e.g. 110029" maxlength="6" class="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none">
+              </div>
+              <button id="hero-search-btn" class="px-5 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-xl text-xs font-bold transition shadow-md shadow-blue-500/30 flex items-center gap-1.5 h-[41px] shrink-0">
+                <span>Search</span>
+                <span>→</span>
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Quick Filter Trending Pills -->
+        <div class="flex flex-wrap items-center justify-center gap-2 mt-6">
+          <span class="text-xs text-slate-400 font-semibold mr-1">Trending Searches:</span>
+          <button class="quick-filter-chip px-3 py-1 bg-white/10 hover:bg-white/20 text-white rounded-full text-xs font-medium backdrop-blur-sm border border-white/10 transition" data-type="School" data-query="Sports">
+            🏆 Top Schools for Sports
+          </button>
+          <button class="quick-filter-chip px-3 py-1 bg-white/10 hover:bg-white/20 text-white rounded-full text-xs font-medium backdrop-blur-sm border border-white/10 transition" data-type="Engineering" data-query="Technology">
+            🎓 Best Engineering Colleges
+          </button>
+          <button class="quick-filter-chip px-3 py-1 bg-white/10 hover:bg-white/20 text-white rounded-full text-xs font-medium backdrop-blur-sm border border-white/10 transition" data-type="Medical" data-query="AIIMS">
+            🏥 Apex Medical Institutes
+          </button>
+          <button class="quick-filter-chip px-3 py-1 bg-white/10 hover:bg-white/20 text-white rounded-full text-xs font-medium backdrop-blur-sm border border-white/10 transition" data-type="Management" data-query="IIM">
+            💼 IIMs & Top B-Schools
+          </button>
+          <button class="quick-filter-chip px-3 py-1 bg-white/10 hover:bg-white/20 text-white rounded-full text-xs font-medium backdrop-blur-sm border border-white/10 transition" data-type="Sports & Arts Academy" data-query="Dance">
+            🎭 Performing Arts & Music
+          </button>
+          <button class="quick-filter-chip px-3 py-1 bg-white/10 hover:bg-white/20 text-white rounded-full text-xs font-medium backdrop-blur-sm border border-white/10 transition" data-type="Student Hostel" data-query="Hostel">
+            🏠 Verified Student Hostels
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Main Discovery Section (Filters + Results Grid) -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+      
+      <!-- State Filter Pills Bar -->
+      <div class="mb-6 flex items-center justify-between overflow-x-auto pb-2">
+        <div class="flex items-center gap-2" id="state-facet-chips">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+        
+        <!-- Filter Sidebar -->
+        <aside class="lg:col-span-1 space-y-6">
+          <div class="glass-card rounded-2xl p-5 border border-slate-200 shadow-sm sticky top-24">
+            
+            <div class="flex items-center justify-between pb-3 border-b border-slate-100 mb-4">
+              <h3 class="font-bold text-slate-900 text-sm flex items-center gap-1.5">
+                <span>⚙️</span> Filter & Refine
+              </h3>
+              <button onclick="SearchController.resetFilters()" class="text-xs font-semibold text-blue-600 hover:text-blue-800 transition">
+                Reset
+              </button>
+            </div>
+
+            <!-- Live Keyword Filter inside sidebar -->
+            <div class="mb-4">
+              <label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Keyword Search</label>
+              <input type="text" id="sidebar-search-input" placeholder="Type name, exam, course..." class="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none">
+            </div>
+
+            <!-- Verified Only Toggle -->
+            <div class="mb-5 p-3 bg-emerald-50 rounded-xl border border-emerald-200 flex items-center justify-between">
+              <div>
+                <span class="text-xs font-bold text-emerald-950 block">Verified Badge Only</span>
+                <span class="text-[10px] text-emerald-700">Official statutory documents</span>
+              </div>
+              <label class="relative inline-flex items-center cursor-pointer">
+                <input type="checkbox" id="filter-verified-toggle" class="sr-only peer">
+                <div class="w-9 h-5 bg-slate-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-emerald-600"></div>
+              </label>
+            </div>
+
+            <!-- Annual Fee Range Slider -->
+            <div class="mb-5">
+              <div class="flex justify-between items-center text-xs mb-1.5">
+                <label class="font-bold text-slate-700 uppercase text-[10px] tracking-wider">Annual Fee Budget</label>
+                <span id="filter-fee-label" class="font-bold text-blue-600 text-xs">Any Budget</span>
+              </div>
+              <input type="range" id="filter-fee-slider" min="20000" max="1500000" step="25000" value="1500000" class="w-full accent-blue-600 cursor-pointer">
+              <div class="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>₹20k/yr</span>
+                <span>₹5L</span>
+                <span>₹15L+</span>
+              </div>
+            </div>
+
+            <!-- Minimum Rating Filter -->
+            <div class="mb-5">
+              <label class="block text-[10px] uppercase font-bold text-slate-700 tracking-wider mb-2">Verified Rating</label>
+              <div class="grid grid-cols-4 gap-1.5">
+                <button class="rating-filter-btn px-2 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 text-center" data-rating="0">All</button>
+                <button class="rating-filter-btn px-2 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 text-center" data-rating="4.0">4.0+ ★</button>
+                <button class="rating-filter-btn px-2 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 text-center" data-rating="4.5">4.5+ ★</button>
+                <button class="rating-filter-btn px-2 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 text-center" data-rating="4.8">4.8+ ★</button>
+              </div>
+            </div>
+
+            <!-- Facilities Multi-select Checkboxes -->
+            <div class="mb-4">
+              <label class="block text-[10px] uppercase font-bold text-slate-700 tracking-wider mb-2">Campus Facilities</label>
+              <div class="space-y-1.5 max-h-40 overflow-y-auto pr-1">
+                <label class="flex items-center gap-2 text-xs text-slate-700 cursor-pointer hover:text-slate-900">
+                  <input type="checkbox" value="Hostel" class="facility-checkbox rounded text-blue-600 focus:ring-blue-500">
+                  <span>Hostel & Living</span>
+                </label>
+                <label class="flex items-center gap-2 text-xs text-slate-700 cursor-pointer hover:text-slate-900">
+                  <input type="checkbox" value="Swimming Pool" class="facility-checkbox rounded text-blue-600 focus:ring-blue-500">
+                  <span>Olympic Swimming Pool</span>
+                </label>
+                <label class="flex items-center gap-2 text-xs text-slate-700 cursor-pointer hover:text-slate-900">
+                  <input type="checkbox" value="Cricket" class="facility-checkbox rounded text-blue-600 focus:ring-blue-500">
+                  <span>Cricket & Sports Grounds</span>
+                </label>
+                <label class="flex items-center gap-2 text-xs text-slate-700 cursor-pointer hover:text-slate-900">
+                  <input type="checkbox" value="Incubation" class="facility-checkbox rounded text-blue-600 focus:ring-blue-500">
+                  <span>Startup Incubation Cell</span>
+                </label>
+                <label class="flex items-center gap-2 text-xs text-slate-700 cursor-pointer hover:text-slate-900">
+                  <input type="checkbox" value="Library" class="facility-checkbox rounded text-blue-600 focus:ring-blue-500">
+                  <span>24/7 Digital Library</span>
+                </label>
+                <label class="flex items-center gap-2 text-xs text-slate-700 cursor-pointer hover:text-slate-900">
+                  <input type="checkbox" value="Wi-Fi" class="facility-checkbox rounded text-blue-600 focus:ring-blue-500">
+                  <span>High-speed Wi-Fi Campus</span>
+                </label>
+              </div>
+            </div>
+
+          </div>
+        </aside>
+
+        <!-- Results Grid & Toolbar -->
+        <div class="lg:col-span-3 space-y-4">
+          
+          <!-- Top Results Bar -->
+          <div class="flex flex-wrap items-center justify-between gap-3 bg-white p-4 rounded-2xl border border-slate-200 shadow-xs">
+            <div class="flex items-center gap-2">
+              <span id="results-count-badge" class="font-bold text-slate-800 text-sm">Loading Institutions...</span>
+              <div id="search-loading-spinner" class="hidden">
+                <div class="w-4 h-4 rounded-full border-2 border-blue-600 border-t-transparent animate-spin"></div>
+              </div>
+            </div>
+
+            <!-- Sort By Select -->
+            <div class="flex items-center gap-2">
+              <span class="text-xs text-slate-500 font-medium">Sort By:</span>
+              <select id="sort-by-select" class="px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold focus:ring-2 focus:ring-blue-500 outline-none">
+                <option value="rank">All-India Rank (Best First)</option>
+                <option value="rating">Student Rating (Highest First)</option>
+                <option value="fee_low">Annual Fee (Low to High)</option>
+                <option value="fee_high">Annual Fee (High to Low)</option>
+                <option value="name">Institution Name (A-Z)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Cards Grid -->
+          <div id="institutions-results-grid" class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <!-- Populated dynamically by SearchController -->
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ==================== VIEW 2: TRANSPARENT ALL-INDIA RANKINGS ==================== -->
+  <main id="rankings-view" class="flex-1 hidden">
+    <div class="bg-gradient-to-r from-blue-900 to-indigo-950 text-white py-12 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-orange-300 text-xs font-bold mb-3 border border-white/10">
+              <span>🏆</span> Double-Blind Statutory Ranking Engine
+            </div>
+            <h1 class="text-3xl md:text-4xl font-black text-white" id="ranking-category-title">
+              All-India Leaderboards
+            </h1>
+            <p class="text-xs md:text-sm text-slate-300 mt-1" id="ranking-category-subtitle">
+              Evaluating nationwide educational excellence across 12 distinct performance dimensions.
+            </p>
+          </div>
+
+          <!-- Scope & Type Controls in Header -->
+          <div class="flex flex-wrap items-center gap-2">
+            <select id="ranking-scope-select" class="px-3 py-2 bg-white/10 border border-white/20 rounded-xl text-xs font-bold text-white focus:outline-none">
+              <option value="national" class="text-slate-800">All-India (National)</option>
+              <option value="Maharashtra" class="text-slate-800">Maharashtra</option>
+              <option value="Delhi" class="text-slate-800">Delhi NCR</option>
+              <option value="Karnataka" class="text-slate-800">Karnataka</option>
+              <option value="Tamil Nadu" class="text-slate-800">Tamil Nadu</option>
+              <option value="Gujarat" class="text-slate-800">Gujarat</option>
+              <option value="Rajasthan" class="text-slate-800">Rajasthan</option>
+              <option value="Telangana" class="text-slate-800">Telangana</option>
+              <option value="Uttarakhand" class="text-slate-800">Uttarakhand</option>
+            </select>
+
+            <select id="ranking-type-select" class="px-3 py-2 bg-white/10 border border-white/20 rounded-xl text-xs font-bold text-white focus:outline-none">
+              <option value="" class="text-slate-800">All Institution Types</option>
+              <option value="Engineering" class="text-slate-800">Engineering Colleges</option>
+              <option value="Medical" class="text-slate-800">Medical Colleges</option>
+              <option value="School" class="text-slate-800">Schools</option>
+              <option value="Management" class="text-slate-800">Management / B-Schools</option>
+              <option value="Law" class="text-slate-800">Law Colleges</option>
+              <option value="Sports & Arts Academy" class="text-slate-800">Sports & Arts Academies</option>
+              <option value="Degree College" class="text-slate-800">Degree Colleges</option>
+              <option value="Research" class="text-slate-800">Research Institutes</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- 12 Category Tabs Carousel / Grid -->
+        <div class="mt-8 flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
+          <button class="ranking-cat-btn px-4 py-2 rounded-xl text-xs font-bold transition shrink-0 bg-blue-600 text-white shadow-md" data-category="overall">
+            🌟 Overall Performance
+          </button>
+          <button class="ranking-cat-btn px-4 py-2 rounded-xl text-xs font-bold transition shrink-0 bg-white text-slate-700 border border-slate-200" data-category="teaching">
+            👩‍🏫 Teaching Quality & Pedagogy
+          </button>
+          <button class="ranking-cat-btn px-4 py-2 rounded-xl text-xs font-bold transition shrink-0 bg-white text-slate-700 border border-slate-200" data-category="academics">
+            📚 Academic Achievement
+          </button>
+          <button class="ranking-cat-btn px-4 py-2 rounded-xl text-xs font-bold transition shrink-0 bg-white text-slate-700 border border-slate-200" data-category="sports">
+            🏅 Sports & Games
+          </button>
+          <button class="ranking-cat-btn px-4 py-2 rounded-xl text-xs font-bold transition shrink-0 bg-white text-slate-700 border border-slate-200" data-category="cultural">
+            🎭 Cultural Events & Festivals
+          </button>
+          <button class="ranking-cat-btn px-4 py-2 rounded-xl text-xs font-bold transition shrink-0 bg-white text-slate-700 border border-slate-200" data-category="arts">
+            🎨 Dance, Music & Drama
+          </button>
+          <button class="ranking-cat-btn px-4 py-2 rounded-xl text-xs font-bold transition shrink-0 bg-white text-slate-700 border border-slate-200" data-category="innovation">
+            💡 Innovation & Tech
+          </button>
+          <button class="ranking-cat-btn px-4 py-2 rounded-xl text-xs font-bold transition shrink-0 bg-white text-slate-700 border border-slate-200" data-category="leadership">
+            👑 Leadership & Development
+          </button>
+          <button class="ranking-cat-btn px-4 py-2 rounded-xl text-xs font-bold transition shrink-0 bg-white text-slate-700 border border-slate-200" data-category="infrastructure">
+            🏛️ Modern Infrastructure
+          </button>
+          <button class="ranking-cat-btn px-4 py-2 rounded-xl text-xs font-bold transition shrink-0 bg-white text-slate-700 border border-slate-200" data-category="special">
+            ✨ Special Achievements
+          </button>
+          <button class="ranking-cat-btn px-4 py-2 rounded-xl text-xs font-bold transition shrink-0 bg-white text-slate-700 border border-slate-200" data-category="satisfaction">
+            ⭐ Student & Parent Satisfaction
+          </button>
+          <button class="ranking-cat-btn px-4 py-2 rounded-xl text-xs font-bold transition shrink-0 bg-white text-slate-700 border border-slate-200" data-category="community">
+            🤝 Community Service & Social
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Methodology & Leaderboard Body -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+      
+      <!-- Anti-Manipulation & Integrity Disclosure -->
+      <div class="bg-blue-50/70 border border-blue-200 rounded-2xl p-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs text-blue-900">
+        <div class="flex items-center gap-3">
+          <span class="text-2xl">🛡️</span>
+          <div>
+            <span class="font-bold block">StudyFinder Anti-Manipulation Ranking Guarantee</span>
+            <span class="text-blue-700">Ranks are computed exclusively from verified statutory audits (NIRF, NAAC, NBA, CBSE Gazette) and enrolled student sentiment. Paid ranking boosts are strictly prohibited.</span>
+          </div>
+        </div>
+        <span id="ranking-total-badge" class="px-3 py-1 bg-blue-600 text-white font-bold rounded-lg shrink-0">
+          Rankings Live
+        </span>
+      </div>
+
+      <!-- Leaderboard Cards Container -->
+      <div id="rankings-list-container" class="space-y-3">
+        <!-- Rendered by RankingsController -->
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ==================== VIEW 3: AI EDUMATCH RECOMMENDATIONS ==================== -->
+  <main id="recommender-view" class="flex-1 hidden">
+    <div class="bg-gradient-to-r from-indigo-900 via-purple-900 to-slate-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-5xl mx-auto text-center">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 text-purple-300 text-xs font-bold mb-3 border border-white/10">
+          <span>🤖</span> AI-Powered EduMatch Compatibility Synthesizer
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-black text-white">Find Your Perfect Educational Match</h1>
+        <p class="text-sm text-slate-300 max-w-xl mx-auto mt-2">
+          Tell us your ambition, target field, budget, and extracurricular preferences. Our algorithm calculates multi-factor compatibility scores across 24+ parameters.
+        </p>
+      </div>
+    </div>
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        
+        <!-- Step Questionnaire Card -->
+        <div class="lg:col-span-1 glass-card rounded-2xl p-6 border border-slate-200 shadow-sm space-y-6">
+          <h3 class="font-bold text-slate-900 text-base flex items-center gap-2">
+            <span>🎯</span> Your Profile & Priorities
+          </h3>
+
+          <!-- Step 1: Stage -->
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">1. Current Education Goal</label>
+            <div class="grid grid-cols-2 gap-2 text-xs">
+              <button class="edumatch-stage-btn p-2 rounded-xl font-bold bg-blue-600 text-white shadow-sm" data-stage="Undergraduate">Undergraduate</button>
+              <button class="edumatch-stage-btn p-2 rounded-xl font-bold bg-slate-100 text-slate-700" data-stage="Postgraduate">Postgraduate</button>
+              <button class="edumatch-stage-btn p-2 rounded-xl font-bold bg-slate-100 text-slate-700" data-stage="School">K-12 School</button>
+              <button class="edumatch-stage-btn p-2 rounded-xl font-bold bg-slate-100 text-slate-700" data-stage="Sports/Arts">Sports/Arts</button>
+              <button class="edumatch-stage-btn p-2 rounded-xl font-bold bg-slate-100 text-slate-700" data-stage="Coaching">Coaching / Prep</button>
+              <button class="edumatch-stage-btn p-2 rounded-xl font-bold bg-slate-100 text-slate-700" data-stage="Hostel">Student Hostel</button>
+            </div>
+          </div>
+
+          <!-- Step 2: Field -->
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">2. Target Discipline / Field</label>
+            <select id="edumatch-field-select" class="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold focus:ring-2 focus:ring-blue-500 outline-none">
+              <option value="Engineering">Engineering & Technology</option>
+              <option value="Medical">Medical & Clinical Healthcare</option>
+              <option value="Management">Business & Management (MBA)</option>
+              <option value="Law">Law & Legal Studies</option>
+              <option value="Arts & Commerce">Commerce, Economics & Arts</option>
+              <option value="Sports">Sports, Football & Athletics</option>
+              <option value="Design">Design, Theatre & Classical Arts</option>
+              <option value="Civil Services">UPSC & Competitive Exams</option>
+            </select>
+          </div>
+
+          <!-- Step 3: Location & Budget -->
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">3. Location Preference</label>
+            <select id="edumatch-state-select" class="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold focus:ring-2 focus:ring-blue-500 outline-none">
+              <option value="All India">Anywhere in India (Pan-India)</option>
+              <option value="Maharashtra">Maharashtra (Mumbai)</option>
+              <option value="Delhi">Delhi NCR</option>
+              <option value="Karnataka">Karnataka (Bengaluru)</option>
+              <option value="Tamil Nadu">Tamil Nadu (Chennai)</option>
+              <option value="Rajasthan">Rajasthan (Kota/Pilani)</option>
+              <option value="Gujarat">Gujarat (Ahmedabad)</option>
+              <option value="Uttarakhand">Uttarakhand (Dehradun)</option>
+            </select>
+          </div>
+
+          <div>
+            <div class="flex justify-between items-center text-xs mb-1">
+              <label class="font-bold text-slate-700 uppercase text-[10px] tracking-wider">Annual Budget Ceiling</label>
+              <span id="edumatch-budget-display" class="font-bold text-blue-600">₹5.0 Lakh / year</span>
+            </div>
+            <input type="range" id="edumatch-budget-slider" min="20000" max="1500000" step="25000" value="500000" class="w-full accent-blue-600 cursor-pointer">
+          </div>
+
+          <!-- Step 4: Priorities -->
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">4. Top Priorities (Select all that matter)</label>
+            <div class="flex flex-wrap gap-1.5">
+              <button class="edumatch-priority-pill px-3 py-1.5 rounded-lg text-xs font-semibold border border-slate-200 bg-white text-slate-700 hover:border-blue-400 transition" data-priority="placements">💼 Top Placements</button>
+              <button class="edumatch-priority-pill px-3 py-1.5 rounded-lg text-xs font-semibold border border-slate-200 bg-white text-slate-700 hover:border-blue-400 transition" data-priority="sports">🏆 Sports & Athletics</button>
+              <button class="edumatch-priority-pill px-3 py-1.5 rounded-lg text-xs font-semibold border border-slate-200 bg-white text-slate-700 hover:border-blue-400 transition" data-priority="cultural">🎭 Active Fests & Culture</button>
+              <button class="edumatch-priority-pill px-3 py-1.5 rounded-lg text-xs font-semibold border border-slate-200 bg-white text-slate-700 hover:border-blue-400 transition" data-priority="research">💡 Research & Innovation</button>
+              <button class="edumatch-priority-pill px-3 py-1.5 rounded-lg text-xs font-semibold border border-slate-200 bg-white text-slate-700 hover:border-blue-400 transition" data-priority="faculty">👩‍🏫 High Faculty Ratio</button>
+              <button class="edumatch-priority-pill px-3 py-1.5 rounded-lg text-xs font-semibold border border-slate-200 bg-white text-slate-700 hover:border-blue-400 transition" data-priority="budget">💰 Affordable / Value</button>
+            </div>
+          </div>
+
+          <!-- Hostel Needed -->
+          <div class="flex items-center gap-2 pt-2 border-t border-slate-100">
+            <input type="checkbox" id="edumatch-hostel-cb" checked class="rounded text-blue-600 focus:ring-blue-500">
+            <label for="edumatch-hostel-cb" class="text-xs font-medium text-slate-700 cursor-pointer">Hostel Accommodation Required</label>
+          </div>
+
+          <button id="edumatch-submit-btn" class="w-full py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold rounded-xl text-xs transition shadow-md shadow-blue-500/20 flex items-center justify-center gap-2">
+            <span>✨</span> Calculate My Best Matches
+          </button>
+        </div>
+
+        <!-- Recommendations Result Panel -->
+        <div class="lg:col-span-2" id="edumatch-results-container">
+          <div class="bg-white rounded-2xl p-12 text-center border border-dashed border-slate-300">
+            <div class="w-16 h-16 bg-purple-50 text-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">🤖</div>
+            <h3 class="text-lg font-bold text-slate-800 mb-1">Ready to Discover Your Match</h3>
+            <p class="text-slate-500 text-xs max-w-md mx-auto mb-6">Set your parameters on the left and click 'Calculate My Best Matches'. We'll cross-reference all 24+ institutions to find your highest compatibility score.</p>
+            <button onclick="document.getElementById('edumatch-submit-btn').click()" class="px-5 py-2.5 bg-blue-600 text-white rounded-xl text-xs font-bold hover:bg-blue-700 transition">Run Algorithm Now</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================== VIEW 4: SIDE-BY-SIDE COMPARE ==================== -->
+  <main id="compare-view" class="flex-1 hidden">
+    <div class="bg-slate-900 text-white py-10 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto flex items-center justify-between">
+        <div>
+          <h1 class="text-2xl sm:text-3xl font-black text-white">Side-by-Side Institution Comparison</h1>
+          <p class="text-xs text-slate-300 mt-1">Directly compare fees, faculty ratios, sports rankings, accreditations, and placements.</p>
+        </div>
+        <button onclick="clearCompareList()" class="px-3.5 py-1.5 bg-white/10 hover:bg-white/20 text-white rounded-xl text-xs font-semibold transition border border-white/20">
+          Clear Comparison
+        </button>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      
+      <!-- Empty state when < 2 items selected -->
+      <div id="compare-empty-state" class="bg-white rounded-2xl p-16 text-center border border-dashed border-slate-300">
+        <div class="text-4xl mb-3">⚖️</div>
+        <h3 class="text-lg font-bold text-slate-800 mb-2">Select at least 2 institutions to compare</h3>
+        <p class="text-xs text-slate-500 max-w-md mx-auto mb-6">Browse institutions under Discovery or Rankings and tap the '⚖️' button to add up to 4 institutions for side-by-side evaluation.</p>
+        <button onclick="switchTab('discovery')" class="px-5 py-2.5 bg-blue-600 text-white rounded-xl text-xs font-bold hover:bg-blue-700 transition">Go to Discovery</button>
+      </div>
+
+      <!-- Comparison Matrix Grid Container -->
+      <div id="compare-matrix-container" class="hidden">
+        <!-- Rendered by CompareController -->
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ==================== VIEW 5: TRUST & VERIFICATION ==================== -->
+  <main id="verification-view" class="flex-1 hidden">
+    <div class="bg-gradient-to-r from-emerald-900 to-teal-950 text-white py-12 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-5xl mx-auto text-center">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-xs font-bold mb-3 border border-white/10">
+          <span>🛡️</span> Zero Tolerance for Misinformation
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-black text-white">StudyFinder Trust & Verification Portal</h1>
+        <p class="text-xs sm:text-sm text-slate-300 max-w-2xl mx-auto mt-2">
+          We independently verify statutory approvals, fee declarations, and campus claims to prevent fake reviews and deceptive ranking schemes.
+        </p>
+      </div>
+    </div>
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-10">
+      
+      <!-- Verification Process Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div class="glass-card rounded-2xl p-5 border border-slate-200">
+          <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-lg mb-3">1</div>
+          <h4 class="font-bold text-slate-900 text-sm mb-1">Gazette & Document Audit</h4>
+          <p class="text-xs text-slate-500">Every institution's AICTE, UGC, CBSE, NMC or BCI affiliation code is verified against central gazettes.</p>
+        </div>
+
+        <div class="glass-card rounded-2xl p-5 border border-slate-200">
+          <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-lg mb-3">2</div>
+          <h4 class="font-bold text-slate-900 text-sm mb-1">Physical & Geotagged Survey</h4>
+          <p class="text-xs text-slate-500">Sports complexes, laboratories, and hostels are verified against physical audit reports and official photography.</p>
+        </div>
+
+        <div class="glass-card rounded-2xl p-5 border border-slate-200">
+          <div class="w-10 h-10 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center font-bold text-lg mb-3">3</div>
+          <h4 class="font-bold text-slate-900 text-sm mb-1">Enrolled Sentiment Authentication</h4>
+          <p class="text-xs text-slate-500">Reviews require verification of genuine student enrollment tokens to prevent commercial or fake promotion.</p>
+        </div>
+      </div>
+
+      <!-- Institution Claim Form -->
+      <div class="glass-card rounded-3xl p-8 border border-slate-200 shadow-sm">
+        <h3 class="text-xl font-bold text-slate-900 mb-1">Claim Institution & Request Verification Badge</h3>
+        <p class="text-xs text-slate-500 mb-6">Are you an authorized Registrar, Principal, or Dean? Submit statutory credentials to obtain the StudyFinder Platinum/Gold Verified Badge.</p>
+
+        <form id="claim-institution-form" class="space-y-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Institution Full Name</label>
+              <input type="text" id="claim-inst-name" required placeholder="e.g. Indian Institute of Technology..." class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Statutory License / Affiliation Code</label>
+              <input type="text" id="claim-license-id" required placeholder="e.g. UGC-AUT-2024 / CBSE-2730017" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Authorized Official Name</label>
+              <input type="text" id="claim-applicant-name" required placeholder="e.g. Dr. Ramesh Sharma" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Official Designation</label>
+              <input type="text" id="claim-designation" required placeholder="e.g. Dean of Academics / Principal" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Official Institutional Email (.edu / .ac.in / .org)</label>
+              <input type="email" id="claim-email" required placeholder="e.g. registrar@institution.ac.in" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Official Phone Number</label>
+              <input type="tel" id="claim-phone" required placeholder="+91 ..." class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none">
+            </div>
+          </div>
+
+          <div class="pt-2">
+            <button type="submit" class="px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl text-xs transition shadow-md shadow-emerald-600/20">
+              Submit Verification Application →
+            </button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ==================== VIEW 6: INSTITUTION ADMIN PORTAL ==================== -->
+  <main id="admin-view" class="flex-1 hidden">
+    <div class="bg-slate-900 text-white py-10 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto flex items-center justify-between">
+        <div>
+          <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-blue-500 text-white uppercase tracking-wider">Institution Portal</span>
+          <h1 class="text-2xl sm:text-3xl font-black text-white mt-1">Registrar & Counselor Admissions Dashboard</h1>
+          <p class="text-xs text-slate-300">Live incoming student enquiries, campus visit bookings, and statutory audit verification queue.</p>
+        </div>
+        <button onclick="AdminController.loadAdminData()" class="px-3.5 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+          <span>🔄</span> Refresh Leads
+        </button>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+      
+      <!-- 1. Enquiries Section -->
+      <div>
+        <h3 class="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
+          <span>🎯</span> Incoming Student Admissions Enquiries
+        </h3>
+        <div id="admin-enquiries-list" class="space-y-3">
+          <!-- Rendered by AdminController -->
+        </div>
+      </div>
+
+      <!-- 2. Campus Visits Section -->
+      <div>
+        <h3 class="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
+          <span>🗓️</span> Confirmed Campus Visit Passes
+        </h3>
+        <div id="admin-visits-list" class="space-y-3">
+          <!-- Rendered by AdminController -->
+        </div>
+      </div>
+
+      <!-- 3. Claims Section -->
+      <div>
+        <h3 class="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
+          <span>🛡️</span> Institutional Verification Audit Pipeline
+        </h3>
+        <div id="admin-claims-list" class="space-y-3">
+          <!-- Rendered by AdminController -->
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ==================== STICKY COMPARE DRAWER ==================== -->
+  <div id="compare-drawer" class="fixed bottom-0 left-0 right-0 bg-slate-950/95 backdrop-blur-xl border-t border-slate-800 text-white p-4 z-40 transform translate-y-full transition-transform duration-300 shadow-2xl">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+      
+      <div class="flex items-center gap-3 w-full sm:w-auto">
+        <span class="w-8 h-8 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold text-xs shrink-0">
+          ⚖️
+        </span>
+        <div>
+          <span class="text-xs font-bold text-white block">
+            Comparing <span id="compare-drawer-count">0</span> / 4 Institutions
+          </span>
+          <div id="compare-drawer-chips" class="flex flex-wrap gap-1.5 mt-1">
+            <!-- Chips rendered dynamically -->
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2 w-full sm:w-auto justify-end">
+        <button onclick="clearCompareList()" class="px-3 py-1.5 text-xs text-slate-400 hover:text-white transition">
+          Clear All
+        </button>
+        <button onclick="triggerCompareView()" class="px-5 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-bold rounded-xl transition shadow-md shadow-blue-500/30">
+          Compare Side-by-Side →
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 1: INSTITUTION PROFILE ==================== -->
+  <div id="institution-profile-modal" class="modal-wrapper hidden fixed inset-0 z-50 overflow-y-auto modal-overlay flex items-center justify-center p-3 sm:p-6">
+    <div class="relative bg-white w-full max-w-5xl rounded-3xl shadow-2xl overflow-hidden border border-slate-200" id="profile-modal-content">
+      <!-- Injected by ProfileController -->
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 2: ENQUIRY ACTION ==================== -->
+  <div id="enquiry-action-modal" class="modal-wrapper hidden fixed inset-0 z-50 overflow-y-auto modal-overlay flex items-center justify-center p-4">
+    <div class="relative bg-white w-full max-w-lg rounded-3xl shadow-2xl overflow-hidden border border-slate-200 p-6 md:p-8">
+      <div class="flex justify-between items-start mb-4">
+        <div>
+          <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-blue-100 text-blue-800 uppercase">Admissions Desk</span>
+          <h3 class="text-lg font-bold text-slate-900 mt-1">Send Admission Enquiry</h3>
+          <p class="text-xs text-slate-500" id="enquiry-modal-inst-name">Institution</p>
+        </div>
+        <button onclick="closeModal('enquiry-action-modal')" class="text-slate-400 hover:text-slate-600 text-lg font-bold">✕</button>
+      </div>
+
+      <form id="admissions-enquiry-form" class="space-y-3.5">
+        <input type="hidden" id="enquiry-modal-inst-id">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Your Full Name</label>
+          <input type="text" id="enquiry-name" required placeholder="e.g. Aarav Sharma" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none">
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Email</label>
+            <input type="email" id="enquiry-email" required placeholder="aarav@gmail.com" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Phone Number</label>
+            <input type="tel" id="enquiry-phone" required placeholder="+91 98..." class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none">
+          </div>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Interested Program / Course</label>
+          <input type="text" id="enquiry-course" required placeholder="e.g. B.Tech Computer Science / Class 11" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none">
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Question / Message</label>
+          <textarea id="enquiry-message" rows="3" placeholder="Tell us about your entrance exam score, admission questions, or hostel requirements..." class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none"></textarea>
+        </div>
+        <button type="submit" class="w-full py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl text-xs transition shadow-md shadow-blue-500/20">
+          Submit Enquiry to Official Desk →
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 3: BOOK CAMPUS VISIT ==================== -->
+  <div id="visit-action-modal" class="modal-wrapper hidden fixed inset-0 z-50 overflow-y-auto modal-overlay flex items-center justify-center p-4">
+    <div class="relative bg-white w-full max-w-lg rounded-3xl shadow-2xl overflow-hidden border border-slate-200 p-6 md:p-8">
+      <div class="flex justify-between items-start mb-4">
+        <div>
+          <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-100 text-emerald-800 uppercase">Campus Visit</span>
+          <h3 class="text-lg font-bold text-slate-900 mt-1">Book Guided Campus Tour</h3>
+          <p class="text-xs text-slate-500" id="visit-modal-inst-name">Campus</p>
+        </div>
+        <button onclick="closeModal('visit-action-modal')" class="text-slate-400 hover:text-slate-600 text-lg font-bold">✕</button>
+      </div>
+
+      <form id="book-visit-form" class="space-y-3.5">
+        <input type="hidden" id="visit-modal-inst-id">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Visitor Name</label>
+          <input type="text" id="visit-visitor-name" required placeholder="Parent or Student Full Name" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-emerald-500 outline-none">
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Email</label>
+            <input type="email" id="visit-email" required placeholder="email@domain.com" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-emerald-500 outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Phone</label>
+            <input type="tel" id="visit-phone" required placeholder="+91 ..." class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-emerald-500 outline-none">
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Preferred Date</label>
+            <input type="date" id="visit-date" required class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-emerald-500 outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Slot</label>
+            <select id="visit-slot" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-emerald-500 outline-none">
+              <option value="Morning (10:00 AM - 1:00 PM)">Morning (10 AM - 1 PM)</option>
+              <option value="Afternoon (2:00 PM - 5:00 PM)">Afternoon (2 PM - 5 PM)</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Attendees Count</label>
+            <input type="number" id="visit-attendees" min="1" max="5" value="2" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-emerald-500 outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Tour Purpose</label>
+            <input type="text" id="visit-purpose" value="Admission Evaluation" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-emerald-500 outline-none">
+          </div>
+        </div>
+        <button type="submit" class="w-full py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl text-xs transition shadow-md shadow-emerald-500/20">
+          Generate Verified Campus Pass →
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 4: WRITE VERIFIED REVIEW ==================== -->
+  <div id="write-review-modal" class="modal-wrapper hidden fixed inset-0 z-50 overflow-y-auto modal-overlay flex items-center justify-center p-4">
+    <div class="relative bg-white w-full max-w-lg rounded-3xl shadow-2xl overflow-hidden border border-slate-200 p-6 md:p-8">
+      <div class="flex justify-between items-start mb-4">
+        <div>
+          <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800 uppercase">Community Feedback</span>
+          <h3 class="text-lg font-bold text-slate-900 mt-1">Write a Verified Review</h3>
+          <p class="text-xs text-slate-500">Reviews are checked against spam heuristics & commercial solicitation.</p>
+        </div>
+        <button onclick="closeModal('write-review-modal')" class="text-slate-400 hover:text-slate-600 text-lg font-bold">✕</button>
+      </div>
+
+      <form id="write-review-form" class="space-y-3.5">
+        <input type="hidden" id="review-modal-inst-id">
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Your Name</label>
+            <input type="text" id="review-author" required placeholder="Full Name" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Role / Affiliation</label>
+            <select id="review-role" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium outline-none">
+              <option value="Current Student">Current Student</option>
+              <option value="Alumnus / Alumna">Alumnus / Alumna</option>
+              <option value="Parent">Parent</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Overall Rating</label>
+            <select id="review-rating" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium outline-none">
+              <option value="5">5 Stars (Exceptional)</option>
+              <option value="4">4 Stars (Good)</option>
+              <option value="3">3 Stars (Average)</option>
+              <option value="2">2 Stars (Below Par)</option>
+              <option value="1">1 Star (Poor)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Enrollment / Roll No (Optional)</label>
+            <input type="text" id="review-roll" placeholder="For Verified Badge" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium outline-none">
+          </div>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Review Headline</label>
+          <input type="text" id="review-title" required placeholder="e.g. Great faculty mentorship & sports facilities" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium outline-none">
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Your Detailed Experience (Min. 20 chars)</label>
+          <textarea id="review-comment" required rows="3" placeholder="Describe academics, teaching quality, campus life, hostels, or placements..." class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium outline-none"></textarea>
+        </div>
+        <button type="submit" class="w-full py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl text-xs transition">
+          Submit Verified Review →
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 5: REPORT INACCURACY ==================== -->
+  <div id="report-modal" class="modal-wrapper hidden fixed inset-0 z-50 overflow-y-auto modal-overlay flex items-center justify-center p-4">
+    <div class="relative bg-white w-full max-w-lg rounded-3xl shadow-2xl overflow-hidden border border-slate-200 p-6 md:p-8">
+      <div class="flex justify-between items-start mb-4">
+        <div>
+          <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-100 text-rose-800 uppercase">Integrity Desk</span>
+          <h3 class="text-lg font-bold text-slate-900 mt-1">Report Inaccurate Information</h3>
+          <p class="text-xs text-slate-500">Help protect all-India students by flagging errors or misleading claims.</p>
+        </div>
+        <button onclick="closeModal('report-modal')" class="text-slate-400 hover:text-slate-600 text-lg font-bold">✕</button>
+      </div>
+
+      <form id="report-discrepancy-form" class="space-y-3.5">
+        <input type="hidden" id="report-modal-inst-id">
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Category of Discrepancy</label>
+            <select id="report-category-select" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium outline-none">
+              <option value="Fee Discrepancy">Fee / Tuition Misrepresentation</option>
+              <option value="Accreditation Claim">Unverified Accreditation Claim</option>
+              <option value="Placement Package">Incorrect Placement Package</option>
+              <option value="Hostel Info">Hostel / Facility Not Available</option>
+              <option value="Suspicious Review">Suspicious / Paid Review</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Your Role</label>
+            <select id="report-role-select" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium outline-none">
+              <option value="Student">Enrolled Student</option>
+              <option value="Parent">Parent</option>
+              <option value="Faculty">Faculty / Administrator</option>
+              <option value="Citizen">Independent Citizen</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Description of Error</label>
+          <textarea id="report-description" required rows="3" placeholder="Explain what is inaccurate and provide correct verifiable details..." class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium outline-none"></textarea>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Official Evidence Link / Gazette URL</label>
+          <input type="url" id="report-evidence-link" placeholder="https://..." class="w-full px-3.5 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium outline-none">
+        </div>
+        <button type="submit" class="w-full py-2.5 bg-rose-600 hover:bg-rose-700 text-white font-bold rounded-xl text-xs transition">
+          Log Investigation Ticket →
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 6: LIVE COUNSELOR CHAT ==================== -->
+  <div id="live-chat-modal" class="fixed bottom-20 md:bottom-6 right-4 sm:right-6 z-40 w-[92vw] sm:w-96 glass-card rounded-3xl shadow-2xl border border-slate-300 overflow-hidden hidden flex flex-col h-[520px]">
+    
+    <!-- Chat Header -->
+    <div class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white p-4 flex items-center justify-between shrink-0">
+      <div class="flex items-center gap-2.5">
+        <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center font-bold text-sm">
+          💬
+        </div>
+        <div>
+          <h4 id="chat-modal-title" class="text-xs font-bold leading-tight">StudyFinder Admissions Counselor</h4>
+          <span class="text-[10px] text-emerald-300 flex items-center gap-1 font-medium">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> Verified Institutional Intelligence
+          </span>
+        </div>
+      </div>
+      <button onclick="document.getElementById('live-chat-modal').classList.add('hidden')" class="text-white/80 hover:text-white font-bold text-base">✕</button>
+    </div>
+
+    <!-- Suggested Query Chips -->
+    <div class="p-2.5 bg-slate-50 border-b border-slate-200 overflow-x-auto flex gap-1.5 shrink-0 scrollbar-none">
+      <button class="chat-suggestion-chip px-2.5 py-1 bg-white border border-slate-200 rounded-full text-[11px] font-medium text-slate-700 hover:border-blue-400 whitespace-nowrap">
+        What are the fee details?
+      </button>
+      <button class="chat-suggestion-chip px-2.5 py-1 bg-white border border-slate-200 rounded-full text-[11px] font-medium text-slate-700 hover:border-blue-400 whitespace-nowrap">
+        Tell me about placements
+      </button>
+      <button class="chat-suggestion-chip px-2.5 py-1 bg-white border border-slate-200 rounded-full text-[11px] font-medium text-slate-700 hover:border-blue-400 whitespace-nowrap">
+        How is the admission process?
+      </button>
+      <button class="chat-suggestion-chip px-2.5 py-1 bg-white border border-slate-200 rounded-full text-[11px] font-medium text-slate-700 hover:border-blue-400 whitespace-nowrap">
+        Sports & Cultural fests
+      </button>
+    </div>
+
+    <!-- Messages Container -->
+    <div id="chat-messages-container" class="p-4 flex-1 overflow-y-auto space-y-3 bg-white">
+      <div class="flex justify-start mb-3">
+        <div class="max-w-[85%] rounded-2xl px-4 py-2.5 text-xs bg-slate-100 text-slate-800 rounded-bl-none border border-slate-200 leading-relaxed">
+          Namaste! I am your <strong>StudyFinder Admissions Assistant</strong>. Ask me about courses, entrance cutoffs, hostel rules, or fees for any institution in India!
+        </div>
+      </div>
+    </div>
+
+    <!-- Chat Input Box -->
+    <div class="p-3 bg-slate-50 border-t border-slate-200 flex items-center gap-2 shrink-0">
+      <input type="text" id="chat-input-field" placeholder="Ask anything about admissions, cutoffs, fees..." class="flex-1 px-3 py-2 bg-white border border-slate-200 rounded-xl text-xs font-medium focus:ring-2 focus:ring-blue-500 outline-none">
+      <button id="chat-send-btn" class="p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold transition shrink-0">
+        ➤
+      </button>
+    </div>
+  </div>
+
+  <!-- ==================== MOBILE BOTTOM NAVIGATION BAR ==================== -->
+  <nav class="lg:hidden fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-200 z-30 px-2 py-1.5 flex items-center justify-around text-[10px] font-bold text-slate-500">
+    <button data-tab="discovery" class="mobile-nav-btn flex flex-col items-center py-1 text-blue-600">
+      <span class="text-base">🔍</span>
+      <span>Discovery</span>
+    </button>
+    <button data-tab="rankings" class="mobile-nav-btn flex flex-col items-center py-1">
+      <span class="text-base">🏆</span>
+      <span>Rankings</span>
+    </button>
+    <button data-tab="recommender" class="mobile-nav-btn flex flex-col items-center py-1">
+      <span class="text-base">🤖</span>
+      <span>EduMatch</span>
+    </button>
+    <button data-tab="compare" class="mobile-nav-btn flex flex-col items-center py-1 relative">
+      <span class="text-base">⚖️</span>
+      <span>Compare</span>
+      <span class="bookmark-count hidden absolute top-0 right-1 px-1 py-0.2 bg-amber-500 text-white rounded-full text-[9px]">0</span>
+    </button>
+    <button data-tab="admin" class="mobile-nav-btn flex flex-col items-center py-1">
+      <span class="text-base">🏢</span>
+      <span>Portal</span>
+    </button>
+  </nav>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-400 py-10 px-4 sm:px-6 lg:px-8 border-t border-slate-800 text-xs mt-auto">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-2 mb-1">
+          <span class="font-black text-white text-base">StudyFinder India</span>
+          <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-orange-600 text-white">Official 2026</span>
+        </div>
+        <p class="text-slate-400 text-xs">Tagline: “Find. Compare. Rank. Choose. Succeed.”</p>
+      </div>
+      <div class="flex flex-wrap items-center gap-4 text-xs">
+        <a href="javascript:switchTab('discovery')" class="hover:text-white transition">Nationwide Search</a>
+        <a href="javascript:switchTab('rankings')" class="hover:text-white transition">12-Category Rankings</a>
+        <a href="javascript:switchTab('recommender')" class="hover:text-white transition">AI EduMatch</a>
+        <a href="javascript:switchTab('verification')" class="hover:text-white transition">Trust & Audit Criteria</a>
+        <a href="javascript:switchTab('admin')" class="hover:text-white transition">Institution Admin</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/static/js/app.js"></script>
+  <script src="/static/js/search.js"></script>
+  <script src="/static/js/rankings.js"></script>
+  <script src="/static/js/profile.js"></script>
+  <script src="/static/js/compare.js"></script>
+  <script src="/static/js/ai_matcher.js"></script>
+  <script src="/static/js/admin.js"></script>
+
+</body>
+</html>

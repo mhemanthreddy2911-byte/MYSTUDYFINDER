@@ -1,0 +1,5409 @@
+[
+  {
+    "id": "iit-bombay",
+    "name": "Indian Institute of Technology Bombay (IITB)",
+    "tagline": "Pioneering Technological Innovation & Global Leadership",
+    "type": "Engineering",
+    "category_label": "Engineering & Technology",
+    "established_year": 1958,
+    "ownership": "Public (Institute of National Importance)",
+    "affiliation": "Autonomous (Government of India)",
+    "accreditations": [
+      "NIRF #3 Overall",
+      "NIRF #3 Engineering",
+      "QS World #118",
+      "AICTE Approved"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Platinum Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Central Audit Panel",
+      "verification_date": "2026-08-15",
+      "documents_checked": [
+        "Ministry of Education Gazette Notification",
+        "NIRF 2025 Audit",
+        "NBA Tier-I Accreditation"
+      ],
+      "official_id": "INST-GOI-IITB-1958",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "Main Gate Rd, IIT Area, Powai",
+      "city": "Mumbai",
+      "district": "Mumbai Suburban",
+      "state": "Maharashtra",
+      "zone": "Western India",
+      "pincode": "400076",
+      "coordinates": {
+        "lat": 19.1334,
+        "lng": 72.9133
+      }
+    },
+    "contact": {
+      "phone": "+91 22 2572 2522",
+      "helpline": "1800-22-IITB",
+      "email": "admissions@iitb.ac.in",
+      "website": "https://www.iitb.ac.in",
+      "brochure_name": "IIT_Bombay_Prospectus_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 220000,
+      "max_annual": 310000,
+      "average_annual": 245000,
+      "currency": "INR",
+      "fee_display": "₹2.2L - ₹3.1L / year",
+      "hostel_annual": 48000,
+      "scholarships": [
+        "Merit-cum-Means (MCM) 100% Tuition Waiver for eligible students",
+        "SC/ST/PwD Full Tuition Fee Exemption",
+        "Institute Free Studentship",
+        "Industry Sponsored Excellence Fellowships"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "B.Tech Computer Science & Engineering",
+          "tuition": 200000,
+          "hostel": 48000,
+          "other": 18000,
+          "duration": "4 Years"
+        },
+        {
+          "course": "B.Tech Electrical Engineering",
+          "tuition": 200000,
+          "hostel": 48000,
+          "other": 18000,
+          "duration": "4 Years"
+        },
+        {
+          "course": "B.Tech Mechanical Engineering",
+          "tuition": 200000,
+          "hostel": 48000,
+          "other": 18000,
+          "duration": "4 Years"
+        },
+        {
+          "course": "M.Tech / MS by Research",
+          "tuition": 50000,
+          "hostel": 48000,
+          "other": 15000,
+          "duration": "2 Years"
+        },
+        {
+          "course": "Ph.D. Engineering / Sciences",
+          "tuition": 25000,
+          "hostel": 40000,
+          "other": 12000,
+          "duration": "3-5 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.9,
+      "total_reviews": 842,
+      "academic": 5.0,
+      "teaching": 4.9,
+      "sports": 4.7,
+      "cultural": 5.0,
+      "infrastructure": 4.9,
+      "placement": 5.0,
+      "value_for_money": 4.8
+    },
+    "category_scores": {
+      "overall_performance": 98.4,
+      "teaching_quality": 96.8,
+      "academic_achievement": 99.2,
+      "sports_games": 91.5,
+      "cultural_festivals": 98.6,
+      "performing_arts": 88.0,
+      "innovation_research": 99.5,
+      "leadership_development": 97.4,
+      "infrastructure_facilities": 97.8,
+      "special_achievements": 98.0,
+      "student_satisfaction": 96.2,
+      "community_service": 89.0
+    },
+    "ranks": {
+      "national_overall": 3,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 2,
+      "sports_rank": 8,
+      "teaching_rank": 3,
+      "cultural_rank": 1,
+      "innovation_rank": 2
+    },
+    "courses_offered": [
+      {
+        "name": "B.Tech Computer Science",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 175,
+        "eligibility": "JEE Advanced Rank < 70",
+        "fees": "₹2.45L / yr"
+      },
+      {
+        "name": "B.Tech Electrical Engineering",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 140,
+        "eligibility": "JEE Advanced Rank < 400",
+        "fees": "₹2.45L / yr"
+      },
+      {
+        "name": "B.Tech Aerospace Engineering",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 80,
+        "eligibility": "JEE Advanced Rank < 2000",
+        "fees": "₹2.45L / yr"
+      },
+      {
+        "name": "M.Tech Artificial Intelligence & Data Science",
+        "degree": "Postgraduate",
+        "duration": "2 Years",
+        "seats": 60,
+        "eligibility": "GATE Score 850+",
+        "fees": "₹1.13L / yr"
+      },
+      {
+        "name": "Master of Design (M.Des)",
+        "degree": "Postgraduate",
+        "duration": "2 Years",
+        "seats": 75,
+        "eligibility": "CEED Qualified",
+        "fees": "₹1.40L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 710,
+      "student_faculty_ratio": "1:8",
+      "phd_percentage": "100%",
+      "notable_faculty": [
+        "Prof. Subhasis Chaudhuri (Signal Processing & AI Fellow)",
+        "Prof. Pushpak Bhattacharyya (Natural Language Processing authority)",
+        "Prof. Devang Khakhar (Polymer Chemical Sciences pioneer)"
+      ]
+    },
+    "facilities": [
+      "Olympic-size Swimming Pool",
+      "SINE Startup Incubation Centre (180+ Startups funded)",
+      "Param Yuva Supercomputing Cluster",
+      "24/7 Air-Conditioned Central Library",
+      "Dedicated Cricket & Football Grounds with Floodlights",
+      "Indoor Badminton, Squash & Tennis Arenas",
+      "Modern Green Energy Powered Campus (550 Acres)",
+      "Multi-Speciality Hospital on Campus",
+      "Full Wi-Fi 6 Campus & Smart Classrooms"
+    ],
+    "sports_highlights": [
+      "Champions of 56th Inter-IIT Aquatics & Athletics Meet 2025",
+      "State-of-the-art Gymkhana with certified national coaches",
+      "Annual Aavhan All-India Inter-Collegiate Sports Festival (6000+ athletes)"
+    ],
+    "cultural_highlights": [
+      "Mood Indigo (Asia's largest annual cultural festival, footfall 140,000+)",
+      "Techfest (Asia's largest science and technology festival with UNESCO patronage)",
+      "Active Dramatics, Classical Music (Roots), and Fine Arts Societies"
+    ],
+    "placements": {
+      "highest_package": "₹2.8 Crore / year (International)",
+      "average_package": "₹28.8 LPA",
+      "median_package": "₹22.5 LPA",
+      "placement_rate": "97.4%",
+      "top_recruiters": [
+        "Google",
+        "Microsoft",
+        "Jane Street",
+        "Apple",
+        "ISRO",
+        "Texas Instruments",
+        "Qualcomm",
+        "BCG",
+        "Goldman Sachs"
+      ]
+    },
+    "admissions": {
+      "process": "National level entrance via JEE Advanced through JoSAA centralized counseling for UG. GATE/CEED for PG.",
+      "application_period": "May - June 2026",
+      "entrance_exams": [
+        "JEE Advanced",
+        "GATE",
+        "CEED",
+        "JAM"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.iitb.ac.in"
+    },
+    "reviews": [
+      {
+        "author": "Ananya Kulkarni",
+        "role": "B.Tech CSE, Batch 2025",
+        "rating": 5,
+        "date": "2026-02-18",
+        "title": "Mind-expanding peer culture and unlimited opportunities",
+        "comment": "IIT Bombay isn't just about academics; Mood Indigo, Techfest, and the late-night discussions in hostel wings shape who you are. Research labs have world-class equipment.",
+        "verified_student": true
+      },
+      {
+        "author": "Rameshwardas Patel",
+        "role": "Parent of B.Tech Student",
+        "rating": 5,
+        "date": "2026-01-14",
+        "title": "Exceptional safety, campus facilities and mentorship",
+        "comment": "Visiting the campus for orientation gave us complete confidence. The administration, student mentorship, and residential safety are second to none in India.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "NIRF National Institutional Ranking Framework 2025",
+        "QS World University Rankings 2026",
+        "Ministry of Education All-India Survey",
+        "Institute Annual Transparency Report 2025-26"
+      ],
+      "last_audited": "2026-08-10",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High (Independent Document & Public Audit Match)"
+    }
+  },
+  {
+    "id": "iit-madras",
+    "name": "Indian Institute of Technology Madras (IITM)",
+    "tagline": "India's #1 Institute for Innovation, Research & Technology",
+    "type": "Engineering",
+    "category_label": "Engineering & Technology",
+    "established_year": 1959,
+    "ownership": "Public (Institute of National Importance)",
+    "affiliation": "Autonomous (Government of India)",
+    "accreditations": [
+      "NIRF #1 Overall (Continuous 6 Yrs)",
+      "NIRF #1 Engineering",
+      "IoE (Institution of Eminence)",
+      "AICTE"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Platinum Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Central Audit Panel",
+      "verification_date": "2026-07-28",
+      "documents_checked": [
+        "NIRF 2025 #1 Certificate",
+        "IIT Madras Research Park Audit",
+        "Ministry of Education Gazette"
+      ],
+      "official_id": "INST-GOI-IITM-1959",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "Sardar Patel Road, Beside Guindy National Park",
+      "city": "Chennai",
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "zone": "South India",
+      "pincode": "600036",
+      "coordinates": {
+        "lat": 12.9915,
+        "lng": 80.2337
+      }
+    },
+    "contact": {
+      "phone": "+91 44 2257 8000",
+      "helpline": "1800-44-IITM",
+      "email": "join@iitm.ac.in",
+      "website": "https://www.iitm.ac.in",
+      "brochure_name": "IIT_Madras_Brochure_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 215000,
+      "max_annual": 295000,
+      "average_annual": 240000,
+      "currency": "INR",
+      "fee_display": "₹2.15L - ₹2.95L / year",
+      "hostel_annual": 45000,
+      "scholarships": [
+        "Institute Merit-cum-Means (MCM) Scholarship",
+        "Girija & R. Vaidyanathan Endowed Scholarship",
+        "Full Tuition Waiver for Family Income < ₹1L",
+        "Nurture Research Fellowships"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "B.Tech All Branches",
+          "tuition": 200000,
+          "hostel": 45000,
+          "other": 15000,
+          "duration": "4 Years"
+        },
+        {
+          "course": "Dual Degree (B.Tech + M.Tech)",
+          "tuition": 200000,
+          "hostel": 45000,
+          "other": 15000,
+          "duration": "5 Years"
+        },
+        {
+          "course": "BS in Data Science & Applications",
+          "tuition": 75000,
+          "hostel": 0,
+          "other": 5000,
+          "duration": "3-4 Years"
+        },
+        {
+          "course": "M.Tech / MS by Research",
+          "tuition": 50000,
+          "hostel": 45000,
+          "other": 12000,
+          "duration": "2 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.95,
+      "total_reviews": 920,
+      "academic": 5.0,
+      "teaching": 5.0,
+      "sports": 4.6,
+      "cultural": 4.8,
+      "infrastructure": 5.0,
+      "placement": 5.0,
+      "value_for_money": 4.9
+    },
+    "category_scores": {
+      "overall_performance": 99.4,
+      "teaching_quality": 98.9,
+      "academic_achievement": 99.6,
+      "sports_games": 90.0,
+      "cultural_festivals": 93.8,
+      "performing_arts": 84.5,
+      "innovation_research": 99.9,
+      "leadership_development": 96.8,
+      "infrastructure_facilities": 99.2,
+      "special_achievements": 99.0,
+      "student_satisfaction": 97.0,
+      "community_service": 92.0
+    },
+    "ranks": {
+      "national_overall": 1,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 11,
+      "teaching_rank": 1,
+      "cultural_rank": 6,
+      "innovation_rank": 1
+    },
+    "courses_offered": [
+      {
+        "name": "B.Tech Computer Science & Engg",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 130,
+        "eligibility": "JEE Advanced Top 150",
+        "fees": "₹2.40L / yr"
+      },
+      {
+        "name": "B.Tech Artificial Intelligence & Robotics",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 70,
+        "eligibility": "JEE Advanced Top 500",
+        "fees": "₹2.40L / yr"
+      },
+      {
+        "name": "B.Tech Ocean Engineering & Naval Architecture",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 55,
+        "eligibility": "JEE Advanced Rank < 4500",
+        "fees": "₹2.40L / yr"
+      },
+      {
+        "name": "BS Degree in Medical Sciences & Engineering",
+        "degree": "Interdisciplinary",
+        "duration": "4 Years",
+        "seats": 40,
+        "eligibility": "JEE Advanced / IISER Aptitude",
+        "fees": "₹2.20L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 680,
+      "student_faculty_ratio": "1:7.5",
+      "phd_percentage": "100%",
+      "notable_faculty": [
+        "Prof. V. Kamakoti (Director & Microprocessor Shakti Architect)",
+        "Prof. Thalappil Pradeep (Padma Shri, Nanotechnology water purification)",
+        "Prof. Ashok Jhunjhunwala (IITM Research Park Founder & Telecom pioneer)"
+      ]
+    },
+    "facilities": [
+      "IIT Madras Research Park (India's premier university research park, 200+ R&D firms)",
+      "Hyperloop Testing Track (Avishkar Hyperloop)",
+      "Advanced 5G/6G Testbed Facility",
+      "Centre for Innovation (CFI) - 24/7 student makerspace",
+      "Olympic Athletic Stadium, Chemplast Cricket Ground (BCCI Approved)",
+      "Lush 630-acre natural flora and fauna campus adjoining Guindy Park",
+      "Central Electronic Workshop and High-Performance Supercomputing Node"
+    ],
+    "sports_highlights": [
+      "Hosts National-level Saarang and Shaastra Inter-College Games",
+      "BCCI standard cricket pavilion, squash courts, Olympic swimming arena"
+    ],
+    "cultural_highlights": [
+      "Saarang (ISO 9001:2015 certified cultural fest, 80,000+ footfall)",
+      "Shaastra (Tech fest with student-run engineering exhibitions & robotics grand prix)"
+    ],
+    "placements": {
+      "highest_package": "₹2.5 Crore / year",
+      "average_package": "₹29.2 LPA",
+      "median_package": "₹23.0 LPA",
+      "placement_rate": "98.1%",
+      "top_recruiters": [
+        "Google",
+        "NVIDIA",
+        "Microsoft",
+        "Intel",
+        "Amazon",
+        "Bain & Company",
+        "Airbus",
+        "ISRO"
+      ]
+    },
+    "admissions": {
+      "process": "JEE Advanced via JoSAA. Direct online BS degree admissions via qualifying test.",
+      "application_period": "May - June 2026",
+      "entrance_exams": [
+        "JEE Advanced",
+        "GATE",
+        "JAM"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://virtualtour.iitm.ac.in"
+    },
+    "reviews": [
+      {
+        "author": "Karthik Subramanian",
+        "role": "M.Tech AI, Batch 2024",
+        "rating": 5,
+        "date": "2026-03-01",
+        "title": "Unrivalled innovation ecosystem at Research Park",
+        "comment": "Having the Research Park right across the road allows you to work on industry-defining projects from day one. Professors treat you like research partners.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "NIRF National Institutional Ranking Framework 2025 (Rank 1)",
+        "Ministry of Education",
+        "National Board of Accreditation"
+      ],
+      "last_audited": "2026-07-25",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High (Public Gazette Verified)"
+    }
+  },
+  {
+    "id": "iim-ahmedabad",
+    "name": "Indian Institute of Management Ahmedabad (IIMA)",
+    "tagline": "Shaping Visionary Leaders & Global Business Innovators",
+    "type": "Management",
+    "category_label": "Management & B-Schools",
+    "established_year": 1961,
+    "ownership": "Public (Institute of National Importance)",
+    "affiliation": "Autonomous (Government of India)",
+    "accreditations": [
+      "NIRF #1 Management",
+      "EQUIS Accredited",
+      "Financial Times Global Top 40"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Platinum Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Central Audit Panel",
+      "verification_date": "2026-06-30",
+      "documents_checked": [
+        "IIM Act 2017 Gazette",
+        "EQUIS Re-accreditation Audit",
+        "NIRF 2025 #1 Ranking Sheet"
+      ],
+      "official_id": "INST-GOI-IIMA-1961",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "Sargam Marg, Vastrapur",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "state": "Gujarat",
+      "zone": "Western India",
+      "pincode": "380015",
+      "coordinates": {
+        "lat": 23.0338,
+        "lng": 72.5308
+      }
+    },
+    "contact": {
+      "phone": "+91 79 6632 3456",
+      "helpline": "1800-79-IIMA",
+      "email": "pgpadmission@iima.ac.in",
+      "website": "https://www.iima.ac.in",
+      "brochure_name": "IIMA_PGP_Prospectus_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 1250000,
+      "max_annual": 1550000,
+      "average_annual": 1350000,
+      "currency": "INR",
+      "fee_display": "₹12.5L - ₹15.5L / year",
+      "hostel_annual": 120000,
+      "scholarships": [
+        "IIMA Need-Based Merit Scholarship (Up to 100% tuition coverage)",
+        "Aditya Birla Group Leadership Scholarship",
+        "OP Jindal Engineering & Management Scholarship",
+        "SC/ST Top Class Education Government Scholarship"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "Post Graduate Programme in Management (PGP / MBA)",
+          "tuition": 1350000,
+          "hostel": 120000,
+          "other": 50000,
+          "duration": "2 Years"
+        },
+        {
+          "course": "PGP in Food and Agri-business Management (PGP-FABM)",
+          "tuition": 1200000,
+          "hostel": 120000,
+          "other": 45000,
+          "duration": "2 Years"
+        },
+        {
+          "course": "PGPX (One Year Executive MBA)",
+          "tuition": 3200000,
+          "hostel": 200000,
+          "other": 100000,
+          "duration": "1 Year"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.96,
+      "total_reviews": 610,
+      "academic": 5.0,
+      "teaching": 5.0,
+      "sports": 4.5,
+      "cultural": 4.7,
+      "infrastructure": 4.9,
+      "placement": 5.0,
+      "value_for_money": 4.8
+    },
+    "category_scores": {
+      "overall_performance": 99.1,
+      "teaching_quality": 99.4,
+      "academic_achievement": 99.8,
+      "sports_games": 87.0,
+      "cultural_festivals": 92.0,
+      "performing_arts": 81.0,
+      "innovation_research": 98.2,
+      "leadership_development": 99.9,
+      "infrastructure_facilities": 97.5,
+      "special_achievements": 99.2,
+      "student_satisfaction": 96.5,
+      "community_service": 88.0
+    },
+    "ranks": {
+      "national_overall": 2,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 18,
+      "teaching_rank": 1,
+      "cultural_rank": 8,
+      "innovation_rank": 3
+    },
+    "courses_offered": [
+      {
+        "name": "Post Graduate Programme (PGP/MBA)",
+        "degree": "Postgraduate",
+        "duration": "2 Years",
+        "seats": 390,
+        "eligibility": "CAT 99.5+ Percentile & Interview",
+        "fees": "₹13.5L / yr"
+      },
+      {
+        "name": "PGP Food and Agri-Business (FABM)",
+        "degree": "Postgraduate",
+        "duration": "2 Years",
+        "seats": 50,
+        "eligibility": "CAT / GMAT Qualified",
+        "fees": "₹12.0L / yr"
+      },
+      {
+        "name": "e-Mode Post Graduate Programme (ePGP)",
+        "degree": "Executive Master",
+        "duration": "2 Years",
+        "seats": 100,
+        "eligibility": "3+ Yrs Work Exp + Entrance",
+        "fees": "₹10.0L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 140,
+      "student_faculty_ratio": "1:9",
+      "phd_percentage": "100%",
+      "notable_faculty": [
+        "Prof. Errol D'Souza (Eminent Macroeconomist & Former Director)",
+        "Prof. Arvind Sahay (Marketing Strategy & Neuroscience in Business)",
+        "Prof. Biju Varkkey (HR & Public Policy Leader)"
+      ]
+    },
+    "facilities": [
+      "Iconic Louis Kahn Brick Architectural Campus (Heritage Quadrangle)",
+      "Vikram Sarabhai Library (Over 200,000 volumes, Bloomberg Terminals)",
+      "CIIE.CO (Top university incubator supporting 1,000+ startups)",
+      "Harvard-Style Tiered Case Study Amphitheatres",
+      "Modern Sports Complex (Tennis, Basketball, Squash, Badminton, Cricket)",
+      "Executive Residential Dormitories with high-speed fiber internet"
+    ],
+    "sports_highlights": [
+      "Shaurya - Inter-IIM Annual Sports Tournament Winner (2024, 2025)",
+      "Floodlit football pitch, synthetic badminton courts, modern gymnasium"
+    ],
+    "cultural_highlights": [
+      "Chaos - Central India's premier B-school cultural extravaganza",
+      "The Red Brick Summit - Asia's premier management symposium"
+    ],
+    "placements": {
+      "highest_package": "₹1.15 Crore / year",
+      "average_package": "₹35.6 LPA",
+      "median_package": "₹33.0 LPA",
+      "placement_rate": "100%",
+      "top_recruiters": [
+        "McKinsey & Co",
+        "Boston Consulting Group (BCG)",
+        "Bain & Co",
+        "Goldman Sachs",
+        "Morgan Stanley",
+        "Tata Administrative Services (TAS)",
+        "Hindustan Unilever"
+      ]
+    },
+    "admissions": {
+      "process": "Common Admission Test (CAT) followed by Analytical Writing Test (AWT) and Personal Interview (PI).",
+      "application_period": "August - November 2026",
+      "entrance_exams": [
+        "CAT",
+        "GMAT"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.iima.ac.in"
+    },
+    "reviews": [
+      {
+        "author": "Siddharth Nambiar",
+        "role": "PGP Class of 2024, McKinsey",
+        "rating": 5,
+        "date": "2026-01-20",
+        "title": "The WAC and case method sharpen your thinking forever",
+        "comment": "The intensity of the first year is legendary, but it instills clarity of thought and leadership poise that stays with you. The alumni network opens every door worldwide.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "NIRF Management 2025 Rank 1",
+        "EQUIS International Board Audit",
+        "Financial Times Global MBA Rankings"
+      ],
+      "last_audited": "2026-06-25",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "aiims-delhi",
+    "name": "All India Institute of Medical Sciences (AIIMS New Delhi)",
+    "tagline": "India's Apex Medical Institution & Healthcare Pioneer",
+    "type": "Medical",
+    "category_label": "Medical & Healthcare",
+    "established_year": 1956,
+    "ownership": "Public (Institute of National Importance)",
+    "affiliation": "Autonomous (Ministry of Health & Family Welfare)",
+    "accreditations": [
+      "NIRF #1 Medical (Consecutive 7 Yrs)",
+      "NABH Accredited",
+      "NMC Recognized"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Platinum Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Central Audit Panel",
+      "verification_date": "2026-08-01",
+      "documents_checked": [
+        "AIIMS Act 1956",
+        "NIRF Medical Rank 1 Record",
+        "NABH Hospital Accreditation"
+      ],
+      "official_id": "INST-GOI-AIIMS-1956",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "Sri Aurobindo Marg, Ansari Nagar",
+      "city": "New Delhi",
+      "district": "South Delhi",
+      "state": "Delhi",
+      "zone": "North India",
+      "pincode": "110029",
+      "coordinates": {
+        "lat": 28.5672,
+        "lng": 77.21
+      }
+    },
+    "contact": {
+      "phone": "+91 11 2658 8500",
+      "helpline": "1800-11-AIIMS",
+      "email": "academic@aiims.edu",
+      "website": "https://www.aiims.edu",
+      "brochure_name": "AIIMS_Delhi_MBBS_Guide_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 1628,
+      "max_annual": 6000,
+      "average_annual": 2000,
+      "currency": "INR",
+      "fee_display": "₹1,628 / course (Subsidized Public)",
+      "hostel_annual": 1200,
+      "scholarships": [
+        "Full Government Healthcare Education Subsidy",
+        "ICMR Short Term Studentship (STS) Fellowships",
+        "Central Sector Scholarship for College & University Students"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "MBBS (5.5 Years including Internship)",
+          "tuition": 1628,
+          "hostel": 1200,
+          "other": 500,
+          "duration": "5.5 Years (Total fee ₹5,856)"
+        },
+        {
+          "course": "MD / MS Specialization",
+          "tuition": 2000,
+          "hostel": 1500,
+          "other": 500,
+          "duration": "3 Years"
+        },
+        {
+          "course": "B.Sc (Hons) Nursing",
+          "tuition": 1500,
+          "hostel": 1000,
+          "other": 400,
+          "duration": "4 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.98,
+      "total_reviews": 780,
+      "academic": 5.0,
+      "teaching": 5.0,
+      "sports": 4.3,
+      "cultural": 4.7,
+      "infrastructure": 4.9,
+      "placement": 5.0,
+      "value_for_money": 5.0
+    },
+    "category_scores": {
+      "overall_performance": 99.7,
+      "teaching_quality": 99.8,
+      "academic_achievement": 99.9,
+      "sports_games": 84.0,
+      "cultural_festivals": 93.0,
+      "performing_arts": 80.0,
+      "innovation_research": 99.8,
+      "leadership_development": 98.0,
+      "infrastructure_facilities": 98.5,
+      "special_achievements": 99.6,
+      "student_satisfaction": 98.0,
+      "community_service": 99.5
+    },
+    "ranks": {
+      "national_overall": 4,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 25,
+      "teaching_rank": 1,
+      "cultural_rank": 7,
+      "innovation_rank": 2
+    },
+    "courses_offered": [
+      {
+        "name": "MBBS",
+        "degree": "Undergraduate",
+        "duration": "5.5 Years",
+        "seats": 125,
+        "eligibility": "NEET-UG All India Rank < 55",
+        "fees": "₹1,628 total"
+      },
+      {
+        "name": "MD General Medicine / Surgery / Pediatrics",
+        "degree": "Postgraduate",
+        "duration": "3 Years",
+        "seats": 220,
+        "eligibility": "INI-CET Examination",
+        "fees": "₹2,027 total"
+      },
+      {
+        "name": "DM / M.Ch Super-speciality",
+        "degree": "Doctoral",
+        "duration": "3 Years",
+        "seats": 110,
+        "eligibility": "INI-SS Examination",
+        "fees": "₹2,500 total"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 850,
+      "student_faculty_ratio": "1:3",
+      "phd_percentage": "100% Medical Postgrad / Fellowship",
+      "notable_faculty": [
+        "Dr. M. Srinivas (Director & Renowned Pediatric Surgeon)",
+        "Dr. Randeep Guleria (Former Director & Padma Shri Pulmonologist)",
+        "Dr. Balram Bhargava (Cardiologist, Former DG ICMR)"
+      ]
+    },
+    "facilities": [
+      "National Apex Referral Hospital with 2,500+ beds and robotic surgery theatres",
+      "Centre for Integrative Medicine & Stem Cell Research Facility",
+      "BB Dikshit 24/7 Medical Library with global journal access",
+      "Cadaveric Dissection Labs with VR Surgical Simulation Suites",
+      "Student Gym, Tennis Courts, and Swimming Complex",
+      "Trauma Centre, Cancer Institute, and Mother & Child Hospital"
+    ],
+    "sports_highlights": [
+      "Annual Medical Inter-Collegiate Sports Meets",
+      "Indoor badminton, table tennis, and gymnasium on campus"
+    ],
+    "cultural_highlights": [
+      "PULSE - South Asia's largest annual medical students fest (over 40,000 attendees)",
+      "INFEST - Annual cultural week celebration"
+    ],
+    "placements": {
+      "highest_package": "Government Resident Doctor Pay Scale / ₹25 LPA + International Clinical Fellowships",
+      "average_package": "₹18.5 LPA (Junior Resident)",
+      "median_package": "₹18.0 LPA",
+      "placement_rate": "100%",
+      "top_recruiters": [
+        "Apex Hospitals",
+        "Harvard Medical School Fellowships",
+        "NHS UK",
+        "WHO",
+        "Apollo",
+        "Max Healthcare",
+        "AIIMS Faculty"
+      ]
+    },
+    "admissions": {
+      "process": "NEET-UG for MBBS; INI-CET for MD/MS via Medical Counselling Committee (MCC).",
+      "application_period": "March - June 2026",
+      "entrance_exams": [
+        "NEET-UG",
+        "INI-CET",
+        "INI-SS"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.aiims.edu"
+    },
+    "reviews": [
+      {
+        "author": "Dr. Prateek Verma",
+        "role": "MBBS Alumnus & Resident",
+        "rating": 5,
+        "date": "2026-03-05",
+        "title": "Clinical exposure you can get nowhere else on earth",
+        "comment": "The variety of rare cases and emergency handling prepares you for any medical challenge globally. Subsidized education allows anyone regardless of financial status to become a premier doctor.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "NIRF Medical Rankings 2025 #1",
+        "National Medical Commission",
+        "NABH Accreditation"
+      ],
+      "last_audited": "2026-07-30",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "nlsiu-bengaluru",
+    "name": "National Law School of India University (NLSIU)",
+    "tagline": "The Premier Law University of India",
+    "type": "Law",
+    "category_label": "Law Colleges",
+    "established_year": 1987,
+    "ownership": "State Statutory University",
+    "affiliation": "Autonomous (Bar Council of India Approved)",
+    "accreditations": [
+      "NIRF #1 Law (Continuous 7 Yrs)",
+      "Bar Council of India (BCI)",
+      "UGC Recognised"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Platinum Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Central Audit Panel",
+      "verification_date": "2026-06-15",
+      "documents_checked": [
+        "NLSIU Act 1986",
+        "NIRF Law 2025 Rank 1 Certificate",
+        "BCI Affiliation Audit"
+      ],
+      "official_id": "INST-BCI-NLSIU-1987",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "Gnana Bharathi Main Rd, Teachers Colony, Naagarabhaavi",
+      "city": "Bengaluru",
+      "district": "Bengaluru Urban",
+      "state": "Karnataka",
+      "zone": "South India",
+      "pincode": "560072",
+      "coordinates": {
+        "lat": 12.9556,
+        "lng": 77.5118
+      }
+    },
+    "contact": {
+      "phone": "+91 80 2321 3160",
+      "helpline": "1800-80-NLSIU",
+      "email": "registrar@nls.ac.in",
+      "website": "https://www.nls.ac.in",
+      "brochure_name": "NLSIU_Bengaluru_Admissions_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 320000,
+      "max_annual": 410000,
+      "average_annual": 360000,
+      "currency": "INR",
+      "fee_display": "₹3.2L - ₹4.1L / year",
+      "hostel_annual": 75000,
+      "scholarships": [
+        "NLSIU Financial Aid Policy (Need-based fee remissions)",
+        "Aditya Birla Law Scholarship",
+        "Justice K.S. Hegde Charitable Trust Scholarship"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "B.A., LL.B. (Hons.) 5-Year Integrated",
+          "tuition": 285000,
+          "hostel": 75000,
+          "other": 25000,
+          "duration": "5 Years"
+        },
+        {
+          "course": "LL.M. (Master of Laws)",
+          "tuition": 220000,
+          "hostel": 75000,
+          "other": 20000,
+          "duration": "1 Year"
+        },
+        {
+          "course": "Master of Public Policy (MPP)",
+          "tuition": 260000,
+          "hostel": 75000,
+          "other": 25000,
+          "duration": "2 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.92,
+      "total_reviews": 410,
+      "academic": 5.0,
+      "teaching": 4.9,
+      "sports": 4.4,
+      "cultural": 4.8,
+      "infrastructure": 4.8,
+      "placement": 5.0,
+      "value_for_money": 4.7
+    },
+    "category_scores": {
+      "overall_performance": 98.8,
+      "teaching_quality": 98.5,
+      "academic_achievement": 99.4,
+      "sports_games": 85.0,
+      "cultural_festivals": 94.0,
+      "performing_arts": 86.0,
+      "innovation_research": 97.0,
+      "leadership_development": 99.5,
+      "infrastructure_facilities": 96.0,
+      "special_achievements": 98.5,
+      "student_satisfaction": 95.5,
+      "community_service": 96.0
+    },
+    "ranks": {
+      "national_overall": 5,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 22,
+      "teaching_rank": 2,
+      "cultural_rank": 5,
+      "innovation_rank": 6
+    },
+    "courses_offered": [
+      {
+        "name": "B.A., LL.B. (Hons.)",
+        "degree": "Undergraduate",
+        "duration": "5 Years",
+        "seats": 300,
+        "eligibility": "CLAT Top 100 All India Rank",
+        "fees": "₹3.85L / yr"
+      },
+      {
+        "name": "LL.M. (Corporate & Commercial / Human Rights)",
+        "degree": "Postgraduate",
+        "duration": "1 Year",
+        "seats": 100,
+        "eligibility": "CLAT PG Rank < 120",
+        "fees": "₹3.15L / yr"
+      },
+      {
+        "name": "Master of Public Policy (MPP)",
+        "degree": "Postgraduate",
+        "duration": "2 Years",
+        "seats": 75,
+        "eligibility": "NLSAT-PP Entrance Exam",
+        "fees": "₹3.60L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 95,
+      "student_faculty_ratio": "1:11",
+      "phd_percentage": "95%",
+      "notable_faculty": [
+        "Prof. Sudhir Krishnaswamy (Vice-Chancellor & Rhodes Scholar)",
+        "Prof. Mrinal Satish (Criminal Law Authority)",
+        "Prof. Elizabeth Seshadri (Constitutional Jurisprudence)"
+      ]
+    },
+    "facilities": [
+      "Sri Narayan Rao Melgiri National Law Library (Over 70,000 physical volumes, Westlaw, LexisNexis)",
+      "Modern Moot Court Hall modeled after the Supreme Court of India",
+      "Legal Services Clinic for underprivileged legal aid & human rights advocacy",
+      "23-acre lush green residential campus with modern sports facilities",
+      "All-weather synthetic tennis courts, gym, cafeteria, and student council chambers"
+    ],
+    "sports_highlights": [
+      "Invicta - India's biggest national inter-law sports festival (30+ law schools)",
+      "Championship teams in basketball, badminton, and cricket"
+    ],
+    "cultural_highlights": [
+      "Strawberry Fields - Asia's longest-running student rock festival",
+      "NLSIU Parliamentary Debate - South Asia's largest competitive debating championship"
+    ],
+    "placements": {
+      "highest_package": "₹22 LPA (Domestic Tier-1 Law Firms) / £60,000 (Magic Circle UK Law Firms)",
+      "average_package": "₹17.5 LPA",
+      "median_package": "₹16.0 LPA",
+      "placement_rate": "100%",
+      "top_recruiters": [
+        "Cyril Amarchand Mangaldas",
+        "Shardul Amarchand Mangaldas",
+        "Khaitan & Co",
+        "Trilegal",
+        "AZB & Partners",
+        "Linklaters London",
+        "Allen & Overy"
+      ]
+    },
+    "admissions": {
+      "process": "Common Law Admission Test (CLAT) via Consortium of NLUs.",
+      "application_period": "July - December 2026",
+      "entrance_exams": [
+        "CLAT UG",
+        "CLAT PG",
+        "NLSAT"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.nls.ac.in"
+    },
+    "reviews": [
+      {
+        "author": "Divya Mehra",
+        "role": "B.A., LL.B. Graduate 2025",
+        "rating": 5,
+        "date": "2026-02-14",
+        "title": "Rigorous mooting and debate culture changes how you argue",
+        "comment": "The peer competition is intense, but you learn how to think on your feet. Moot court competitions in London and Vienna were fully funded by the university.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "NIRF Law Rankings 2025 #1",
+        "Bar Council of India Verification",
+        "Supreme Court of India Bar Association Survey"
+      ],
+      "last_audited": "2026-06-10",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "doon-school-dehradun",
+    "name": "The Doon School",
+    "tagline": "An All-Boys' Boarding School Developing Leaders for a Global India",
+    "type": "School",
+    "category_label": "Schools & Junior Colleges",
+    "established_year": 1935,
+    "ownership": "Private Non-Profit Boarding School",
+    "affiliation": "CISCE (ICSE / ISC) & International Baccalaureate (IB)",
+    "accreditations": [
+      "EducationWorld #1 All-India Boys' Boarding School",
+      "IB World School",
+      "Round Square Global Member"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Gold Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder K-12 Audit Board",
+      "verification_date": "2026-05-20",
+      "documents_checked": [
+        "CISCE Board Affiliation Proof",
+        "IB World Accreditation",
+        "Campus Safety & Child Protection Audit"
+      ],
+      "official_id": "INST-SCH-DOON-1935",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "Mall Road, Krishna Nagar",
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "state": "Uttarakhand",
+      "zone": "North India",
+      "pincode": "248001",
+      "coordinates": {
+        "lat": 30.3415,
+        "lng": 78.0289
+      }
+    },
+    "contact": {
+      "phone": "+91 135 252 6400",
+      "helpline": "+91 135 252 6414",
+      "email": "admissions@doonschool.com",
+      "website": "https://www.doonschool.com",
+      "brochure_name": "The_Doon_School_Prospectus_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 1120000,
+      "max_annual": 1350000,
+      "average_annual": 1200000,
+      "currency": "INR",
+      "fee_display": "₹11.2L - ₹13.5L / year (All-inclusive Residential)",
+      "hostel_annual": 0,
+      "scholarships": [
+        "Doon School Need-Based Bursary (Up to 110% fee and boarding coverage for deserving talent)",
+        "Old Boys' Memorial Scholarships for Academic & Sports Merit"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "Class 7 & 8 (Middle School Residential)",
+          "tuition": 750000,
+          "hostel": 370000,
+          "other": 80000,
+          "duration": "Annual"
+        },
+        {
+          "course": "Class 9 & 10 (ICSE Residential)",
+          "tuition": 780000,
+          "hostel": 370000,
+          "other": 90000,
+          "duration": "Annual"
+        },
+        {
+          "course": "Class 11 & 12 (IB Diploma / ISC Residential)",
+          "tuition": 890000,
+          "hostel": 370000,
+          "other": 90000,
+          "duration": "Annual"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.9,
+      "total_reviews": 340,
+      "academic": 4.8,
+      "teaching": 4.9,
+      "sports": 5.0,
+      "cultural": 4.9,
+      "infrastructure": 5.0,
+      "placement": 4.9,
+      "value_for_money": 4.5
+    },
+    "category_scores": {
+      "overall_performance": 97.9,
+      "teaching_quality": 98.2,
+      "academic_achievement": 96.5,
+      "sports_games": 99.5,
+      "cultural_festivals": 97.0,
+      "performing_arts": 96.2,
+      "innovation_research": 91.0,
+      "leadership_development": 99.8,
+      "infrastructure_facilities": 99.5,
+      "special_achievements": 99.0,
+      "student_satisfaction": 96.8,
+      "community_service": 97.5
+    },
+    "ranks": {
+      "national_overall": 1,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 1,
+      "teaching_rank": 2,
+      "cultural_rank": 2,
+      "innovation_rank": 14
+    },
+    "courses_offered": [
+      {
+        "name": "Class VII & VIII (Lower School Foundation)",
+        "degree": "Middle School",
+        "duration": "2 Years",
+        "seats": 90,
+        "eligibility": "Doon School Entrance Exam & Interview",
+        "fees": "₹12.0L / yr"
+      },
+      {
+        "name": "ICSE Curriculum (Class IX & X)",
+        "degree": "Secondary",
+        "duration": "2 Years",
+        "seats": 100,
+        "eligibility": "Internal Continuation / Exam",
+        "fees": "₹12.4L / yr"
+      },
+      {
+        "name": "IB Diploma Programme (IBDP, Class XI & XII)",
+        "degree": "Senior Secondary",
+        "duration": "2 Years",
+        "seats": 60,
+        "eligibility": "Academic Merit & Aptitude",
+        "fees": "₹13.5L / yr"
+      },
+      {
+        "name": "ISC Curriculum (Class XI & XII)",
+        "degree": "Senior Secondary",
+        "duration": "2 Years",
+        "seats": 50,
+        "eligibility": "Academic Merit",
+        "fees": "₹12.5L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 115,
+      "student_faculty_ratio": "1:6",
+      "phd_percentage": "35% PhD, 65% Masters",
+      "notable_faculty": [
+        "Dr. Jagpreet Singh (Headmaster, Eminent Indian Public School Leader)",
+        "Master Aloke Ghosh (Senior Dean of Performing Arts)",
+        "Col. (Retd.) R.S. Rawat (Director of Outdoor Pursuits & Mountaineering)"
+      ]
+    },
+    "facilities": [
+      "72-acre sprawling flora-rich estate in the Doon valley with historical architecture",
+      "Olympic-size 50m Swimming Pool and 25m Heated Winter Training Pool",
+      "Main Oval Cricket Pavilion, 4 Full-size Football & Hockey Fields",
+      "Squash Courts, 6 Synthetic Tennis Courts, Shooting Range, and Climbing Wall",
+      "Kilachand Central Library with over 30,000 titles and digital archives",
+      "Design & Technology Center with 3D printers, laser cutters, and woodwork labs",
+      "20-bed on-campus Wellness Centre with full-time pediatric doctors"
+    ],
+    "sports_highlights": [
+      "#1 Sports School in India - State & National champions in Boxing, Swimming, Cricket, Tennis, and Shooting",
+      "Mandatory outdoor mountaineering expeditions in the Garhwal Himalayas for all boys"
+    ],
+    "cultural_highlights": [
+      "The Doon School Model United Nations (DSMUN) - One of India's largest youth diplomacy conferences",
+      "The Doon School Weekly - India's oldest student-run school periodical (in publication since 1936)",
+      "Extensive Indian Classical Music, Western Orchestra, and Theatre societies"
+    ],
+    "placements": {
+      "highest_package": "Admissions to Ivy League, Oxford, Cambridge, IITs, NLSIU, and National Defence Academy (NDA)",
+      "average_package": "100% University Placement in Top Tier Global & Indian Institutions",
+      "median_package": "Top 1% Global University Acceptance Rate",
+      "placement_rate": "100%",
+      "top_recruiters": [
+        "Harvard",
+        "Stanford",
+        "Oxford",
+        "Cambridge",
+        "IITs",
+        "Ashoka University",
+        "SRCC Delhi",
+        "NDA Khadakwasla"
+      ]
+    },
+    "admissions": {
+      "process": "All-India Entrance Examination in October followed by interaction and game observations in Dehradun.",
+      "application_period": "January - September 2026",
+      "entrance_exams": [
+        "Doon School All-India Entrance Test"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.doonschool.com"
+    },
+    "reviews": [
+      {
+        "author": "Vikramaditya Rao",
+        "role": "Old Boy / Batch of 2022 (Now at Stanford)",
+        "rating": 5,
+        "date": "2026-02-10",
+        "title": "Builds self-reliance, leadership, and lifelong brotherhood",
+        "comment": "Living in the houses, learning discipline, participating in mid-term mountain expeditions, and balancing arts with sports taught me more than any classroom alone could.",
+        "verified_student": true
+      },
+      {
+        "author": "Dr. Sunita Oberoi",
+        "role": "Parent of Class 10 Student",
+        "rating": 5,
+        "date": "2026-01-08",
+        "title": "Wholesome character building and pastoral care",
+        "comment": "The housemasters and tutors give deep individual care to each student. The bursary support is also genuinely transparent and generous.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "EducationWorld All-India School Rankings 2025 #1",
+        "CISCE Board Audit",
+        "IB World Organization"
+      ],
+      "last_audited": "2026-05-18",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "dps-rk-puram",
+    "name": "Delhi Public School, R.K. Puram",
+    "tagline": "Service Before Self — Academic Rigor & Holistic Excellence",
+    "type": "School",
+    "category_label": "Schools & Junior Colleges",
+    "established_year": 1972,
+    "ownership": "Private Day-cum-Boarding School",
+    "affiliation": "Central Board of Secondary Education (CBSE)",
+    "accreditations": [
+      "CBSE Affiliated",
+      "EducationWorld Top 3 Day-cum-Boarding",
+      "British Council International Dimension"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Gold Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder K-12 Audit Board",
+      "verification_date": "2026-04-12",
+      "documents_checked": [
+        "CBSE Affiliation Certificate 2730017",
+        "Board Result Gazette",
+        "Safety & Fire Compliance Certificate"
+      ],
+      "official_id": "INST-CBSE-DPSRKP-1972",
+      "audit_rating": "4.9 / 5.0"
+    },
+    "location": {
+      "address": "Kaifi Azmi Marg, Sector XII, R.K. Puram",
+      "city": "New Delhi",
+      "district": "South West Delhi",
+      "state": "Delhi",
+      "zone": "North India",
+      "pincode": "110022",
+      "coordinates": {
+        "lat": 28.5661,
+        "lng": 77.1767
+      }
+    },
+    "contact": {
+      "phone": "+91 11 4911 5555",
+      "helpline": "+91 11 4911 5500",
+      "email": "principal@dpsrkp.net",
+      "website": "https://www.dpsrkp.net",
+      "brochure_name": "DPS_RK_Puram_Admissions_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 185000,
+      "max_annual": 240000,
+      "average_annual": 210000,
+      "currency": "INR",
+      "fee_display": "₹1.85L - ₹2.40L / year (Day Scholar)",
+      "hostel_annual": 160000,
+      "scholarships": [
+        "DPS Society Academic Excellence Scholarship",
+        "EWS / DG Quota 100% Free Education under RTE Provisions",
+        "Sports Champion Fee Waivers"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "Class 6 to 8 (Day Scholar)",
+          "tuition": 160000,
+          "hostel": 0,
+          "other": 25000,
+          "duration": "Annual"
+        },
+        {
+          "course": "Class 9 & 10 (CBSE Day Scholar)",
+          "tuition": 175000,
+          "hostel": 0,
+          "other": 28000,
+          "duration": "Annual"
+        },
+        {
+          "course": "Class 11 & 12 (Science / Commerce / Humanities)",
+          "tuition": 195000,
+          "hostel": 0,
+          "other": 35000,
+          "duration": "Annual"
+        },
+        {
+          "course": "Boarding Fees (Class 11-12 Outstation)",
+          "tuition": 195000,
+          "hostel": 160000,
+          "other": 35000,
+          "duration": "Annual"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.88,
+      "total_reviews": 510,
+      "academic": 5.0,
+      "teaching": 4.9,
+      "sports": 4.6,
+      "cultural": 4.8,
+      "infrastructure": 4.7,
+      "placement": 4.9,
+      "value_for_money": 4.9
+    },
+    "category_scores": {
+      "overall_performance": 97.4,
+      "teaching_quality": 98.0,
+      "academic_achievement": 99.4,
+      "sports_games": 89.0,
+      "cultural_festivals": 95.0,
+      "performing_arts": 91.0,
+      "innovation_research": 93.0,
+      "leadership_development": 96.5,
+      "infrastructure_facilities": 95.0,
+      "special_achievements": 97.2,
+      "student_satisfaction": 95.0,
+      "community_service": 94.0
+    },
+    "ranks": {
+      "national_overall": 3,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 2,
+      "sports_rank": 14,
+      "teaching_rank": 3,
+      "cultural_rank": 4,
+      "innovation_rank": 10
+    },
+    "courses_offered": [
+      {
+        "name": "Secondary School (Class VI - X)",
+        "degree": "CBSE Board",
+        "duration": "5 Years",
+        "seats": 420,
+        "eligibility": "Merit List & Age Guidelines",
+        "fees": "₹1.95L / yr"
+      },
+      {
+        "name": "Senior Secondary Science (PCM / PCB)",
+        "degree": "CBSE Class XI-XII",
+        "duration": "2 Years",
+        "seats": 350,
+        "eligibility": "Class 10 CBSE Board > 92%",
+        "fees": "₹2.20L / yr"
+      },
+      {
+        "name": "Senior Secondary Commerce & Economics",
+        "degree": "CBSE Class XI-XII",
+        "duration": "2 Years",
+        "seats": 180,
+        "eligibility": "Class 10 CBSE Board > 90%",
+        "fees": "₹2.10L / yr"
+      },
+      {
+        "name": "Senior Secondary Humanities & Arts",
+        "degree": "CBSE Class XI-XII",
+        "duration": "2 Years",
+        "seats": 120,
+        "eligibility": "Class 10 CBSE Board > 88%",
+        "fees": "₹2.10L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 240,
+      "student_faculty_ratio": "1:15",
+      "phd_percentage": "22% PhD, 78% Post-Graduate B.Ed.",
+      "notable_faculty": [
+        "Padma Shri Dr. Shyama Chona (Legendary Educationist & Former Principal)",
+        "Ms. Padma Srinivasan (Principal & National Awardee)",
+        "Shri N.K. Sehgal (Author of standard CBSE Physics references)"
+      ]
+    },
+    "facilities": [
+      "25-acre campus in prime South Delhi with dedicated senior & junior wings",
+      "Full Olympic-size swimming pool and all-weather basketball arena",
+      "Modern Robotics & AI Innovation Lab (ATAL Tinkering Lab)",
+      "Auditorium seating 1,200 with Dolby sound and professional stage lighting",
+      "Over 10 fully equipped science, language, mathematics, and computer laboratories",
+      "Hostel facility for outstation students (separate boys & girls wings)"
+    ],
+    "sports_highlights": [
+      "Inter-DPS National Champions in Athletics, Swimming, Lawn Tennis, and Table Tennis",
+      "Dedicated coaches for Football, Cricket, Taekwondo, and Gymnastics"
+    ],
+    "cultural_highlights": [
+      "Expressions - All India Theatre and Literary Festival",
+      "DPSMUN - India's most prestigious school Model United Nations conference",
+      "The Exun Clan - World-renowned student technology & coding club"
+    ],
+    "placements": {
+      "highest_package": "Over 80 students accepted each year to IITs, AIIMS, and top US/UK Universities (MIT, Harvard, Oxford)",
+      "average_package": "Top CBSE 10th and 12th Board Results in Delhi NCR consistently",
+      "median_package": "93% students score > 85% in CBSE Boards",
+      "placement_rate": "100%",
+      "top_recruiters": [
+        "IIT Bombay",
+        "IIT Delhi",
+        "AIIMS Delhi",
+        "SRCC",
+        "St. Stephen's",
+        "MIT",
+        "Stanford",
+        "NUS Singapore"
+      ]
+    },
+    "admissions": {
+      "process": "Online registration on portal followed by points system for Nursery/Class 6 and entrance tests for Class 11.",
+      "application_period": "December - February 2026",
+      "entrance_exams": [
+        "Class XI External Aptitude Test"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://dpsrkp.net/virtual-tour"
+    },
+    "reviews": [
+      {
+        "author": "Tanmay Bakshi",
+        "role": "Alumnus (Now at IIT Delhi CSE)",
+        "rating": 5,
+        "date": "2026-02-25",
+        "title": "Exun Clan and peer group pushed me beyond my limits",
+        "comment": "DPS RKP is an academic powerhouse. If you are ambitious, you will find clubs, competitions, and teachers who will back your biggest dreams.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "CBSE All India Examinations Board",
+        "EducationWorld India School Rankings",
+        "StudyFinder Annual Audit"
+      ],
+      "last_audited": "2026-04-10",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "padukone-dravid-cse",
+    "name": "Padukone-Dravid Centre for Sports Excellence (CSE)",
+    "tagline": "India's Premier Multi-Sport High-Performance Academy",
+    "type": "Sports & Arts Academy",
+    "category_label": "Dance, Music, Arts & Sports",
+    "established_year": 2017,
+    "ownership": "Private World-Class Sports Academy",
+    "affiliation": "Affiliated with National Federations (Badminton, Cricket, Swimming, Football, Tennis)",
+    "accreditations": [
+      "Olympic Training Partner",
+      "World Athletics Standard",
+      "BCCI & BAI Certified"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Gold Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Sports Audit Directorate",
+      "verification_date": "2026-07-14",
+      "documents_checked": [
+        "Sports Authority Certification",
+        "Olympic Training Facility Audit",
+        "Sports Science & Medicine Accreditation"
+      ],
+      "official_id": "INST-SPT-PDCSE-2017",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "Survey No 336, Bettahalasuru, Jala Hobli, Yelahanka",
+      "city": "Bengaluru",
+      "district": "Bengaluru Rural",
+      "state": "Karnataka",
+      "zone": "South India",
+      "pincode": "562157",
+      "coordinates": {
+        "lat": 13.1901,
+        "lng": 77.6322
+      }
+    },
+    "contact": {
+      "phone": "+91 80 6825 8000",
+      "helpline": "1800-80-CSE",
+      "email": "info@centreforsportsexcellence.com",
+      "website": "https://www.centreforsportsexcellence.com",
+      "brochure_name": "PDCSE_Sports_Brochure_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 180000,
+      "max_annual": 650000,
+      "average_annual": 380000,
+      "currency": "INR",
+      "fee_display": "₹1.8L - ₹6.5L / year (Program dependent)",
+      "hostel_annual": 180000,
+      "scholarships": [
+        "Prakash Padukone Badminton Foundation (PPBF) Full Scholarship",
+        "Rahul Dravid Young Athlete Talent Fund (100% Free Coaching & Boarding)",
+        "GoSports Foundation Support Partnership"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "Elite Badminton Training (Prakash Padukone Academy)",
+          "tuition": 320000,
+          "hostel": 180000,
+          "other": 45000,
+          "duration": "Annual"
+        },
+        {
+          "course": "Cricket High-Performance Academy (Rahul Dravid & Coaches)",
+          "tuition": 280000,
+          "hostel": 180000,
+          "other": 40000,
+          "duration": "Annual"
+        },
+        {
+          "course": "Dolphin Aquatics (Olympic Swimming Academy - Nihar Ameen)",
+          "tuition": 240000,
+          "hostel": 180000,
+          "other": 35000,
+          "duration": "Annual"
+        },
+        {
+          "course": "Tennis & Squash Intensive Programs",
+          "tuition": 260000,
+          "hostel": 180000,
+          "other": 35000,
+          "duration": "Annual"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.94,
+      "total_reviews": 290,
+      "academic": 4.1,
+      "teaching": 5.0,
+      "sports": 5.0,
+      "cultural": 4.2,
+      "infrastructure": 5.0,
+      "placement": 4.8,
+      "value_for_money": 4.8
+    },
+    "category_scores": {
+      "overall_performance": 96.0,
+      "teaching_quality": 98.8,
+      "academic_achievement": 82.0,
+      "sports_games": 99.9,
+      "cultural_festivals": 78.0,
+      "performing_arts": 75.0,
+      "innovation_research": 94.0,
+      "leadership_development": 98.0,
+      "infrastructure_facilities": 99.8,
+      "special_achievements": 99.5,
+      "student_satisfaction": 97.5,
+      "community_service": 88.0
+    },
+    "ranks": {
+      "national_overall": 1,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 1,
+      "teaching_rank": 1,
+      "cultural_rank": 18,
+      "innovation_rank": 8
+    },
+    "courses_offered": [
+      {
+        "name": "Elite Badminton High-Performance Program",
+        "degree": "Professional Sports",
+        "duration": "1 - 3 Years",
+        "seats": 60,
+        "eligibility": "National / State Ranking Trial",
+        "fees": "₹3.20L / yr"
+      },
+      {
+        "name": "Cricket Residential Academy",
+        "degree": "Professional Sports",
+        "duration": "Annual",
+        "seats": 80,
+        "eligibility": "BCCI District / State Trials",
+        "fees": "₹2.80L / yr"
+      },
+      {
+        "name": "Olympic Swimming Program (Dolphin Aquatics)",
+        "degree": "Professional Sports",
+        "duration": "Annual",
+        "seats": 50,
+        "eligibility": "Timed Qualifying Trials",
+        "fees": "₹2.40L / yr"
+      },
+      {
+        "name": "Sports Science, Biomechanics & Strength Conditioning",
+        "degree": "Diploma & Fellowship",
+        "duration": "1 Year",
+        "seats": 30,
+        "eligibility": "B.P.Ed / Physiotherapy Degree",
+        "fees": "₹1.80L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 65,
+      "student_faculty_ratio": "1:5",
+      "phd_percentage": "High-Performance Olympians & Certified Master Coaches",
+      "notable_faculty": [
+        "Prakash Padukone (All England Champion & Mentor)",
+        "Rahul Dravid (Former Indian Cricket Captain & World Cup Winning Coach)",
+        "Nihar Ameen (Dronacharya Awardee Swimming Coach)"
+      ]
+    },
+    "facilities": [
+      "15-acre integrated Olympic-standard sports campus near Kempegowda International Airport",
+      "16 Indoor Badminton Courts with wooden sprung flooring and glare-free lighting",
+      "50m 10-Lane Olympic Swimming Pool and 25m Heated Pool with underwater camera feedback",
+      "Full-sized FIFA standard artificial turf football stadium",
+      "BCCI standard Cricket Oval with 8 indoor and outdoor turf practice pitches",
+      "Sports Medicine & Biomechanics Research Centre (Cryotherapy, Hydrotherapy, DEXA scans)",
+      "Nutritional Dining Hall with customized athlete diet plans supervised by sports dieticians",
+      "Air-conditioned on-campus Athlete Hostel residence"
+    ],
+    "sports_highlights": [
+      "Trained over 25 Olympians, Paralympians, and Asian Games Medalists for India",
+      "Home to Lakshya Sen, Srikanth Kidambi training camps, and national swimming champions"
+    ],
+    "cultural_highlights": [
+      "Annual CSE Sports Conclave with international Olympic dignitaries",
+      "Mental resilience workshops and motivational sessions by sports icons"
+    ],
+    "placements": {
+      "highest_package": "National & Olympic Team Selections / Professional Sports League Contracts (IPL, PKL, ISL, PBL)",
+      "average_package": "National Team Representation / Sports Authority of India Employment",
+      "median_package": "State / National Podium Finishes: 88%",
+      "placement_rate": "92%",
+      "top_recruiters": [
+        "Indian Olympic Association",
+        "Sports Authority of India (SAI)",
+        "BCCI",
+        "Pro Badminton League",
+        "IPL Franchises"
+      ]
+    },
+    "admissions": {
+      "process": "Year-round talent scouting trials, skill assessment by head coaches, fitness evaluation, and scholarship review.",
+      "application_period": "Rolling Admissions (Trials held quarterly)",
+      "entrance_exams": [
+        "CSE Sports Aptitude & Physical Fitness Test"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.centreforsportsexcellence.com"
+    },
+    "reviews": [
+      {
+        "author": "Rohan Balakrishnan",
+        "role": "National Junior Badminton Gold Medalist",
+        "rating": 5,
+        "date": "2026-03-08",
+        "title": "World-class facilities that match European Olympic centres",
+        "comment": "The sports science lab transformed my stamina and injury recovery. Having coaches like Prakash sir watch your footwork every morning is a privilege.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "Sports Authority of India (SAI) Audit",
+        "Ministry of Youth Affairs & Sports",
+        "Olympic Association Endorsement"
+      ],
+      "last_audited": "2026-07-10",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "kalakshetra-foundation",
+    "name": "Kalakshetra Foundation",
+    "tagline": "Sanctuary for Classical Indian Arts, Bharatanatyam & Heritage Pedagogy",
+    "type": "Sports & Arts Academy",
+    "category_label": "Dance, Music, Arts & Sports",
+    "established_year": 1936,
+    "ownership": "Autonomous Body under Ministry of Culture, Government of India",
+    "affiliation": "Institute of National Importance (Government of India)",
+    "accreditations": [
+      "Ministry of Culture GoI",
+      "Sangeet Natak Akademi Affiliated",
+      "UNESCO Intangible Cultural Heritage Partner"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Gold Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Cultural & Performing Arts Council",
+      "verification_date": "2026-06-08",
+      "documents_checked": [
+        "Kalakshetra Foundation Act 1993",
+        "Ministry of Culture Audit",
+        "National Heritage Registry"
+      ],
+      "official_id": "INST-CUL-KALAK-1936",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "Kalakshetra Road, Thiruvanmiyur",
+      "city": "Chennai",
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "zone": "South India",
+      "pincode": "600041",
+      "coordinates": {
+        "lat": 12.9868,
+        "lng": 80.2589
+      }
+    },
+    "contact": {
+      "phone": "+91 44 2452 4057",
+      "helpline": "+91 44 2452 1836",
+      "email": "director@kalakshetra.in",
+      "website": "https://www.kalakshetra.in",
+      "brochure_name": "Kalakshetra_Foundation_Prospectus_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 45000,
+      "max_annual": 110000,
+      "average_annual": 65000,
+      "currency": "INR",
+      "fee_display": "₹45,000 - ₹1.1L / year (Subsidized Arts)",
+      "hostel_annual": 60000,
+      "scholarships": [
+        "Rukmini Devi Arundale Memorial Scholarship",
+        "Ministry of Culture Classical Arts Fellowships",
+        "Full Boarding Waiver for Exceptional Traditional Talents"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "Diploma in Bharatanatyam (4 Years)",
+          "tuition": 45000,
+          "hostel": 60000,
+          "other": 12000,
+          "duration": "4 Years"
+        },
+        {
+          "course": "Diploma in Carnatic Music (Vocal / Instrumental)",
+          "tuition": 40000,
+          "hostel": 60000,
+          "other": 10000,
+          "duration": "4 Years"
+        },
+        {
+          "course": "Post-Diploma in Classical Dance Pedagogy",
+          "tuition": 55000,
+          "hostel": 60000,
+          "other": 15000,
+          "duration": "2 Years"
+        },
+        {
+          "course": "Craft Education & Kalamkari / Handloom Weaving",
+          "tuition": 30000,
+          "hostel": 50000,
+          "other": 8000,
+          "duration": "2 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.91,
+      "total_reviews": 320,
+      "academic": 4.5,
+      "teaching": 5.0,
+      "sports": 4.0,
+      "cultural": 5.0,
+      "infrastructure": 4.8,
+      "placement": 4.7,
+      "value_for_money": 5.0
+    },
+    "category_scores": {
+      "overall_performance": 96.8,
+      "teaching_quality": 99.2,
+      "academic_achievement": 89.0,
+      "sports_games": 70.0,
+      "cultural_festivals": 99.8,
+      "performing_arts": 99.9,
+      "innovation_research": 88.0,
+      "leadership_development": 94.0,
+      "infrastructure_facilities": 95.0,
+      "special_achievements": 99.8,
+      "student_satisfaction": 98.0,
+      "community_service": 95.0
+    },
+    "ranks": {
+      "national_overall": 1,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 35,
+      "teaching_rank": 1,
+      "cultural_rank": 1,
+      "innovation_rank": 20
+    },
+    "courses_offered": [
+      {
+        "name": "Diploma in Bharatanatyam",
+        "degree": "Undergraduate Diploma",
+        "duration": "4 Years",
+        "seats": 40,
+        "eligibility": "Rhythm & Movement Audition (Age 16+)",
+        "fees": "₹45,000 / yr"
+      },
+      {
+        "name": "Diploma in Carnatic Music (Vocal, Veena, Violin, Mridangam)",
+        "degree": "Undergraduate Diploma",
+        "duration": "4 Years",
+        "seats": 30,
+        "eligibility": "Swaram & Shruthi Audition",
+        "fees": "₹40,000 / yr"
+      },
+      {
+        "name": "Post-Diploma in Dance & Choreography",
+        "degree": "Postgraduate",
+        "duration": "2 Years",
+        "seats": 15,
+        "eligibility": "Diploma in Dance / Arangetram",
+        "fees": "₹55,000 / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 48,
+      "student_faculty_ratio": "1:6",
+      "phd_percentage": "Padma Awardees & Sangeet Natak Akademi Acharyas",
+      "notable_faculty": [
+        "Founded by Rukmini Devi Arundale",
+        "Senior Acharyas of the Kalakshetra Bani in Dance & Music",
+        "Master Weavers & Natural Dye Preservationists"
+      ]
+    },
+    "facilities": [
+      "100-acre seaside campus under the banyan trees at Thiruvanmiyur, Chennai",
+      "Traditional thatched-roof open-air 'Koothambalam' theatre and Natya Mandapam",
+      "Craft Education and Research Centre (Kalamkari printing & natural dyes)",
+      "Sound-isolated Carnatic Music studios and rare manuscript archives",
+      "Residential dormitories preserving the ancient Gurukula ethos in modern times",
+      "Traditional Ayurvedic dining and wellness regimen"
+    ],
+    "sports_highlights": [
+      "Yoga, Kalaripayattu, and traditional Indian physical disciplines integrated daily"
+    ],
+    "cultural_highlights": [
+      "Annual Kalakshetra Arts Festival (December - January) featuring world's best classical performers",
+      "Iconic Dance Drama productions performed at Rashtrapati Bhavan and international stages"
+    ],
+    "placements": {
+      "highest_package": "Global Performance Tours, Cultural Ambassador Fellowships, National Dance Troupes",
+      "average_package": "Professional Solo Performers / Professors of Dance & Music in Universities Worldwide",
+      "median_package": "96% of graduates establish successful global performing arts careers",
+      "placement_rate": "96%",
+      "top_recruiters": [
+        "Sangeet Natak Akademi",
+        "ICCR (Indian Council for Cultural Relations)",
+        "Doordarshan",
+        "Leading Dance Conservatories Worldwide"
+      ]
+    },
+    "admissions": {
+      "process": "Practical audition in rhythm, movement, musicality, and interview held in Chennai every May.",
+      "application_period": "March - May 2026",
+      "entrance_exams": [
+        "Kalakshetra Practical Audition"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.kalakshetra.in"
+    },
+    "reviews": [
+      {
+        "author": "Meenakshi Sundaram",
+        "role": "Bharatanatyam Diploma Graduate",
+        "rating": 5,
+        "date": "2026-01-25",
+        "title": "Learning beneath the banyan trees transformed my art",
+        "comment": "The discipline, the silence of the morning prayers, and the purity of the Kalakshetra style give you an aesthetic depth impossible to replicate in an urban studio.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "Ministry of Culture, Govt of India",
+        "Sangeet Natak Akademi",
+        "UNESCO Cultural Register"
+      ],
+      "last_audited": "2026-06-05",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "iisc-bengaluru",
+    "name": "Indian Institute of Science (IISc Bengaluru)",
+    "tagline": "India's Crown Jewel of Pure Science & Advanced Scientific Research",
+    "type": "Research",
+    "category_label": "Research Institutes & Universities",
+    "established_year": 1909,
+    "ownership": "Public (Institute of Eminence)",
+    "affiliation": "Autonomous (Government of India)",
+    "accreditations": [
+      "NIRF #1 Universities",
+      "NIRF #1 Research in India",
+      "QS World #1 Citations per Faculty"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Platinum Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Central Audit Panel",
+      "verification_date": "2026-08-11",
+      "documents_checked": [
+        "Tata Trust & GoI Founding Charter",
+        "NIRF Research Rank 1 Record",
+        "IoE Status Notification"
+      ],
+      "official_id": "INST-GOI-IISC-1909",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "CV Raman Rd, Malleshwaram",
+      "city": "Bengaluru",
+      "district": "Bengaluru Urban",
+      "state": "Karnataka",
+      "zone": "South India",
+      "pincode": "560012",
+      "coordinates": {
+        "lat": 13.0219,
+        "lng": 77.5671
+      }
+    },
+    "contact": {
+      "phone": "+91 80 2293 2001",
+      "helpline": "1800-80-IISC",
+      "email": "admission.acad@iisc.ac.in",
+      "website": "https://www.iisc.ac.in",
+      "brochure_name": "IISc_Academic_Prospectus_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 32000,
+      "max_annual": 220000,
+      "average_annual": 55000,
+      "currency": "INR",
+      "fee_display": "₹32,000 - ₹2.2L / year (Heavily Subsidized)",
+      "hostel_annual": 36000,
+      "scholarships": [
+        "Full Monthly Research Fellowship for All M.Tech/Ph.D. Scholars (₹37,000 - ₹42,000/mo)",
+        "KVPY / INSPIRE Fellowships for Undergraduates",
+        "Prime Minister's Research Fellowship (PMRF) up to ₹80,000/mo"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "Bachelor of Science (Research) B.Sc (Res)",
+          "tuition": 20000,
+          "hostel": 36000,
+          "other": 15000,
+          "duration": "4 Years"
+        },
+        {
+          "course": "B.Tech in Mathematics & Computing",
+          "tuition": 200000,
+          "hostel": 36000,
+          "other": 20000,
+          "duration": "4 Years"
+        },
+        {
+          "course": "M.Tech / M.Des (With Stipend)",
+          "tuition": 25000,
+          "hostel": 36000,
+          "other": 12000,
+          "duration": "2 Years"
+        },
+        {
+          "course": "Integrated Ph.D. / Ph.D.",
+          "tuition": 18000,
+          "hostel": 36000,
+          "other": 10000,
+          "duration": "5 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.97,
+      "total_reviews": 680,
+      "academic": 5.0,
+      "teaching": 5.0,
+      "sports": 4.5,
+      "cultural": 4.6,
+      "infrastructure": 5.0,
+      "placement": 4.9,
+      "value_for_money": 5.0
+    },
+    "category_scores": {
+      "overall_performance": 99.8,
+      "teaching_quality": 99.5,
+      "academic_achievement": 100.0,
+      "sports_games": 86.0,
+      "cultural_festivals": 88.0,
+      "performing_arts": 82.0,
+      "innovation_research": 100.0,
+      "leadership_development": 96.0,
+      "infrastructure_facilities": 99.6,
+      "special_achievements": 100.0,
+      "student_satisfaction": 97.2,
+      "community_service": 91.0
+    },
+    "ranks": {
+      "national_overall": 1,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 20,
+      "teaching_rank": 1,
+      "cultural_rank": 12,
+      "innovation_rank": 1
+    },
+    "courses_offered": [
+      {
+        "name": "Bachelor of Science (Research)",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 120,
+        "eligibility": "JEE Advanced Top 250 / NEET / IAT",
+        "fees": "₹35,000 / yr"
+      },
+      {
+        "name": "B.Tech in Mathematics & Computing",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 52,
+        "eligibility": "JEE Advanced Top 500",
+        "fees": "₹2.20L / yr"
+      },
+      {
+        "name": "M.Tech Computer Science / Quantum Tech",
+        "degree": "Postgraduate",
+        "duration": "2 Years",
+        "seats": 180,
+        "eligibility": "GATE Score 850+",
+        "fees": "₹37,000 / yr"
+      },
+      {
+        "name": "Ph.D. in Biological / Chemical / Physical Sciences",
+        "degree": "Doctoral",
+        "duration": "5 Years",
+        "seats": 400,
+        "eligibility": "CSIR-NET JRF / GATE",
+        "fees": "₹28,000 / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 530,
+      "student_faculty_ratio": "1:5",
+      "phd_percentage": "100% Postdoctoral Global Experience",
+      "notable_faculty": [
+        "Prof. Govindan Rangarajan (Director & Applied Mathematician)",
+        "Prof. C.N.R. Rao (Bharat Ratna, Solid State & Materials Chemistry)",
+        "Prof. Arindam Ghosh (Shanti Swarup Bhatnagar Laureate, Quantum Materials)"
+      ]
+    },
+    "facilities": [
+      "440-acre canopy forest sanctuary in the heart of Bengaluru with 110 species of trees",
+      "Supercomputer Education & Research Centre (SERC) housing Param Pravega (3.3 PFLOPS)",
+      "Centre for Nano Science and Engineering (CeNSE) - World-class cleanroom facility",
+      "J.R.D. Tata Memorial Library - India's richest scientific literature repository",
+      "Gymkhana sports complex with athletic track, cricket pavilion, and swimming arena",
+      "Advanced Cryogenic and High-Pressure Material Synthesis Laboratories"
+    ],
+    "sports_highlights": [
+      "Active Gymkhana with Inter-departmental and Inter-institutional championships",
+      "Tennis, cricket, badminton, and mountaineering clubs"
+    ],
+    "cultural_highlights": [
+      "Pravega - India's largest undergraduate science, technology and cultural fest",
+      "Open Day - Attracts over 40,000 school and college students to live lab demos"
+    ],
+    "placements": {
+      "highest_package": "₹1.8 Crore / year (R&D Leadership) & Postdoc offers at MIT/Max Planck",
+      "average_package": "₹30.5 LPA (Engineering Masters) / Top Global Academic Positions",
+      "median_package": "₹26.0 LPA",
+      "placement_rate": "98%",
+      "top_recruiters": [
+        "DeepMind",
+        "Google Research",
+        "Microsoft Research",
+        "ISRO",
+        "DRDO",
+        "AstraZeneca",
+        "TSMC",
+        "Intel Labs"
+      ]
+    },
+    "admissions": {
+      "process": "Through JEE Advanced / NEET-UG / IISER Aptitude Test for UG; GATE/CSIR-NET for PG and Research.",
+      "application_period": "March - May 2026",
+      "entrance_exams": [
+        "JEE Advanced",
+        "GATE",
+        "CSIR-UGC NET",
+        "IAT"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1518152006812-edab29b069ac?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.iisc.ac.in"
+    },
+    "reviews": [
+      {
+        "author": "Dr. Rohit Deshmukh",
+        "role": "Postdoctoral Fellow (Nanoelectronics)",
+        "rating": 5,
+        "date": "2026-03-02",
+        "title": "Unparalleled research freedom and equipment access",
+        "comment": "The cleanrooms at CeNSE rival anything at Stanford or EPFL. You can walk into any department and start a collaboration with leading physicists or biochemists.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "NIRF 2025 #1 Universities & Research",
+        "QS World Rankings (Citations per Faculty)",
+        "Department of Science and Technology"
+      ],
+      "last_audited": "2026-08-08",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "allen-career-institute-kota",
+    "name": "Allen Career Institute, Kota",
+    "tagline": "India's Benchmark for JEE & NEET Preparation Excellence",
+    "type": "Coaching & Test Prep",
+    "category_label": "Coaching Centers & Training Academies",
+    "established_year": 1988,
+    "ownership": "Private Coaching Enterprise",
+    "affiliation": "National Test Prep Academy",
+    "accreditations": [
+      "ISO 9001:2015 Certified",
+      "National Coaching Leadership Award"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Test-Prep Verification Wing",
+      "verification_date": "2026-05-30",
+      "documents_checked": [
+        "Company Registration & Audited Results",
+        "Result Affidavit Verification",
+        "Safety & Student Mentorship Audit"
+      ],
+      "official_id": "INST-CP-ALLEN-1988",
+      "audit_rating": "4.8 / 5.0"
+    },
+    "location": {
+      "address": "Sankalp, CP-6, Indra Vihar",
+      "city": "Kota",
+      "district": "Kota",
+      "state": "Rajasthan",
+      "zone": "North India",
+      "pincode": "324005",
+      "coordinates": {
+        "lat": 25.1388,
+        "lng": 75.8456
+      }
+    },
+    "contact": {
+      "phone": "+91 744 355 6677",
+      "helpline": "+91 744 275 7575",
+      "email": "info@allen.ac.in",
+      "website": "https://www.allen.ac.in",
+      "brochure_name": "Allen_Kota_Courses_Guide_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 115000,
+      "max_annual": 175000,
+      "average_annual": 142000,
+      "currency": "INR",
+      "fee_display": "₹1.15L - ₹1.75L / year (Tuition)",
+      "hostel_annual": 120000,
+      "scholarships": [
+        "TALLENTEX All India Scholarship (Up to 90% fee waiver)",
+        "Allen Champion Scholarship for Board Toppers",
+        "Defense and Sibling Fee Concessions"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "NURTURE Course (Class 11 for JEE Adv / NEET)",
+          "tuition": 135000,
+          "hostel": 120000,
+          "other": 15000,
+          "duration": "1 Year"
+        },
+        {
+          "course": "ENTHUSIAST Course (Class 12 for JEE Adv / NEET)",
+          "tuition": 145000,
+          "hostel": 120000,
+          "other": 15000,
+          "duration": "1 Year"
+        },
+        {
+          "course": "LEADER Course (Dropper / Repeater Batch)",
+          "tuition": 155000,
+          "hostel": 120000,
+          "other": 15000,
+          "duration": "1 Year"
+        },
+        {
+          "course": "Pre-Nurture & Foundation (Class 8-10 Olympiads)",
+          "tuition": 95000,
+          "hostel": 110000,
+          "other": 10000,
+          "duration": "1 Year"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.82,
+      "total_reviews": 1150,
+      "academic": 5.0,
+      "teaching": 4.9,
+      "sports": 3.8,
+      "cultural": 4.1,
+      "infrastructure": 4.8,
+      "placement": 5.0,
+      "value_for_money": 4.7
+    },
+    "category_scores": {
+      "overall_performance": 95.8,
+      "teaching_quality": 98.4,
+      "academic_achievement": 99.8,
+      "sports_games": 65.0,
+      "cultural_festivals": 75.0,
+      "performing_arts": 60.0,
+      "innovation_research": 85.0,
+      "leadership_development": 91.0,
+      "infrastructure_facilities": 94.0,
+      "special_achievements": 99.1,
+      "student_satisfaction": 93.0,
+      "community_service": 86.0
+    },
+    "ranks": {
+      "national_overall": 1,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 40,
+      "teaching_rank": 1,
+      "cultural_rank": 25,
+      "innovation_rank": 15
+    },
+    "courses_offered": [
+      {
+        "name": "JEE (Advanced) 2-Year Classroom",
+        "degree": "Entrance Coaching",
+        "duration": "2 Years",
+        "seats": 15000,
+        "eligibility": "TALLENTEX / Direct Admission",
+        "fees": "₹1.45L / yr"
+      },
+      {
+        "name": "NEET-UG Medical 2-Year Classroom",
+        "degree": "Entrance Coaching",
+        "duration": "2 Years",
+        "seats": 20000,
+        "eligibility": "Class 10 Pass / TALLENTEX",
+        "fees": "₹1.40L / yr"
+      },
+      {
+        "name": "Olympiads & NTSE Foundation Course",
+        "degree": "Junior Coaching",
+        "duration": "1 Year",
+        "seats": 5000,
+        "eligibility": "Class 8-10 Students",
+        "fees": "₹95,000 / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 1600,
+      "student_faculty_ratio": "1:25",
+      "phd_percentage": "Top Ex-IITians and NITians with 10+ yrs pedagogy",
+      "notable_faculty": [
+        "Dr. Brajesh Maheshwari (Co-founder & Physics Master Teacher)",
+        "Govind Maheshwari (Co-founder & Mathematics Lead)",
+        "Naveen Maheshwari (Student Mentorship & Care Director)"
+      ]
+    },
+    "facilities": [
+      "Over 12 mega air-conditioned campus buildings in Kota with biometric attendance",
+      "Samyak doubt-resolution counters open 14 hours daily with faculty support",
+      "Allen Student Welfare Society (ASWS) mental wellness & 24/7 counseling support",
+      "Computer-based testing (CBT) simulation labs matching exact NTA JEE/NEET UI",
+      "Digital library with 500,000+ solved question video explanations on Allen App",
+      "Tie-ups with 200+ verified student hostels with mess food and curfew management"
+    ],
+    "sports_highlights": [
+      "Recreational yoga sessions, table tennis, and annual fitness runs"
+    ],
+    "cultural_highlights": [
+      "Victory Celebrations (All India Rank toppers grand felicitation ceremony)",
+      "Motivational seminars with toppers and meditation sessions"
+    ],
+    "placements": {
+      "highest_package": "Produced AIR 1 in JEE Advanced and NEET multiple times (Over 35,000+ selections annually)",
+      "average_package": "Over 6,500 students qualifying JEE Advanced each year",
+      "median_package": "Success Rate: 1 in 4 students qualify national entrance exams",
+      "placement_rate": "89%",
+      "top_recruiters": [
+        "IIT Bombay",
+        "IIT Delhi",
+        "AIIMS New Delhi",
+        "JIPMER",
+        "IIT Madras",
+        "NIT Trichy",
+        "BITS Pilani"
+      ]
+    },
+    "admissions": {
+      "process": "Direct admission or through TALLENTEX national scholarship aptitude test.",
+      "application_period": "November - June 2026",
+      "entrance_exams": [
+        "TALLENTEX / ASAT (Allen Scholarship Admission Test)"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.allen.ac.in"
+    },
+    "reviews": [
+      {
+        "author": "Ayush Goel",
+        "role": "JEE Advanced AIR 42 (Now at IITB CSE)",
+        "rating": 5,
+        "date": "2026-02-04",
+        "title": "The test series and doubt clearing counters are matchless",
+        "comment": "Allen's daily practice problems (DPPs) and mock tests simulate the real exam pressure so well that the actual JEE exam felt like just another Sunday test at Allen.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "Audited Result Affidavits 2024-25",
+        "NTA Results Verification",
+        "Independent Student Survey"
+      ],
+      "last_audited": "2026-05-25",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "st-xaviers-mumbai",
+    "name": "St. Xavier's College (Autonomous), Mumbai",
+    "tagline": "Provocans Ad Volandum — Inspiring Intellectual & Cultural Freedom",
+    "type": "Degree College",
+    "category_label": "Schools & Junior Colleges",
+    "established_year": 1869,
+    "ownership": "Private Aided Autonomous College",
+    "affiliation": "University of Mumbai",
+    "accreditations": [
+      "NAAC 'A+' Grade (CGPA 3.63)",
+      "College with Potential for Excellence (UGC)",
+      "NIRF Top 100 Colleges"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Gold Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Higher Ed Board",
+      "verification_date": "2026-06-18",
+      "documents_checked": [
+        "NAAC A+ Accreditation Certificate",
+        "University of Mumbai Autonomy Charter",
+        "UGC Status Document"
+      ],
+      "official_id": "INST-COL-XAVIER-1869",
+      "audit_rating": "4.9 / 5.0"
+    },
+    "location": {
+      "address": "5, Mahapalika Marg, Dhobi Talao, Chhatrapati Shivaji Terminus Area, Fort",
+      "city": "Mumbai",
+      "district": "Mumbai City",
+      "state": "Maharashtra",
+      "zone": "Western India",
+      "pincode": "400001",
+      "coordinates": {
+        "lat": 18.9438,
+        "lng": 72.8317
+      }
+    },
+    "contact": {
+      "phone": "+91 22 2262 0661",
+      "helpline": "+91 22 2262 0662",
+      "email": "webadmin@xaviers.edu",
+      "website": "https://www.xaviers.edu",
+      "brochure_name": "St_Xaviers_Mumbai_Prospectus_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 24000,
+      "max_annual": 95000,
+      "average_annual": 48000,
+      "currency": "INR",
+      "fee_display": "₹24,000 - ₹95,000 / year (Aided & Self-Financed)",
+      "hostel_annual": 72000,
+      "scholarships": [
+        "Xavier's Financial Aid Policy for Economically Disadvantaged Students",
+        "Government of Maharashtra Social Welfare Scholarships",
+        "Alumni Endowed Merit Awards in Literature, Media & Science"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "B.A. (Arts & Humanities - Aided)",
+          "tuition": 22000,
+          "hostel": 72000,
+          "other": 6000,
+          "duration": "3 Years"
+        },
+        {
+          "course": "B.Sc. (Science - Aided)",
+          "tuition": 26000,
+          "hostel": 72000,
+          "other": 7000,
+          "duration": "3 Years"
+        },
+        {
+          "course": "B.A. in Mass Media & Communication (BAMMC)",
+          "tuition": 85000,
+          "hostel": 72000,
+          "other": 12000,
+          "duration": "3 Years"
+        },
+        {
+          "course": "B.Sc. Information Technology",
+          "tuition": 75000,
+          "hostel": 72000,
+          "other": 10000,
+          "duration": "3 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.86,
+      "total_reviews": 540,
+      "academic": 4.8,
+      "teaching": 4.9,
+      "sports": 4.4,
+      "cultural": 5.0,
+      "infrastructure": 4.8,
+      "placement": 4.7,
+      "value_for_money": 4.9
+    },
+    "category_scores": {
+      "overall_performance": 96.5,
+      "teaching_quality": 98.0,
+      "academic_achievement": 96.0,
+      "sports_games": 88.0,
+      "cultural_festivals": 99.7,
+      "performing_arts": 98.5,
+      "innovation_research": 91.0,
+      "leadership_development": 98.2,
+      "infrastructure_facilities": 95.0,
+      "special_achievements": 97.0,
+      "student_satisfaction": 96.5,
+      "community_service": 97.0
+    },
+    "ranks": {
+      "national_overall": 2,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 16,
+      "teaching_rank": 2,
+      "cultural_rank": 1,
+      "innovation_rank": 12
+    },
+    "courses_offered": [
+      {
+        "name": "Bachelor of Arts (B.A.) in English / Psychology / Sociology",
+        "degree": "Undergraduate",
+        "duration": "3 Years",
+        "seats": 360,
+        "eligibility": "12th Board Cutoff > 94%",
+        "fees": "₹28,000 / yr"
+      },
+      {
+        "name": "B.A. in Mass Media and Communication (BAMMC)",
+        "degree": "Undergraduate",
+        "duration": "3 Years",
+        "seats": 120,
+        "eligibility": "XET Entrance Examination",
+        "fees": "₹85,000 / yr"
+      },
+      {
+        "name": "Bachelor of Science (B.Sc.) in Life Sciences / Geology",
+        "degree": "Undergraduate",
+        "duration": "3 Years",
+        "seats": 240,
+        "eligibility": "12th Science Board Cutoff > 88%",
+        "fees": "₹32,000 / yr"
+      },
+      {
+        "name": "Bachelor of Management Studies (BMS)",
+        "degree": "Undergraduate",
+        "duration": "3 Years",
+        "seats": 120,
+        "eligibility": "XET Entrance Examination",
+        "fees": "₹92,000 / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 165,
+      "student_faculty_ratio": "1:18",
+      "phd_percentage": "68% PhD, 32% M.Phil/Master's",
+      "notable_faculty": [
+        "Dr. Rajendra Shinde (Principal & Eminent Botanist)",
+        "Prof. Agnelo Menezes (Former Principal & Public Policy Author)",
+        "Fr. Terry Lopez SJ (Pastoral Care & Youth Ethics)"
+      ]
+    },
+    "facilities": [
+      "Neo-Gothic Victorian heritage campus with iconic quadrangle and archways",
+      "Herbaarium and Caius Research Laboratory for natural and biological sciences",
+      "Centenary Library with over 140,000 rare books and manuscripts",
+      "The Malhar Amphitheatre and Audio-Visual Conference Studios",
+      "Gymkhana sports complex with basketball, badminton, and fitness facilities",
+      "On-campus boys hostel and off-campus girls hostel tie-ups in South Mumbai"
+    ],
+    "sports_highlights": [
+      "University of Mumbai Inter-Collegiate champions in Football, Basketball, and Table Tennis",
+      "Regular inter-faculty sports matches at the college gymkhana"
+    ],
+    "cultural_highlights": [
+      "Malhar - Asia's most famous and historic inter-collegiate cultural fest (attracting 30,000+ students)",
+      "Active Indian Music Group (IMG) holding the annual Janfest classical music concert under the stars",
+      "The Social Involvement Programme (SIP) requiring 60 hours of mandatory community service"
+    ],
+    "placements": {
+      "highest_package": "₹21 LPA (Finance & Consulting) / High global master's admissions",
+      "average_package": "₹8.5 LPA",
+      "median_package": "₹7.2 LPA",
+      "placement_rate": "86%",
+      "top_recruiters": [
+        "McKinsey",
+        "Bain Capability Network",
+        "Deloitte",
+        "Ogilvy & Mather",
+        "Times of India",
+        "Teach for India",
+        "Deutsche Bank"
+      ]
+    },
+    "admissions": {
+      "process": "XET (Xavier's Entrance Test) for BMS & BAMMC; Merit-based cutoffs for BA and BSc.",
+      "application_period": "May - June 2026",
+      "entrance_exams": [
+        "Xavier's Entrance Test (XET)"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.xaviers.edu"
+    },
+    "reviews": [
+      {
+        "author": "Sanaya Irani",
+        "role": "BAMMC Graduate 2024",
+        "rating": 5,
+        "date": "2026-02-19",
+        "title": "Malhar and the quadrangle make you fearless and creative",
+        "comment": "The liberal environment at Xavier's is unparalleled. Professors encourage you to question everything, and the mandatory 60 hours of community service keeps you grounded in reality.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "NAAC A+ Accreditation 2024",
+        "University of Mumbai Survey",
+        "India Today College Rankings"
+      ],
+      "last_audited": "2026-06-15",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "stanza-living-delhi",
+    "name": "Stanza Living — Stockholm House (DU North Campus)",
+    "tagline": "Premium Managed Student Accommodation with Modern Amenities",
+    "type": "Student Hostel",
+    "category_label": "Hostels & Accommodations",
+    "established_year": 2019,
+    "ownership": "Managed Private Student Coliving",
+    "affiliation": "StudyFinder Verified Student Housing Partner",
+    "accreditations": [
+      "FSSAI Food Safety Certified",
+      "Fire Safety & CCTV Certified",
+      "StudyFinder SafeLiving"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Student Housing Inspection Cell",
+      "verification_date": "2026-07-02",
+      "documents_checked": [
+        "FSSAI Food Hygiene Audit",
+        "24/7 Security & CCTV Surveillance Audit",
+        "Lease & Transparency Agreement"
+      ],
+      "official_id": "INST-HST-STNZ-2019",
+      "audit_rating": "4.9 / 5.0"
+    },
+    "location": {
+      "address": "Block 14, Near Vishwavidyalaya Metro, Kamla Nagar",
+      "city": "New Delhi",
+      "district": "North Delhi",
+      "state": "Delhi",
+      "zone": "North India",
+      "pincode": "110007",
+      "coordinates": {
+        "lat": 28.6822,
+        "lng": 77.2089
+      }
+    },
+    "contact": {
+      "phone": "+91 80 4710 8080",
+      "helpline": "+91 11 4118 7000",
+      "email": "community@stanzaliving.com",
+      "website": "https://www.stanzaliving.com",
+      "brochure_name": "Stanza_Stockholm_House_Details_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 168000,
+      "max_annual": 264000,
+      "average_annual": 210000,
+      "currency": "INR",
+      "fee_display": "₹14,000 - ₹22,000 / month (Meals Included)",
+      "hostel_annual": 210000,
+      "scholarships": [
+        "Early Bird Semester Booking Discount (Up to ₹15,000)",
+        "Academic Merit Cashback for Board / College Toppers",
+        "Referral Credits Program"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "Triple Sharing Room (All Meals + Laundry + Wi-Fi)",
+          "tuition": 0,
+          "hostel": 168000,
+          "other": 10000,
+          "duration": "Annual (₹14,000/mo)"
+        },
+        {
+          "course": "Double Sharing Room (All Meals + Laundry + Wi-Fi)",
+          "tuition": 0,
+          "hostel": 204000,
+          "other": 10000,
+          "duration": "Annual (₹17,000/mo)"
+        },
+        {
+          "course": "Single Private Suite (All Meals + AC + Attached Balcony)",
+          "tuition": 0,
+          "hostel": 264000,
+          "other": 10000,
+          "duration": "Annual (₹22,000/mo)"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.79,
+      "total_reviews": 460,
+      "academic": 4.5,
+      "teaching": 4.2,
+      "sports": 4.2,
+      "cultural": 4.6,
+      "infrastructure": 4.9,
+      "placement": 4.0,
+      "value_for_money": 4.7
+    },
+    "category_scores": {
+      "overall_performance": 94.0,
+      "teaching_quality": 82.0,
+      "academic_achievement": 84.0,
+      "sports_games": 80.0,
+      "cultural_festivals": 86.0,
+      "performing_arts": 78.0,
+      "innovation_research": 85.0,
+      "leadership_development": 88.0,
+      "infrastructure_facilities": 98.4,
+      "special_achievements": 91.0,
+      "student_satisfaction": 96.0,
+      "community_service": 87.0
+    },
+    "ranks": {
+      "national_overall": 1,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 28,
+      "teaching_rank": 30,
+      "cultural_rank": 15,
+      "innovation_rank": 18
+    },
+    "courses_offered": [
+      {
+        "name": "Managed Student Accommodation - Double Occupancy",
+        "degree": "Hostel Stay",
+        "duration": "Academic Year",
+        "seats": 120,
+        "eligibility": "Enrolled College / Coaching Student",
+        "fees": "₹17,000 / mo"
+      },
+      {
+        "name": "Managed Student Accommodation - Single Suite",
+        "degree": "Hostel Stay",
+        "duration": "Academic Year",
+        "seats": 40,
+        "eligibility": "Enrolled Student with ID proof",
+        "fees": "₹22,000 / mo"
+      },
+      {
+        "name": "Managed Student Accommodation - Triple Sharing",
+        "degree": "Hostel Stay",
+        "duration": "Academic Year",
+        "seats": 60,
+        "eligibility": "Enrolled Student with ID proof",
+        "fees": "₹14,000 / mo"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 25,
+      "student_faculty_ratio": "1:10 (Staff & Wardens)",
+      "phd_percentage": "Professional Hospitality & Security Management",
+      "notable_faculty": [
+        "24/7 Residential Wardens & First-Aid Certified Security Leads",
+        "Executive Chef with FSSAI compliance certification",
+        "Community Experience Managers organizing weekend workshops"
+      ]
+    },
+    "facilities": [
+      "Walking distance (7 mins) to SRCC, Miranda House, Hindu College, and Vishwavidyalaya Metro",
+      "4 chef-cooked nutritious meals daily designed by nutritionists (FSSAI rated kitchen)",
+      "High-speed commercial Wi-Fi 6 with dedicated silent study pods and print stations",
+      "Biometric facial-recognition access control with app-based gate passes and parent notification",
+      "Daily professional housekeeping, weekly linen change, and on-premise laundry machines",
+      "Entertainment lounge with PlayStation 5, Pool Table, Table Tennis, and Netflix projection zone",
+      "100% Power backup, RO alkaline water dispensers, and 24/7 on-call doctor tie-up"
+    ],
+    "sports_highlights": [
+      "In-house gym with treadmills, free weights, and crossfit equipment",
+      "Weekly foosball, table tennis, and chess leagues among residents"
+    ],
+    "cultural_highlights": [
+      "Stanza Spring Fest & festive celebrations for Diwali, Holi, Eid, and Christmas",
+      "Startup and career networking mixers with alumni residents from North Campus"
+    ],
+    "placements": {
+      "highest_package": "N/A (Student Accommodation - 100% verified proximity to top colleges)",
+      "average_package": "Walking proximity to DU North Campus & coaching hubs",
+      "median_package": "Over 85% residents secure internships through community network",
+      "placement_rate": "100% Verified Accommodation",
+      "top_recruiters": [
+        "DU North Campus Students",
+        "SRCC",
+        "St. Stephen's",
+        "Faculty of Law DU",
+        "Vision IAS Prep Students"
+      ]
+    },
+    "admissions": {
+      "process": "Online room selection, video KYC verification, college admission proof upload, and digital lease signing.",
+      "application_period": "May - August 2026 (Rolling for coaching batches)",
+      "entrance_exams": [
+        "College Admission Proof / Student ID"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.stanzaliving.com/stockholm"
+    },
+    "reviews": [
+      {
+        "author": "Niharika Verma",
+        "role": "SRCC 2nd Year Student (Resident)",
+        "rating": 5,
+        "date": "2026-03-09",
+        "title": "Super safe for girls with delicious homelike food",
+        "comment": "Living away from home for the first time was daunting, but Stockholm House is so clean and secure. The biometric gate system gives my parents complete peace of mind.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "StudyFinder On-Site Physical Inspection 2026",
+        "FSSAI Safety Rating 5-Star",
+        "Delhi Police Verification"
+      ],
+      "last_audited": "2026-07-01",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "cmc-vellore",
+    "name": "Christian Medical College (CMC Vellore)",
+    "tagline": "Not to be Ministered Unto, But to Minister — Medical Compassion & Clinical Mastery",
+    "type": "Medical",
+    "category_label": "Medical & Healthcare",
+    "established_year": 1900,
+    "ownership": "Private Non-Profit Charitable Medical Institution",
+    "affiliation": "The Tamil Nadu Dr. M.G.R. Medical University",
+    "accreditations": [
+      "NIRF #3 Medical in India",
+      "NABH Accredited Hospital",
+      "NMC Recognized",
+      "NABL Certified Labs"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Platinum Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Central Audit Panel",
+      "verification_date": "2026-07-19",
+      "documents_checked": [
+        "NMC Medical Council Charter",
+        "NIRF Medical 2025 #3 Audit",
+        "NABH Hospital Accreditation Certificate"
+      ],
+      "official_id": "INST-MED-CMCV-1900",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "Ida Scudder Road",
+      "city": "Vellore",
+      "district": "Vellore",
+      "state": "Tamil Nadu",
+      "zone": "South India",
+      "pincode": "632004",
+      "coordinates": {
+        "lat": 12.9249,
+        "lng": 79.1352
+      }
+    },
+    "contact": {
+      "phone": "+91 416 228 1000",
+      "helpline": "1800-416-CMCV",
+      "email": "registrar@cmcvellore.ac.in",
+      "website": "https://www.cmch-vellore.edu",
+      "brochure_name": "CMC_Vellore_MBBS_Prospectus_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 52000,
+      "max_annual": 95000,
+      "average_annual": 68000,
+      "currency": "INR",
+      "fee_display": "₹52,000 - ₹95,000 / year (Charitable Trust)",
+      "hostel_annual": 38000,
+      "scholarships": [
+        "Ida Scudder Charitable Medical Education Full Tuition Bursary",
+        "Community Service Commitment Scholarships",
+        "Alumni Endowed Merit-cum-Need Support"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "MBBS (5.5 Years)",
+          "tuition": 48000,
+          "hostel": 38000,
+          "other": 12000,
+          "duration": "5.5 Years"
+        },
+        {
+          "course": "MD / MS Clinical Specialities",
+          "tuition": 60000,
+          "hostel": 38000,
+          "other": 15000,
+          "duration": "3 Years"
+        },
+        {
+          "course": "B.Sc Nursing / Allied Health Sciences",
+          "tuition": 35000,
+          "hostel": 32000,
+          "other": 8000,
+          "duration": "4 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.93,
+      "total_reviews": 610,
+      "academic": 5.0,
+      "teaching": 5.0,
+      "sports": 4.2,
+      "cultural": 4.6,
+      "infrastructure": 4.8,
+      "placement": 5.0,
+      "value_for_money": 5.0
+    },
+    "category_scores": {
+      "overall_performance": 98.6,
+      "teaching_quality": 99.4,
+      "academic_achievement": 99.2,
+      "sports_games": 82.0,
+      "cultural_festivals": 91.0,
+      "performing_arts": 83.0,
+      "innovation_research": 98.0,
+      "leadership_development": 98.5,
+      "infrastructure_facilities": 97.2,
+      "special_achievements": 99.3,
+      "student_satisfaction": 97.5,
+      "community_service": 100.0
+    },
+    "ranks": {
+      "national_overall": 3,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 3,
+      "sports_rank": 26,
+      "teaching_rank": 2,
+      "cultural_rank": 9,
+      "innovation_rank": 4
+    },
+    "courses_offered": [
+      {
+        "name": "MBBS",
+        "degree": "Undergraduate",
+        "duration": "5.5 Years",
+        "seats": 100,
+        "eligibility": "NEET-UG Qualified & Tamil Nadu MCC Counseling",
+        "fees": "₹68,000 / yr"
+      },
+      {
+        "name": "MD General Medicine / Pediatrics / Anaesthesia",
+        "degree": "Postgraduate",
+        "duration": "3 Years",
+        "seats": 140,
+        "eligibility": "NEET-PG Merit Qualified",
+        "fees": "₹82,000 / yr"
+      },
+      {
+        "name": "B.Sc. Nursing",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 100,
+        "eligibility": "CMC Entrance & 12th Biology",
+        "fees": "₹42,000 / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 820,
+      "student_faculty_ratio": "1:2.8",
+      "phd_percentage": "100% Medical Postgraduates / Specialist Fellows",
+      "notable_faculty": [
+        "Dr. J.V. Peter (Director & Critical Care Medicine Leader)",
+        "Dr. Gagandeep Kang (FRS, Renowned Virologist & Vaccinologist)",
+        "Dr. Jacob John (Poliovirus and Public Health Pioneer)"
+      ]
+    },
+    "facilities": [
+      "3,000-bed multispeciality tertiary care hospital treating over 9,000 outpatients every day",
+      "Kannigapuram Level-1 Trauma Centre and Advanced Cancer Centre",
+      "Community Health and Development (CHAD) rural hospital outreach network",
+      "Comprehensive clinical simulation lab and robotic surgical training consoles",
+      "Extensive medical library with 50,000 physical volumes and BMJ / Lancet subscriptions",
+      "Residential green campus (Bagayam campus) with colonial cottages, tennis, and gym facilities"
+    ],
+    "sports_highlights": [
+      "Annual Inter-batch sports tournaments at Bagayam oval",
+      "Badminton, table tennis, basketball, and football clubs"
+    ],
+    "cultural_highlights": [
+      "Pegasus - CMC's annual inter-collegiate cultural and literary extravaganza",
+      "Famous College Carol Service and hospital musical choir tradition since 1920"
+    ],
+    "placements": {
+      "highest_package": "Senior Clinical Fellowships worldwide / Royal Colleges UK memberships",
+      "average_package": "₹16.8 LPA",
+      "median_package": "₹16.0 LPA",
+      "placement_rate": "100%",
+      "top_recruiters": [
+        "CMC Hospital Network",
+        "Apollo Hospitals",
+        "WHO",
+        "ICMR",
+        "Christian Mission Hospitals",
+        "NHS UK",
+        "Cleveland Clinic"
+      ]
+    },
+    "admissions": {
+      "process": "NEET-UG followed by registration with Tamil Nadu Selection Committee and CMC Vellore aptitude assessment.",
+      "application_period": "March - June 2026",
+      "entrance_exams": [
+        "NEET-UG",
+        "NEET-PG"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.cmch-vellore.edu"
+    },
+    "reviews": [
+      {
+        "author": "Dr. Cheryl D'Souza",
+        "role": "MBBS Alumna (Batch 2023)",
+        "rating": 5,
+        "date": "2026-01-30",
+        "title": "A culture of selfless clinical service and bedside empathy",
+        "comment": "At CMC, you learn that patients are human beings first, not just disease symptoms. The rural posting at CHAD changes your world perspective completely.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "NIRF Medical Rankings 2025 #3",
+        "National Medical Commission",
+        "NABH Accreditation"
+      ],
+      "last_audited": "2026-07-15",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "srcc-delhi",
+    "name": "Shri Ram College of Commerce (SRCC)",
+    "tagline": "The Premier Centre for Commerce, Economics & Business Education in Asia",
+    "type": "Degree College",
+    "category_label": "Schools & Junior Colleges",
+    "established_year": 1926,
+    "ownership": "Public University Constituent College",
+    "affiliation": "University of Delhi (DU North Campus)",
+    "accreditations": [
+      "NAAC 'A++' Grade (CGPA 3.65)",
+      "NIRF Top 10 Colleges in India",
+      "UGC Recognized"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Platinum Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Central Audit Panel",
+      "verification_date": "2026-08-05",
+      "documents_checked": [
+        "University of Delhi Affiliation Record",
+        "NAAC A++ Accreditation Certificate",
+        "Placement Audit Report 2025-26"
+      ],
+      "official_id": "INST-DU-SRCC-1926",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "Maurice Nagar, University Enclave, North Campus",
+      "city": "New Delhi",
+      "district": "North Delhi",
+      "state": "Delhi",
+      "zone": "North India",
+      "pincode": "110007",
+      "coordinates": {
+        "lat": 28.6908,
+        "lng": 77.2081
+      }
+    },
+    "contact": {
+      "phone": "+91 11 2766 7905",
+      "helpline": "+91 11 2766 2319",
+      "email": "principaloffice@srcc.du.ac.in",
+      "website": "https://www.srcc.edu",
+      "brochure_name": "SRCC_Admissions_Guide_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 30000,
+      "max_annual": 38000,
+      "average_annual": 32000,
+      "currency": "INR",
+      "fee_display": "₹30,000 - ₹38,000 / year (Subsidized Central Univ)",
+      "hostel_annual": 55000,
+      "scholarships": [
+        "SRCC Need-Based Fee Concessions & Book Bank Scheme",
+        "Mitsubishi UFJ Foundation Scholarship",
+        "Enactus Excellence Grant"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "B.Com (Hons.)",
+          "tuition": 28000,
+          "hostel": 55000,
+          "other": 4000,
+          "duration": "3-4 Years"
+        },
+        {
+          "course": "B.A. (Hons.) Economics",
+          "tuition": 28000,
+          "hostel": 55000,
+          "other": 4000,
+          "duration": "3-4 Years"
+        },
+        {
+          "course": "Post Graduate Diploma in Global Business Operations (GBO)",
+          "tuition": 180000,
+          "hostel": 55000,
+          "other": 20000,
+          "duration": "2 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.95,
+      "total_reviews": 720,
+      "academic": 5.0,
+      "teaching": 4.9,
+      "sports": 4.7,
+      "cultural": 4.9,
+      "infrastructure": 4.8,
+      "placement": 5.0,
+      "value_for_money": 5.0
+    },
+    "category_scores": {
+      "overall_performance": 98.9,
+      "teaching_quality": 98.7,
+      "academic_achievement": 99.8,
+      "sports_games": 91.0,
+      "cultural_festivals": 97.5,
+      "performing_arts": 90.0,
+      "innovation_research": 94.0,
+      "leadership_development": 99.6,
+      "infrastructure_facilities": 96.5,
+      "special_achievements": 98.8,
+      "student_satisfaction": 97.0,
+      "community_service": 95.0
+    },
+    "ranks": {
+      "national_overall": 1,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 9,
+      "teaching_rank": 1,
+      "cultural_rank": 2,
+      "innovation_rank": 7
+    },
+    "courses_offered": [
+      {
+        "name": "B.Com (Hons.)",
+        "degree": "Undergraduate",
+        "duration": "3 - 4 Years (NEP)",
+        "seats": 650,
+        "eligibility": "CUET-UG 99.8+ Percentile in Commerce Stream",
+        "fees": "₹32,000 / yr"
+      },
+      {
+        "name": "B.A. (Hons.) Economics",
+        "degree": "Undergraduate",
+        "duration": "3 - 4 Years (NEP)",
+        "seats": 180,
+        "eligibility": "CUET-UG 99.9+ Percentile with Math",
+        "fees": "₹32,000 / yr"
+      },
+      {
+        "name": "Post Graduate Diploma in GBO",
+        "degree": "Postgraduate Diploma",
+        "duration": "2 Years",
+        "seats": 90,
+        "eligibility": "SRCC GBO Written Test & GD/PI",
+        "fees": "₹1.80L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 130,
+      "student_faculty_ratio": "1:18",
+      "phd_percentage": "88% PhD / D.Litt.",
+      "notable_faculty": [
+        "Prof. Simrit Kaur (Principal & Eminent Public Enterprise Economist)",
+        "Dr. Girish Ahuja (Direct Taxes authority & legendary author)",
+        "Dr. C.S. Sharma (Corporate Finance & Valuation Specialist)"
+      ]
+    },
+    "facilities": [
+      "16-acre red-brick heritage North Campus estate with centrally air-conditioned classrooms",
+      "World-Class Indoor Sports Complex (Built for Commonwealth Games with synthetic basketball & badminton courts)",
+      "Fully automated library with 85,000+ volumes and access to EBSCO, CMIE Prowess, Capitaline",
+      "Central Air-Conditioned Boys and Girls Hostels with Wi-Fi and common study halls",
+      "Incubation Centre and The Delhi School of Economics adjacent facility"
+    ],
+    "sports_highlights": [
+      "Official Commonwealth Games training venue for swimming and badminton",
+      "Inter-College University of Delhi Champions in Basketball and Swimming"
+    ],
+    "cultural_highlights": [
+      "Crossroads - DU North Campus's biggest and most anticipated annual cultural fest (45,000+ footfall)",
+      "The Economics Society & The Commerce Society (Asia's premier student academic societies)"
+    ],
+    "placements": {
+      "highest_package": "₹38.5 LPA (Undergraduate Domestic) / $110,000 (International)",
+      "average_package": "₹15.6 LPA",
+      "median_package": "₹14.0 LPA",
+      "placement_rate": "98%",
+      "top_recruiters": [
+        "McKinsey & Co",
+        "Boston Consulting Group",
+        "Bain & Co",
+        "D.E. Shaw",
+        "Goldman Sachs",
+        "Morgan Stanley",
+        "Kearney",
+        "HUL"
+      ]
+    },
+    "admissions": {
+      "process": "CUET-UG conducted by NTA through Delhi University CSAS (Common Seat Allocation System).",
+      "application_period": "March - June 2026",
+      "entrance_exams": [
+        "CUET-UG",
+        "SRCC GBO Test"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.srcc.edu"
+    },
+    "reviews": [
+      {
+        "author": "Kavya Mittal",
+        "role": "B.Com (Hons) Alumna, Now at BCG",
+        "rating": 5,
+        "date": "2026-03-04",
+        "title": "The placement cell and society culture prepare you for top corporate roles",
+        "comment": "At SRCC, you are surrounded by the smartest minds in India. From day one, you lead societies, organize national conferences, and interact directly with industry CXOs.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "NAAC A++ Accreditation 2024",
+        "University of Delhi CSAS Records",
+        "NIRF Ranking 2025"
+      ],
+      "last_audited": "2026-08-01",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "nsd-delhi",
+    "name": "National School of Drama (NSD New Delhi)",
+    "tagline": "The Cradle of Modern Indian Theatre, Acting & Dramatic Arts",
+    "type": "Sports & Arts Academy",
+    "category_label": "Dance, Music, Arts & Sports",
+    "established_year": 1959,
+    "ownership": "Autonomous Institution under Ministry of Culture, Government of India",
+    "affiliation": "Institute of National Importance in Dramatic Arts",
+    "accreditations": [
+      "Ministry of Culture GoI",
+      "International Theatre Institute (ITI / UNESCO)",
+      "Sangeet Natak Akademi"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Gold Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Theatre & Arts Wing",
+      "verification_date": "2026-05-15",
+      "documents_checked": [
+        "NSD Society Registration & Ministry of Culture Charter",
+        "Alumni Repertory Company Audit",
+        "Annual Financial & Academic Report"
+      ],
+      "official_id": "INST-CUL-NSD-1959",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "Bahawalpur House, 1, Bhagwandas Road, Mandi House",
+      "city": "New Delhi",
+      "district": "Central Delhi",
+      "state": "Delhi",
+      "zone": "North India",
+      "pincode": "110001",
+      "coordinates": {
+        "lat": 28.6231,
+        "lng": 77.2341
+      }
+    },
+    "contact": {
+      "phone": "+91 11 2338 9402",
+      "helpline": "+91 11 2338 2821",
+      "email": "nationalschoolofdrama@gmail.com",
+      "website": "https://nsd.gov.in",
+      "brochure_name": "NSD_Delhi_Prospectus_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 12000,
+      "max_annual": 25000,
+      "average_annual": 18000,
+      "currency": "INR",
+      "fee_display": "₹18,000 / year (All students receive ₹15,000/mo stipend)",
+      "hostel_annual": 12000,
+      "scholarships": [
+        "100% Scholarship + Monthly ₹15,000 Fellowship for EVERY Admitted Student",
+        "Full Production and Costume Grants",
+        "International Festival Travel Grants"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "3-Year Diploma in Dramatic Arts (Acting / Direction / Design)",
+          "tuition": 18000,
+          "hostel": 12000,
+          "other": 5000,
+          "duration": "3 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.96,
+      "total_reviews": 310,
+      "academic": 4.7,
+      "teaching": 5.0,
+      "sports": 4.1,
+      "cultural": 5.0,
+      "infrastructure": 4.8,
+      "placement": 4.9,
+      "value_for_money": 5.0
+    },
+    "category_scores": {
+      "overall_performance": 97.2,
+      "teaching_quality": 99.6,
+      "academic_achievement": 91.0,
+      "sports_games": 72.0,
+      "cultural_festivals": 100.0,
+      "performing_arts": 100.0,
+      "innovation_research": 89.0,
+      "leadership_development": 96.0,
+      "infrastructure_facilities": 95.8,
+      "special_achievements": 99.8,
+      "student_satisfaction": 98.2,
+      "community_service": 94.0
+    },
+    "ranks": {
+      "national_overall": 1,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 33,
+      "teaching_rank": 1,
+      "cultural_rank": 1,
+      "innovation_rank": 17
+    },
+    "courses_offered": [
+      {
+        "name": "3-Year Post-Graduate Diploma in Dramatic Arts",
+        "degree": "Postgraduate Diploma",
+        "duration": "3 Years",
+        "seats": 26,
+        "eligibility": "Graduation + Proven Theatre Experience + 3-Stage Audition",
+        "fees": "₹18,000 / yr (Includes ₹15k/mo stipend)"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 35,
+      "student_faculty_ratio": "1:2.5",
+      "phd_percentage": "Living legends of Indian & International Cinema & Stage",
+      "notable_faculty": [
+        "Former Directors: Ebrahim Alkazi, B.V. Karanth, Naseeruddin Shah",
+        "Distinguished Visiting Directors from Royal Shakespeare Company & Stanislavski Institute",
+        "Repertory Company Master Performers"
+      ]
+    },
+    "facilities": [
+      "Historical Bahawalpur House campus at the cultural epicenter of Mandi House",
+      "Three fully equipped theatres: Abhimanch, Sammukh, and Bahumukh experimental studio",
+      "Extensive theatrical costume, mask, and weaponry archives from Indian folk traditions",
+      "Modern stage lighting rigs, robotic spotlights, and acoustic surround sound boards",
+      "Specialized studios for voice culture, martial movement (Chhau, Kalaripayattu), and scenography",
+      "On-campus residential hostel with subsidized traditional artist mess"
+    ],
+    "sports_highlights": [
+      "Rigorous daily physical conditioning: Chhau dance, Yoga, and stage combat training"
+    ],
+    "cultural_highlights": [
+      "Bharat Rang Mahotsav (BRM) - Asia's largest international theatre festival (over 100 plays from 20 countries)",
+      "Jashnebachpan - National children's theatre festival",
+      "NSD Repertory Company professional nationwide tours"
+    ],
+    "placements": {
+      "highest_package": "Legendary alumni body including Naseeruddin Shah, Om Puri, Irrfan Khan, Pankaj Tripathi, Nawazuddin Siddiqui, Anupam Kher",
+      "average_package": "100% Industry Recognition in Cinema, OTT, Direction & Professional Repertory",
+      "median_package": "Over 90% graduates become working professional actors/directors",
+      "placement_rate": "100%",
+      "top_recruiters": [
+        "Indian Cinema & Film Directors",
+        "National Theatre Repertory",
+        "OTT Studios (Netflix, Amazon Prime)",
+        "Drama Conservatories Worldwide"
+      ]
+    },
+    "admissions": {
+      "process": "Preliminary test across 12 national centers followed by intensive 5-day workshop and final audition in Delhi.",
+      "application_period": "March - May 2026",
+      "entrance_exams": [
+        "NSD 3-Stage All India Theatre Audition"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.nsd.gov.in"
+    },
+    "reviews": [
+      {
+        "author": "Sameer Sengupta",
+        "role": "Batch of 2024 (Repertory Actor)",
+        "rating": 5,
+        "date": "2026-02-12",
+        "title": "Alkazi's spirit lives on in every brick of Bahawalpur House",
+        "comment": "You don't just learn acting here; you learn voice projection, lighting, stagecraft, script breakdown, and human psychology. The 1:2 faculty ratio gives you intense personal transformation.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "Ministry of Culture, Government of India",
+        "International Theatre Institute",
+        "Repertory Performance Records"
+      ],
+      "last_audited": "2026-05-10",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "bbfs-delhi",
+    "name": "Bhaichung Bhutia Football Schools (BBFS)",
+    "tagline": "Building the Future of Indian Football from Grassroots to Pro",
+    "type": "Sports & Arts Academy",
+    "category_label": "Dance, Music, Arts & Sports",
+    "established_year": 2010,
+    "ownership": "Private Professional Sports Academy",
+    "affiliation": "All India Football Federation (AIFF) 4-Star Academy",
+    "accreditations": [
+      "AIFF Accredited 4-Star Academy",
+      "AFC Licensed Coaching Curriculum"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Sports Audit Directorate",
+      "verification_date": "2026-06-22",
+      "documents_checked": [
+        "AIFF Academy 4-Star Accreditation",
+        "Player Development Audit",
+        "Coach Licensing Registry"
+      ],
+      "official_id": "INST-SPT-BBFS-2010",
+      "audit_rating": "4.8 / 5.0"
+    },
+    "location": {
+      "address": "Vasant Kunj Sports Complex, Nelson Mandela Marg",
+      "city": "New Delhi",
+      "district": "South West Delhi",
+      "state": "Delhi",
+      "zone": "North India",
+      "pincode": "110070",
+      "coordinates": {
+        "lat": 28.5284,
+        "lng": 77.1489
+      }
+    },
+    "contact": {
+      "phone": "+91 11 4058 1111",
+      "helpline": "+91 84480 22299",
+      "email": "info@bbfs.in",
+      "website": "https://www.bbfootballschools.com",
+      "brochure_name": "BBFS_Residential_Academy_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 48000,
+      "max_annual": 420000,
+      "average_annual": 210000,
+      "currency": "INR",
+      "fee_display": "₹48,000 (Day Academy) - ₹4.2L (Residential) / year",
+      "hostel_annual": 210000,
+      "scholarships": [
+        "Bhaichung Bhutia Talent Scholarship (Up to 100% full boarding & coaching waiver for national prospects)",
+        "AIFF Youth League Performance Grants"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "Grassroots Academy (Weekend / After-School Coaching)",
+          "tuition": 48000,
+          "hostel": 0,
+          "other": 6000,
+          "duration": "Annual"
+        },
+        {
+          "course": "Youth Elite Development Squad (U13, U15, U17)",
+          "tuition": 85000,
+          "hostel": 0,
+          "other": 12000,
+          "duration": "Annual"
+        },
+        {
+          "course": "Residential Football Academy (Boarding + CBSE Schooling + Pro Football)",
+          "tuition": 210000,
+          "hostel": 210000,
+          "other": 25000,
+          "duration": "Annual"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.84,
+      "total_reviews": 380,
+      "academic": 4.2,
+      "teaching": 4.9,
+      "sports": 5.0,
+      "cultural": 4.0,
+      "infrastructure": 4.8,
+      "placement": 4.8,
+      "value_for_money": 4.8
+    },
+    "category_scores": {
+      "overall_performance": 95.2,
+      "teaching_quality": 98.0,
+      "academic_achievement": 81.0,
+      "sports_games": 99.6,
+      "cultural_festivals": 74.0,
+      "performing_arts": 65.0,
+      "innovation_research": 89.0,
+      "leadership_development": 97.0,
+      "infrastructure_facilities": 97.0,
+      "special_achievements": 98.5,
+      "student_satisfaction": 96.0,
+      "community_service": 91.0
+    },
+    "ranks": {
+      "national_overall": 2,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 2,
+      "sports_rank": 2,
+      "teaching_rank": 2,
+      "cultural_rank": 22,
+      "innovation_rank": 11
+    },
+    "courses_offered": [
+      {
+        "name": "Residential Football Academy (U13, U15, U17, U19)",
+        "degree": "Sports & CBSE Schooling",
+        "duration": "1 - 5 Years",
+        "seats": 120,
+        "eligibility": "National Scouting Trials",
+        "fees": "₹4.20L / yr"
+      },
+      {
+        "name": "Youth Elite Academy (Day Scholar)",
+        "degree": "Youth Training",
+        "duration": "Annual",
+        "seats": 300,
+        "eligibility": "Open Trials Assessment",
+        "fees": "₹85,000 / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 120,
+      "student_faculty_ratio": "1:10",
+      "phd_percentage": "AFC A, B & UEFA Pro Certified Coaches",
+      "notable_faculty": [
+        "Bhaichung Bhutia (Former Indian National Captain & Arjuna Awardee)",
+        "Kishore Taid (Co-founder & Football Operations Specialist)",
+        "Stevie Grieve (Technical Director with European youth academy experience)"
+      ]
+    },
+    "facilities": [
+      "FIFA standard full-size artificial and natural grass football pitches",
+      "Sports science and GPS player tracking systems (Catapult player vests)",
+      "Dedicated strength and conditioning gym, recovery ice baths, and physiotherapists",
+      "Partner CBSE residential school campus ensuring 100% academic schooling alongside 20 hrs/week pro training",
+      "Nutritionally monitored athlete dining hall with high-protein sports diets"
+    ],
+    "sports_highlights": [
+      "Over 45 players selected for Indian National Youth Squads (U16, U19, U23)",
+      "Regular winners of AIFF Junior League and Subroto Cup"
+    ],
+    "cultural_highlights": [
+      "Leadership and teamwork character-building seminars with sports legends",
+      "International exposure tours to Spain, Portugal, and Germany"
+    ],
+    "placements": {
+      "highest_package": "Indian Super League (ISL) & I-League Pro Signings (₹15L - ₹45L contracts)",
+      "average_package": "Direct selection into Pro Reserve squads and university sports scholarships in US/India",
+      "median_package": "82% residential players earn professional club contracts or university sports quota",
+      "placement_rate": "88%",
+      "top_recruiters": [
+        "Mumbai City FC",
+        "Bengaluru FC",
+        "Mohun Bagan Super Giant",
+        "East Bengal",
+        "Kerala Blasters",
+        "Indian National Team"
+      ]
+    },
+    "admissions": {
+      "process": "All-India scouting trials across 30 cities assessing technical drills, tactical awareness, speed, and endurance.",
+      "application_period": "January - May 2026",
+      "entrance_exams": [
+        "BBFS All India Scouting Trial"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.bbfootballschools.com"
+    },
+    "reviews": [
+      {
+        "author": "Suraj Thapa",
+        "role": "Residential Academy Alumnus (Now at Bengaluru FC Reserves)",
+        "rating": 5,
+        "date": "2026-02-28",
+        "title": "Tactical understanding and daily discipline like a European club",
+        "comment": "BBFS taught me modern positional play and game reading. The residential setup makes sure your school studies never suffer while you train 2-3 hours twice a day.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "AIFF 4-Star Accreditation Audit",
+        "Ministry of Youth Affairs & Sports",
+        "Subroto Cup Records"
+      ],
+      "last_audited": "2026-06-20",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "bits-pilani",
+    "name": "Birla Institute of Technology and Science (BITS Pilani)",
+    "tagline": "Innovate, Achieve, Lead — Zero Attendance Freedom & Startup Incubation",
+    "type": "Engineering",
+    "category_label": "Engineering & Technology",
+    "established_year": 1964,
+    "ownership": "Private Deemed University (Institution of Eminence)",
+    "affiliation": "Deemed to be University under Section 3 of UGC Act",
+    "accreditations": [
+      "NAAC 'A' Grade",
+      "Institution of Eminence (IoE)",
+      "UGC & AICTE Recognized"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Platinum Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Central Audit Panel",
+      "verification_date": "2026-07-20",
+      "documents_checked": [
+        "Ministry of Education IoE Gazette",
+        "NAAC Accreditation",
+        "Practice School Industry Audit"
+      ],
+      "official_id": "INST-PVT-BITS-1964",
+      "audit_rating": "4.9 / 5.0"
+    },
+    "location": {
+      "address": "Vidya Vihar Campus",
+      "city": "Pilani",
+      "district": "Jhunjhunu",
+      "state": "Rajasthan",
+      "zone": "North India",
+      "pincode": "333031",
+      "coordinates": {
+        "lat": 28.3639,
+        "lng": 75.587
+      }
+    },
+    "contact": {
+      "phone": "+91 1596 242 210",
+      "helpline": "1800-159-BITS",
+      "email": "admissions@pilani.bits-pilani.ac.in",
+      "website": "https://www.bits-pilani.ac.in",
+      "brochure_name": "BITS_Pilani_Information_Brochure_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 490000,
+      "max_annual": 580000,
+      "average_annual": 535000,
+      "currency": "INR",
+      "fee_display": "₹4.9L - ₹5.8L / year",
+      "hostel_annual": 65000,
+      "scholarships": [
+        "Merit-cum-Need Scholarships covering up to 80% tuition for eligible students",
+        "Institute Top 1% Merit Scholarship (100% Tuition Waiver)",
+        "BITS Alumni Association Global Endowment Awards"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "B.E. Computer Science",
+          "tuition": 475000,
+          "hostel": 65000,
+          "other": 25000,
+          "duration": "4 Years"
+        },
+        {
+          "course": "B.E. Electronics & Communication",
+          "tuition": 475000,
+          "hostel": 65000,
+          "other": 25000,
+          "duration": "4 Years"
+        },
+        {
+          "course": "M.Sc. Dual Degree Programs",
+          "tuition": 475000,
+          "hostel": 65000,
+          "other": 25000,
+          "duration": "5 Years"
+        },
+        {
+          "course": "Higher Degree M.E. / M.Pharm",
+          "tuition": 380000,
+          "hostel": 65000,
+          "other": 20000,
+          "duration": "2 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.91,
+      "total_reviews": 690,
+      "academic": 4.9,
+      "teaching": 4.9,
+      "sports": 4.8,
+      "cultural": 5.0,
+      "infrastructure": 4.9,
+      "placement": 4.9,
+      "value_for_money": 4.6
+    },
+    "category_scores": {
+      "overall_performance": 97.6,
+      "teaching_quality": 97.4,
+      "academic_achievement": 98.2,
+      "sports_games": 93.0,
+      "cultural_festivals": 99.0,
+      "performing_arts": 92.0,
+      "innovation_research": 98.5,
+      "leadership_development": 99.0,
+      "infrastructure_facilities": 98.0,
+      "special_achievements": 98.2,
+      "student_satisfaction": 96.8,
+      "community_service": 92.5
+    },
+    "ranks": {
+      "national_overall": 4,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 3,
+      "sports_rank": 6,
+      "teaching_rank": 3,
+      "cultural_rank": 2,
+      "innovation_rank": 4
+    },
+    "courses_offered": [
+      {
+        "name": "B.E. (Hons.) Computer Science",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 220,
+        "eligibility": "BITSAT Score 335+",
+        "fees": "₹5.35L / yr"
+      },
+      {
+        "name": "B.E. (Hons.) Electronics & Instrumentation",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 140,
+        "eligibility": "BITSAT Score 290+",
+        "fees": "₹5.35L / yr"
+      },
+      {
+        "name": "M.Sc. Economics (Dual Degree)",
+        "degree": "Integrated Master",
+        "duration": "5 Years",
+        "seats": 110,
+        "eligibility": "BITSAT Score 285+",
+        "fees": "₹5.35L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 480,
+      "student_faculty_ratio": "1:11",
+      "phd_percentage": "94%",
+      "notable_faculty": [
+        "Prof. V. Ramgopal Rao (Group Vice-Chancellor & Former IITD Director)",
+        "Prof. Sudhirkumar Barai (Director & Structural Engineering specialist)",
+        "Prof. Chandra Shekhar (Semiconductor Design & Microelectronics)"
+      ]
+    },
+    "facilities": [
+      "328-acre self-contained heritage campus with iconic Clock Tower",
+      "Technology Business Incubator (Pilani Innovation & Entrepreneurship Development Society)",
+      "Practice School System (Mandatory 7.5-month full-time paid corporate internship program)",
+      "Zero Attendance Policy encouraging student self-motivation, startup building, and research",
+      "Massive student sports complex with floodlit cricket stadium, football arena, gym and swimming pool",
+      "Modern air-cooled hostels for 100% students with high-speed campus LAN"
+    ],
+    "sports_highlights": [
+      "BOSM (BITS Open Sports Meet) - One of India's largest national inter-college sports festivals",
+      "Top inter-collegiate medals in cricket, basketball, tennis, and powerlifting"
+    ],
+    "cultural_highlights": [
+      "OASIS - Asia's 2nd largest cultural festival (96 continuous hours of music, dance, and arts)",
+      "APOGEE - Premier ISO 9001:2008 certified international technical festival"
+    ],
+    "placements": {
+      "highest_package": "₹1.44 Crore / year (International) / ₹60.8 LPA (Domestic)",
+      "average_package": "₹21.8 LPA",
+      "median_package": "₹18.5 LPA",
+      "placement_rate": "96.5%",
+      "top_recruiters": [
+        "Google",
+        "Microsoft",
+        "Nvidia",
+        "Amazon",
+        "Apple",
+        "Uber",
+        "De Shaw",
+        "Goldman Sachs",
+        "Da Vinci Derivatives"
+      ]
+    },
+    "admissions": {
+      "process": "Online computer-based BITSAT examination conducted across two sessions nationwide.",
+      "application_period": "January - June 2026",
+      "entrance_exams": [
+        "BITSAT"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.bits-pilani.ac.in"
+    },
+    "reviews": [
+      {
+        "author": "Rishi Agarwal",
+        "role": "B.E. CSE Alumnus (Founder of Tech Unicorn)",
+        "rating": 5,
+        "date": "2026-02-22",
+        "title": "Zero attendance and Practice School gave me freedom to build",
+        "comment": "BITS treats you like an adult. You manage your own time, explore startups without attendance worries, and the alumni network is the most tight-knit in India.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "NIRF Engineering Top 25",
+        "IoE Status Ministry of Education",
+        "QS Asia University Rankings"
+      ],
+      "last_audited": "2026-07-18",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "nit-trichy",
+    "name": "National Institute of Technology Tiruchirappalli (NIT Trichy)",
+    "tagline": "India's #1 National Institute of Technology",
+    "type": "Engineering",
+    "category_label": "Engineering & Technology",
+    "established_year": 1964,
+    "ownership": "Public (Institute of National Importance)",
+    "affiliation": "Autonomous (Government of India)",
+    "accreditations": [
+      "NIRF #9 Engineering (Top among all NITs)",
+      "NIRF #1 NIT in India",
+      "NBA Tier-I Accredited"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Platinum Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Central Audit Panel",
+      "verification_date": "2026-07-15",
+      "documents_checked": [
+        "NIT Act 2007 Gazette",
+        "NIRF 2025 Ranking Verification",
+        "NBA Tier-1 Documents"
+      ],
+      "official_id": "INST-GOI-NITT-1964",
+      "audit_rating": "4.9 / 5.0"
+    },
+    "location": {
+      "address": "Tanjore Main Road, National Highway 67, Thuvakudi",
+      "city": "Tiruchirappalli",
+      "district": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "zone": "South India",
+      "pincode": "620015",
+      "coordinates": {
+        "lat": 10.7589,
+        "lng": 78.8132
+      }
+    },
+    "contact": {
+      "phone": "+91 431 250 3000",
+      "helpline": "1800-431-NITT",
+      "email": "deanac@nitt.edu",
+      "website": "https://www.nitt.edu",
+      "brochure_name": "NIT_Trichy_Prospectus_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 175000,
+      "max_annual": 235000,
+      "average_annual": 195000,
+      "currency": "INR",
+      "fee_display": "₹1.75L - ₹2.35L / year",
+      "hostel_annual": 42000,
+      "scholarships": [
+        "Fee Remission for Economically Weaker Section (100% waiver if family income < ₹1L)",
+        "Central Sector Scholarship for Top SC/ST Candidates",
+        "RECAL Alumni Scholarships"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "B.Tech All Streams",
+          "tuition": 125000,
+          "hostel": 42000,
+          "other": 28000,
+          "duration": "4 Years"
+        },
+        {
+          "course": "B.Arch (Architecture)",
+          "tuition": 125000,
+          "hostel": 42000,
+          "other": 30000,
+          "duration": "5 Years"
+        },
+        {
+          "course": "M.Tech / MCA",
+          "tuition": 70000,
+          "hostel": 42000,
+          "other": 22000,
+          "duration": "2-3 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.88,
+      "total_reviews": 650,
+      "academic": 4.9,
+      "teaching": 4.9,
+      "sports": 4.8,
+      "cultural": 4.9,
+      "infrastructure": 4.8,
+      "placement": 4.9,
+      "value_for_money": 4.9
+    },
+    "category_scores": {
+      "overall_performance": 97.2,
+      "teaching_quality": 97.0,
+      "academic_achievement": 97.8,
+      "sports_games": 94.0,
+      "cultural_festivals": 97.0,
+      "performing_arts": 89.0,
+      "innovation_research": 97.5,
+      "leadership_development": 96.5,
+      "infrastructure_facilities": 97.0,
+      "special_achievements": 97.0,
+      "student_satisfaction": 96.0,
+      "community_service": 93.0
+    },
+    "ranks": {
+      "national_overall": 5,
+      "state_rank": 2,
+      "district_rank": 1,
+      "category_rank": 4,
+      "sports_rank": 5,
+      "teaching_rank": 4,
+      "cultural_rank": 5,
+      "innovation_rank": 5
+    },
+    "courses_offered": [
+      {
+        "name": "B.Tech Computer Science & Engineering",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 140,
+        "eligibility": "JEE Main Top 1200 AIR",
+        "fees": "₹1.95L / yr"
+      },
+      {
+        "name": "B.Tech Electrical & Electronics",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 120,
+        "eligibility": "JEE Main Top 5000 AIR",
+        "fees": "₹1.95L / yr"
+      },
+      {
+        "name": "B.Tech Mechanical Engineering",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 120,
+        "eligibility": "JEE Main Top 7500 AIR",
+        "fees": "₹1.95L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 360,
+      "student_faculty_ratio": "1:12",
+      "phd_percentage": "96%",
+      "notable_faculty": [
+        "Dr. G. Aghila (Director & AI Data Security Specialist)",
+        "Dr. N. Sivakumaran (Instrumentation & Controls pioneer)"
+      ]
+    },
+    "facilities": [
+      "800-acre expansive campus with dedicated bicycle tracks and green energy systems",
+      "Center of Excellence in Manufacturing and Siemens Industry 4.0 Lab",
+      "Orion Lecture Hall Complex (state-of-the-art smart audio-visual theatres)",
+      "Modern Sports Complex with Olympic swimming pool, 400m synthetic running track, indoor badminton",
+      "Over 22 student hostels with dedicated mess serving North and South Indian food"
+    ],
+    "sports_highlights": [
+      "Inter-NIT National Sports Meet Overall Champions (2024, 2025)",
+      "State-of-the-art athletic tracks and active sports clubs"
+    ],
+    "cultural_highlights": [
+      "Festember - South India's largest annual cultural fest (certified ISO 9001, footfall 18,000+)",
+      "Pragyan - ISO 9001 and ISO 20121 certified international techno-managerial fest"
+    ],
+    "placements": {
+      "highest_package": "₹52.89 LPA (Domestic) / ₹1.1 Crore (International)",
+      "average_package": "₹20.4 LPA (CSE) / ₹15.8 LPA (Overall)",
+      "median_package": "₹14.2 LPA",
+      "placement_rate": "95.5%",
+      "top_recruiters": [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Texas Instruments",
+        "Qualcomm",
+        "Morgan Stanley",
+        "Samsung R&D",
+        "L&T"
+      ]
+    },
+    "admissions": {
+      "process": "JEE Main through JoSAA and CSAB centralized counseling.",
+      "application_period": "November - June 2026",
+      "entrance_exams": [
+        "JEE Main"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.nitt.edu"
+    },
+    "reviews": [
+      {
+        "author": "Vignesh Rajan",
+        "role": "B.Tech CSE Class of 2025",
+        "rating": 5,
+        "date": "2026-02-15",
+        "title": "Festember and Pragyan give you incredible management experience",
+        "comment": "NIT Trichy gives you the best of both worlds: academic rigor equivalent to top IITs, and an energetic student fest culture that is completely run by students.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "NIRF Engineering 2025 #9",
+        "Council of NITs Audit",
+        "NBA Tier-1"
+      ],
+      "last_audited": "2026-07-12",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "nid-ahmedabad",
+    "name": "National Institute of Design (NID Ahmedabad)",
+    "tagline": "India's Apex Design Institution & Institute of National Importance",
+    "type": "Vocational & Design",
+    "category_label": "Research Institutes & Universities",
+    "established_year": 1961,
+    "ownership": "Autonomous Body under Ministry of Commerce and Industry",
+    "affiliation": "Institute of National Importance (Government of India)",
+    "accreditations": [
+      "NID Act 2014 GoI",
+      "World Design Organization (WDO) Member"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Platinum Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Design & Vocational Wing",
+      "verification_date": "2026-06-25",
+      "documents_checked": [
+        "NID Act 2014 Gazette",
+        "Ministry of Commerce Audit",
+        "WDO Global Affiliation"
+      ],
+      "official_id": "INST-GOI-NID-1961",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "Opposite Tagore Hall, Rajnagar Society, Paldi",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "state": "Gujarat",
+      "zone": "Western India",
+      "pincode": "380007",
+      "coordinates": {
+        "lat": 23.0132,
+        "lng": 72.5691
+      }
+    },
+    "contact": {
+      "phone": "+91 79 2662 3692",
+      "helpline": "1800-79-NIDD",
+      "email": "admissions@nid.edu",
+      "website": "https://www.nid.edu",
+      "brochure_name": "NID_Design_Admissions_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 320000,
+      "max_annual": 410000,
+      "average_annual": 365000,
+      "currency": "INR",
+      "fee_display": "₹3.2L - ₹4.1L / year",
+      "hostel_annual": 65000,
+      "scholarships": [
+        "NID Financial Aid Scheme (Up to 100% Tuition Remission for deserving students)",
+        "Ford Foundation Design Scholarships",
+        "Government of India Central Sector Grants"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "B.Des in Product / Graphic / Animation Design",
+          "tuition": 345000,
+          "hostel": 65000,
+          "other": 25000,
+          "duration": "4 Years"
+        },
+        {
+          "course": "M.Des in Interaction / Transportation / Universal Design",
+          "tuition": 375000,
+          "hostel": 65000,
+          "other": 28000,
+          "duration": "2.5 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.93,
+      "total_reviews": 420,
+      "academic": 4.9,
+      "teaching": 5.0,
+      "sports": 4.3,
+      "cultural": 5.0,
+      "infrastructure": 4.9,
+      "placement": 4.9,
+      "value_for_money": 4.8
+    },
+    "category_scores": {
+      "overall_performance": 98.2,
+      "teaching_quality": 99.4,
+      "academic_achievement": 97.0,
+      "sports_games": 80.0,
+      "cultural_festivals": 99.2,
+      "performing_arts": 96.0,
+      "innovation_research": 99.0,
+      "leadership_development": 97.0,
+      "infrastructure_facilities": 97.5,
+      "special_achievements": 99.5,
+      "student_satisfaction": 98.0,
+      "community_service": 94.0
+    },
+    "ranks": {
+      "national_overall": 1,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 30,
+      "teaching_rank": 1,
+      "cultural_rank": 3,
+      "innovation_rank": 2
+    },
+    "courses_offered": [
+      {
+        "name": "B.Des in Industrial & Product Design",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 45,
+        "eligibility": "NID DAT Prelims & Mains Top Rank",
+        "fees": "₹3.65L / yr"
+      },
+      {
+        "name": "B.Des in Communication & Graphic Design",
+        "degree": "Undergraduate",
+        "duration": "4 Years",
+        "seats": 40,
+        "eligibility": "NID DAT Prelims & Mains",
+        "fees": "₹3.65L / yr"
+      },
+      {
+        "name": "M.Des in Interaction Design (UI/UX)",
+        "degree": "Postgraduate",
+        "duration": "2.5 Years",
+        "seats": 25,
+        "eligibility": "NID DAT PG + Portfolio Review",
+        "fees": "₹3.90L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 85,
+      "student_faculty_ratio": "1:8",
+      "phd_percentage": "Master Designers & International Bauhaus lineage",
+      "notable_faculty": [
+        "Dr. Praveen Nahar (Director & Sustainable Design Specialist)",
+        "Prof. Tarun Deep Girdher (Graphic Design & Typography Authority)"
+      ]
+    },
+    "facilities": [
+      "Iconic Sabarmati riverfront campus designed by Gautam & Gira Sarabhai based on the Eames Report",
+      "Prototyping workshops: Wood, Metal, Ceramics, Glass, Textiles, and Rapid 3D Prototyping",
+      "Digital Interaction and AR/VR User Experience Experience Labs",
+      "Knowledge Management Centre (KMC) with over 45,000 international design resources and materials library",
+      "Design Vision Centre and Student Open Studios with 24/7 access"
+    ],
+    "sports_highlights": [
+      "Yoga, table tennis, badminton, and riverfront athletics"
+    ],
+    "cultural_highlights": [
+      "RGB - Annual National Design Festival celebrating creative intersections",
+      "The Eames Lecture Series featuring global design luminaries"
+    ],
+    "placements": {
+      "highest_package": "₹45 LPA (Product Design / UI/UX Leadership) & Global Design Consultancies",
+      "average_package": "₹18.4 LPA",
+      "median_package": "₹16.0 LPA",
+      "placement_rate": "97%",
+      "top_recruiters": [
+        "Google Design",
+        "Microsoft IDC",
+        "Apple",
+        "Samsung UX",
+        "Tata Motors Design Studio",
+        "IKEA",
+        "Frog Design",
+        "IDEO"
+      ]
+    },
+    "admissions": {
+      "process": "Design Aptitude Test (DAT) Prelims followed by Studio Test & Personal Interview Mains.",
+      "application_period": "September - December 2026",
+      "entrance_exams": [
+        "NID DAT Prelims",
+        "NID DAT Mains"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.nid.edu"
+    },
+    "reviews": [
+      {
+        "author": "Aakriti Sen",
+        "role": "B.Des Interaction Design 2024",
+        "rating": 5,
+        "date": "2026-02-11",
+        "title": "A place that teaches you how to think, not just how to draw",
+        "comment": "The hands-on workshop culture and critiques push your curiosity. Having 24/7 studio access means your ideas take physical form immediately.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "Ministry of Commerce & Industry, GoI",
+        "World Design Organization Register",
+        "StudyFinder Design Audit"
+      ],
+      "last_audited": "2026-06-20",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "vision-ias-delhi",
+    "name": "Vision IAS Academy",
+    "tagline": "Pioneering Interactive Mentorship for UPSC Civil Services Examination",
+    "type": "Coaching & Test Prep",
+    "category_label": "Coaching Centers & Training Academies",
+    "established_year": 2008,
+    "ownership": "Private Civil Services Training Institute",
+    "affiliation": "National Civil Services Preparation Institute",
+    "accreditations": [
+      "StudyFinder Civil Services Verified",
+      "ISO 9001:2015"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Test-Prep Verification Wing",
+      "verification_date": "2026-06-12",
+      "documents_checked": [
+        "Company Registration",
+        "UPSC Final Result Affidavits",
+        "Faculty Qualification Audit"
+      ],
+      "official_id": "INST-CP-VIAS-2008",
+      "audit_rating": "4.9 / 5.0"
+    },
+    "location": {
+      "address": "635, 1st Floor, Main Road, Dr. Mukherjee Nagar",
+      "city": "New Delhi",
+      "district": "North West Delhi",
+      "state": "Delhi",
+      "zone": "North India",
+      "pincode": "110009",
+      "coordinates": {
+        "lat": 28.7099,
+        "lng": 77.2155
+      }
+    },
+    "contact": {
+      "phone": "+91 84680 22022",
+      "helpline": "+91 90190 66066",
+      "email": "enquiry@visionias.in",
+      "website": "https://www.visionias.in",
+      "brochure_name": "Vision_IAS_Foundation_Guide_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 135000,
+      "max_annual": 195000,
+      "average_annual": 165000,
+      "currency": "INR",
+      "fee_display": "₹1.35L - ₹1.95L / year",
+      "hostel_annual": 130000,
+      "scholarships": [
+        "Abhyas All-India Merit Scholarship (Up to 100% Fee Remission)",
+        "Special Concession for Serving Defense Personnel & Wards",
+        "Divyangjan Disability Concession"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "GS Foundation Course (Prelims + Mains + Interview)",
+          "tuition": 165000,
+          "hostel": 0,
+          "other": 15000,
+          "duration": "1 Year"
+        },
+        {
+          "course": "All-India GS Prelims & Mains Test Series with Mentorship",
+          "tuition": 32000,
+          "hostel": 0,
+          "other": 3000,
+          "duration": "1 Year"
+        },
+        {
+          "course": "CSAT & Essay Enrichment Modules",
+          "tuition": 25000,
+          "hostel": 0,
+          "other": 2000,
+          "duration": "6 Months"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.89,
+      "total_reviews": 980,
+      "academic": 5.0,
+      "teaching": 4.9,
+      "sports": 3.5,
+      "cultural": 4.0,
+      "infrastructure": 4.8,
+      "placement": 5.0,
+      "value_for_money": 4.8
+    },
+    "category_scores": {
+      "overall_performance": 96.2,
+      "teaching_quality": 98.6,
+      "academic_achievement": 99.5,
+      "sports_games": 60.0,
+      "cultural_festivals": 70.0,
+      "performing_arts": 55.0,
+      "innovation_research": 88.0,
+      "leadership_development": 95.0,
+      "infrastructure_facilities": 94.5,
+      "special_achievements": 99.2,
+      "student_satisfaction": 95.0,
+      "community_service": 91.0
+    },
+    "ranks": {
+      "national_overall": 1,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 1,
+      "sports_rank": 42,
+      "teaching_rank": 1,
+      "cultural_rank": 26,
+      "innovation_rank": 13
+    },
+    "courses_offered": [
+      {
+        "name": "UPSC GS Foundation 1-Year Comprehensive",
+        "degree": "Civil Services Prep",
+        "duration": "1 Year",
+        "seats": 1200,
+        "eligibility": "Graduation in any discipline",
+        "fees": "₹1.65L / yr"
+      },
+      {
+        "name": "All India Prelims & Mains Test Series",
+        "degree": "Evaluation & Test Prep",
+        "duration": "10 Months",
+        "seats": 10000,
+        "eligibility": "UPSC Aspirants",
+        "fees": "₹32,000 / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 180,
+      "student_faculty_ratio": "1:20 (With personal mentors)",
+      "phd_percentage": "Ex-Civil Servants, Subject Authorities & Ph.D. Scholars",
+      "notable_faculty": [
+        "Ajay Kumar (Director & Ethics Pedagogy Specialist)",
+        "Distinguished Retd. IAS and IFS officers on Mock Interview Panel"
+      ]
+    },
+    "facilities": [
+      "Modern air-conditioned centres in Mukherjee Nagar, Karol Bagh, and major metro cities",
+      "Dedicated 1-on-1 personal mentorship cabins for copy evaluation and answer writing feedback",
+      "Smart digital studios with live streaming and archived video recordings",
+      "Comprehensive monthly current affairs magazine ('Vision IAS Monthly') trusted by 90%+ UPSC toppers",
+      "Silent library and study pod facilities open till 11 PM"
+    ],
+    "sports_highlights": [
+      "Meditation and mental wellness stress-relief seminars"
+    ],
+    "cultural_highlights": [
+      "Toppers' Talk series and bureaucrat interaction roundtables"
+    ],
+    "placements": {
+      "highest_package": "Over 600 selections in UPSC Civil Services annually (including AIR 1, 2, 3 multiple times)",
+      "average_package": "75%+ of final selected IAS/IPS/IFS officers enrolled in Vision IAS Test Series or Mentorship",
+      "median_package": "Highest success rate in UPSC Mains answer evaluation nationwide",
+      "placement_rate": "86%",
+      "top_recruiters": [
+        "Indian Administrative Service (IAS)",
+        "Indian Police Service (IPS)",
+        "Indian Foreign Service (IFS)",
+        "IRS & Central Services"
+      ]
+    },
+    "admissions": {
+      "process": "Online or offline registration for foundation batches; direct enrollment for test series.",
+      "application_period": "Batches commence monthly throughout the year",
+      "entrance_exams": [
+        "Vision IAS Abhyas Diagnostic Assessment"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.visionias.in"
+    },
+    "reviews": [
+      {
+        "author": "Dr. Ishita Kishore",
+        "role": "UPSC All India Rank 1",
+        "rating": 5,
+        "date": "2026-01-18",
+        "title": "The Mains test series and evaluation feedback made the ultimate difference",
+        "comment": "The detailed rubric and personal mentorship helped me refine my answer presentation, introduction hooks, and data citations under tight time pressure.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "UPSC Annual Final Selection Gazette",
+        "Audited Results Affidavits",
+        "StudyFinder Test-Prep Panel"
+      ],
+      "last_audited": "2026-06-10",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "nalsar-hyderabad",
+    "name": "NALSAR University of Law",
+    "tagline": "Where Law Meets Justice, Equality & Contemporary Legal Thought",
+    "type": "Law",
+    "category_label": "Law Colleges",
+    "established_year": 1998,
+    "ownership": "State Statutory University",
+    "affiliation": "Autonomous (Bar Council of India Approved)",
+    "accreditations": [
+      "NIRF #3 Law in India",
+      "NAAC 'A++' Grade",
+      "Bar Council of India Recognized"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Platinum Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Central Audit Panel",
+      "verification_date": "2026-07-04",
+      "documents_checked": [
+        "NALSAR University Act 1998",
+        "NAAC A++ Accreditation",
+        "BCI Affiliation Registry"
+      ],
+      "official_id": "INST-BCI-NALSAR-1998",
+      "audit_rating": "4.9 / 5.0"
+    },
+    "location": {
+      "address": "Justice City, Shameerpet",
+      "city": "Hyderabad",
+      "district": "Medchal-Malkajgiri",
+      "state": "Telangana",
+      "zone": "South India",
+      "pincode": "500101",
+      "coordinates": {
+        "lat": 17.6083,
+        "lng": 78.5714
+      }
+    },
+    "contact": {
+      "phone": "+91 40 2349 8105",
+      "helpline": "1800-40-NALSAR",
+      "email": "admissions@nalsar.ac.in",
+      "website": "https://www.nalsar.ac.in",
+      "brochure_name": "NALSAR_Hyderabad_Admissions_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 310000,
+      "max_annual": 390000,
+      "average_annual": 345000,
+      "currency": "INR",
+      "fee_display": "₹3.1L - ₹3.9L / year",
+      "hostel_annual": 70000,
+      "scholarships": [
+        "NALSAR Merit-cum-Means Financial Assistance (Up to 100% Tuition Waiver)",
+        "Telangana State Post-Matric Scholarships",
+        "Tata Trust Legal Fellowships"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "B.A., LL.B. (Hons.) 5-Year",
+          "tuition": 265000,
+          "hostel": 70000,
+          "other": 25000,
+          "duration": "5 Years"
+        },
+        {
+          "course": "LL.M. (Master of Laws)",
+          "tuition": 210000,
+          "hostel": 70000,
+          "other": 20000,
+          "duration": "1 Year"
+        },
+        {
+          "course": "MBA in Corporate Law & Business",
+          "tuition": 280000,
+          "hostel": 70000,
+          "other": 25000,
+          "duration": "2 Years"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.9,
+      "total_reviews": 380,
+      "academic": 4.9,
+      "teaching": 4.9,
+      "sports": 4.5,
+      "cultural": 4.8,
+      "infrastructure": 4.9,
+      "placement": 4.9,
+      "value_for_money": 4.7
+    },
+    "category_scores": {
+      "overall_performance": 97.8,
+      "teaching_quality": 98.0,
+      "academic_achievement": 98.6,
+      "sports_games": 88.0,
+      "cultural_festivals": 94.0,
+      "performing_arts": 88.0,
+      "innovation_research": 96.0,
+      "leadership_development": 98.5,
+      "infrastructure_facilities": 97.5,
+      "special_achievements": 98.0,
+      "student_satisfaction": 96.0,
+      "community_service": 95.0
+    },
+    "ranks": {
+      "national_overall": 2,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 2,
+      "sports_rank": 15,
+      "teaching_rank": 2,
+      "cultural_rank": 4,
+      "innovation_rank": 7
+    },
+    "courses_offered": [
+      {
+        "name": "B.A., LL.B. (Hons.)",
+        "degree": "Undergraduate",
+        "duration": "5 Years",
+        "seats": 132,
+        "eligibility": "CLAT Top 150 All India Rank",
+        "fees": "₹3.60L / yr"
+      },
+      {
+        "name": "LL.M. in International Trade / IPR",
+        "degree": "Postgraduate",
+        "duration": "1 Year",
+        "seats": 66,
+        "eligibility": "CLAT PG Merit",
+        "fees": "₹3.00L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 75,
+      "student_faculty_ratio": "1:10",
+      "phd_percentage": "92%",
+      "notable_faculty": [
+        "Prof. Srikrishna Deva Rao (Vice-Chancellor & Renowned Criminologist)",
+        "Prof. Faizan Mustafa (Eminent Constitutional Jurist & Former VC)"
+      ]
+    },
+    "facilities": [
+      "55-acre serene lakeside residential campus in Shameerpet",
+      "M.K. Nambyar SAARCLAW Centre and Supreme Court Replica Moot Court Hall",
+      "Centrally air-conditioned library with LexisNexis, Westlaw, Manupatra, and HeinOnline",
+      "Full sports complex: tennis courts, football pitch, cricket ground, basketball, and gym",
+      "100% residential campus with high-speed Wi-Fi, cafes, and healthcare center"
+    ],
+    "sports_highlights": [
+      "Inter-Ghats Sports Meet Champions",
+      "Active football, basketball, and athletics leagues"
+    ],
+    "cultural_highlights": [
+      "NALSAR Inter-Varsity Parliamentary Debate (India's premier debating competition)",
+      "Carpe Diem - Annual cultural festival with celebrity performances"
+    ],
+    "placements": {
+      "highest_package": "₹22 LPA (Tier-1 Indian Firms) / £58,000 (UK Magic Circle)",
+      "average_package": "₹16.8 LPA",
+      "median_package": "₹15.5 LPA",
+      "placement_rate": "98%",
+      "top_recruiters": [
+        "Cyril Amarchand Mangaldas",
+        "Khaitan & Co",
+        "Shardul Amarchand Mangaldas",
+        "Trilegal",
+        "Clifford Chance",
+        "Herbert Smith Freehills"
+      ]
+    },
+    "admissions": {
+      "process": "CLAT (Common Law Admission Test) through Consortium of NLUs.",
+      "application_period": "July - December 2026",
+      "entrance_exams": [
+        "CLAT"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.nalsar.ac.in"
+    },
+    "reviews": [
+      {
+        "author": "Ananya Reddy",
+        "role": "B.A., LL.B. Alumna, Khaitan & Co",
+        "rating": 5,
+        "date": "2026-02-09",
+        "title": "A serene lakeside campus that fosters deep intellectual debate",
+        "comment": "NALSAR has a unique culture where students are treated as equal colleagues by professors. The constitutional law discussions by the lake are unforgettable.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "NIRF Law 2025 #3",
+        "Bar Council of India Audit",
+        "NAAC A++ Certificate"
+      ],
+      "last_audited": "2026-07-01",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "cathedral-school-mumbai",
+    "name": "The Cathedral & John Connon School",
+    "tagline": "Clarum Efficiunt Studia — Studies Make Men Famous (Since 1860)",
+    "type": "School",
+    "category_label": "Schools & Junior Colleges",
+    "established_year": 1860,
+    "ownership": "Private Heritage Day School",
+    "affiliation": "CISCE (ICSE / ISC) & International Baccalaureate (IBDP)",
+    "accreditations": [
+      "EducationWorld #1 All-India Day School",
+      "IB World School",
+      "CISCE Affiliated"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Gold Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder K-12 Audit Board",
+      "verification_date": "2026-05-18",
+      "documents_checked": [
+        "CISCE Board Affiliation",
+        "IBDP Accreditation Certificate",
+        "Heritage Safety Audit"
+      ],
+      "official_id": "INST-SCH-CATH-1860",
+      "audit_rating": "5.0 / 5.0"
+    },
+    "location": {
+      "address": "6, Purshottamdas Thakurdas Marg, Fort",
+      "city": "Mumbai",
+      "district": "Mumbai City",
+      "state": "Maharashtra",
+      "zone": "Western India",
+      "pincode": "400001",
+      "coordinates": {
+        "lat": 18.9348,
+        "lng": 72.8335
+      }
+    },
+    "contact": {
+      "phone": "+91 22 4322 1400",
+      "helpline": "+91 22 2200 1282",
+      "email": "principal@cathedral-school.com",
+      "website": "https://cathedral-school.com",
+      "brochure_name": "Cathedral_School_Prospectus_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 240000,
+      "max_annual": 780000,
+      "average_annual": 460000,
+      "currency": "INR",
+      "fee_display": "₹2.4L (ICSE) - ₹7.8L (IBDP) / year",
+      "hostel_annual": 0,
+      "scholarships": [
+        "The Cathedral Alumni Trust Need-Based Merit Bursaries",
+        "Anglo-Scottish Education Society Scholarships"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "Primary & Middle School (Class 1-8)",
+          "tuition": 240000,
+          "hostel": 0,
+          "other": 35000,
+          "duration": "Annual"
+        },
+        {
+          "course": "ICSE Class 9 & 10",
+          "tuition": 280000,
+          "hostel": 0,
+          "other": 40000,
+          "duration": "Annual"
+        },
+        {
+          "course": "IB Diploma Programme (Class 11 & 12)",
+          "tuition": 780000,
+          "hostel": 0,
+          "other": 65000,
+          "duration": "Annual"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.92,
+      "total_reviews": 430,
+      "academic": 5.0,
+      "teaching": 4.9,
+      "sports": 4.7,
+      "cultural": 5.0,
+      "infrastructure": 4.9,
+      "placement": 5.0,
+      "value_for_money": 4.7
+    },
+    "category_scores": {
+      "overall_performance": 98.0,
+      "teaching_quality": 98.5,
+      "academic_achievement": 99.2,
+      "sports_games": 92.0,
+      "cultural_festivals": 99.0,
+      "performing_arts": 98.0,
+      "innovation_research": 93.0,
+      "leadership_development": 99.5,
+      "infrastructure_facilities": 97.0,
+      "special_achievements": 99.0,
+      "student_satisfaction": 97.0,
+      "community_service": 96.0
+    },
+    "ranks": {
+      "national_overall": 2,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 2,
+      "sports_rank": 8,
+      "teaching_rank": 1,
+      "cultural_rank": 1,
+      "innovation_rank": 9
+    },
+    "courses_offered": [
+      {
+        "name": "ICSE (Class 9 & 10)",
+        "degree": "Secondary Education",
+        "duration": "2 Years",
+        "seats": 160,
+        "eligibility": "Internal Continuation / Entrance",
+        "fees": "₹2.80L / yr"
+      },
+      {
+        "name": "IB Diploma Programme (IBDP Class 11-12)",
+        "degree": "Senior Secondary",
+        "duration": "2 Years",
+        "seats": 85,
+        "eligibility": "10th Board Exam / Aptitude Test",
+        "fees": "₹7.80L / yr"
+      },
+      {
+        "name": "ISC Science & Commerce (Class 11-12)",
+        "degree": "Senior Secondary",
+        "duration": "2 Years",
+        "seats": 80,
+        "eligibility": "ICSE Merit",
+        "fees": "₹3.20L / yr"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 160,
+      "student_faculty_ratio": "1:10",
+      "phd_percentage": "30% Master's & International IB Examiner Certified",
+      "notable_faculty": [
+        "Dr. S. Mukherjee (Principal & Renowned Educationist)",
+        "Distinguished Deans of English Literature and Sciences"
+      ]
+    },
+    "facilities": [
+      "Neo-Gothic Victorian stone heritage campus in the heart of South Mumbai's Fort district",
+      "Cutting-edge MakerSpace & Robotics Labs with 3D scanners and laser fabricators",
+      "Cathedral High School Library with 40,000 volumes and global EBSCO research access",
+      "Gymnasium, all-weather synthetic basketball courts, and Azad Maidan cricket facilities",
+      "Acoustic music rooms, choir auditoriums, and drama studios"
+    ],
+    "sports_highlights": [
+      "MSSA (Mumbai Schools Sports Association) champions in Football, Rugby, and Swimming",
+      "Active rowing and sailing clubs tied up with the Royal Bombay Yacht Club"
+    ],
+    "cultural_highlights": [
+      "Cathedral Model United Nations (CMUN) - India's oldest and most prestigious school MUN",
+      "Annual Founder's Day Concert at the NCPA (National Centre for the Performing Arts)",
+      "The Malhar & Inter-House Music Festival"
+    ],
+    "placements": {
+      "highest_package": "Over 70% of graduating IBDP cohort admitted into Ivy League, Oxford, Cambridge, and Stanford",
+      "average_package": "100% University Placement in Top Tier Global & Indian Universities",
+      "median_package": "Highest average IB score in India (38.5 points out of 45)",
+      "placement_rate": "100%",
+      "top_recruiters": [
+        "Harvard",
+        "Stanford",
+        "Yale",
+        "Oxford",
+        "Cambridge",
+        "Columbia",
+        "UPenn",
+        "Ashoka University"
+      ]
+    },
+    "admissions": {
+      "process": "Online application, points system for junior school, and competitive admission test for Class 11 IBDP.",
+      "application_period": "October - January 2026",
+      "entrance_exams": [
+        "Cathedral IBDP Aptitude Test"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.cathedral-school.com"
+    },
+    "reviews": [
+      {
+        "author": "Ratan Tata (Late)",
+        "role": "Distinguished Alumnus",
+        "rating": 5,
+        "date": "2025-10-10",
+        "title": "A school that instilled values of integrity, service and excellence",
+        "comment": "The foundations of discipline and values built at Cathedral remain with you for a lifetime.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "EducationWorld All-India Day School #1",
+        "CISCE Council Audit",
+        "IB World Organization"
+      ],
+      "last_audited": "2026-05-15",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  },
+  {
+    "id": "your-space-bengaluru",
+    "name": "Your-Space Premier Student Residence (Koramangala)",
+    "tagline": "Comfort, Community & Academic Productivity Redefined",
+    "type": "Student Hostel",
+    "category_label": "Hostels & Accommodations",
+    "established_year": 2020,
+    "ownership": "Managed Private Student Housing",
+    "affiliation": "StudyFinder Verified Student Housing Partner",
+    "accreditations": [
+      "FSSAI 5-Star Kitchen",
+      "Safety & Fire Compliance Certified",
+      "StudyFinder Verified Co-Living"
+    ],
+    "verification_status": "verified",
+    "verification_badge": "StudyFinder Verified",
+    "verification_details": {
+      "verified_by": "StudyFinder Housing Inspection Panel",
+      "verification_date": "2026-07-10",
+      "documents_checked": [
+        "FSSAI Food Certification",
+        "Biometric Access Audit",
+        "Student Tenancy Code Agreement"
+      ],
+      "official_id": "INST-HST-YSPC-2020",
+      "audit_rating": "4.8 / 5.0"
+    },
+    "location": {
+      "address": "4th Block, Near Sony World Signal, Koramangala",
+      "city": "Bengaluru",
+      "district": "Bengaluru Urban",
+      "state": "Karnataka",
+      "zone": "South India",
+      "pincode": "560034",
+      "coordinates": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      }
+    },
+    "contact": {
+      "phone": "+91 80 4567 8900",
+      "helpline": "+91 800-YOUR-SPACE",
+      "email": "info@your-space.in",
+      "website": "https://www.your-space.in",
+      "brochure_name": "Your_Space_Koramangala_Brochure_2026.pdf"
+    },
+    "fees": {
+      "min_annual": 180000,
+      "max_annual": 288000,
+      "average_annual": 228000,
+      "currency": "INR",
+      "fee_display": "₹15,000 - ₹24,000 / month (Meals Included)",
+      "hostel_annual": 228000,
+      "scholarships": [
+        "Full Academic Year Advance Payment 10% Discount",
+        "Sibling and Referral Cashbacks"
+      ],
+      "fee_breakdown": [
+        {
+          "course": "Double Sharing with Attached Bathroom & AC",
+          "tuition": 0,
+          "hostel": 216000,
+          "other": 10000,
+          "duration": "Annual (₹18,000/mo)"
+        },
+        {
+          "course": "Single Private Suite with Study Corner & Balcony",
+          "tuition": 0,
+          "hostel": 288000,
+          "other": 10000,
+          "duration": "Annual (₹24,000/mo)"
+        },
+        {
+          "course": "Triple Sharing Economy Room",
+          "tuition": 0,
+          "hostel": 180000,
+          "other": 10000,
+          "duration": "Annual (₹15,000/mo)"
+        }
+      ]
+    },
+    "ratings": {
+      "overall": 4.81,
+      "total_reviews": 340,
+      "academic": 4.4,
+      "teaching": 4.0,
+      "sports": 4.3,
+      "cultural": 4.5,
+      "infrastructure": 4.9,
+      "placement": 4.0,
+      "value_for_money": 4.8
+    },
+    "category_scores": {
+      "overall_performance": 93.5,
+      "teaching_quality": 80.0,
+      "academic_achievement": 83.0,
+      "sports_games": 82.0,
+      "cultural_festivals": 85.0,
+      "performing_arts": 76.0,
+      "innovation_research": 84.0,
+      "leadership_development": 87.0,
+      "infrastructure_facilities": 98.2,
+      "special_achievements": 90.0,
+      "student_satisfaction": 96.5,
+      "community_service": 86.0
+    },
+    "ranks": {
+      "national_overall": 2,
+      "state_rank": 1,
+      "district_rank": 1,
+      "category_rank": 2,
+      "sports_rank": 29,
+      "teaching_rank": 32,
+      "cultural_rank": 16,
+      "innovation_rank": 19
+    },
+    "courses_offered": [
+      {
+        "name": "Premium Student Double Room with Meal Plan",
+        "degree": "Hostel Stay",
+        "duration": "Academic Year",
+        "seats": 80,
+        "eligibility": "College / University Student",
+        "fees": "₹18,000 / mo"
+      },
+      {
+        "name": "Private Single Room Suite",
+        "degree": "Hostel Stay",
+        "duration": "Academic Year",
+        "seats": 30,
+        "eligibility": "College / University Student",
+        "fees": "₹24,000 / mo"
+      }
+    ],
+    "faculty_summary": {
+      "total_faculty": 20,
+      "student_faculty_ratio": "1:8 (Resident Managers & Wardens)",
+      "phd_percentage": "Certified Hospitality & Security Personnel",
+      "notable_faculty": [
+        "24/7 Security Officers & Resident Female Warden",
+        "Executive Nutrition Chef"
+      ]
+    },
+    "facilities": [
+      "Proximity (10 mins) to St. John's Medical College, Christ University, and startup offices",
+      "4 times daily chef-prepared home-style nutritious buffet meals",
+      "Dedicated sound-damped study lounge with ergonomic chairs and high-speed Wi-Fi 6",
+      "Biometric smart-lock door entries, 360-degree CCTV security, and parent notification app",
+      "Fully air-conditioned rooms with daily housekeeping and free weekly laundry service",
+      "Rooftop turf lounge with barbecue grill, table tennis, and gym equipment"
+    ],
+    "sports_highlights": [
+      "Rooftop fitness zone, indoor table tennis, and yoga mats"
+    ],
+    "cultural_highlights": [
+      "Monthly community open-mic nights, board game tournaments, and movie screenings"
+    ],
+    "placements": {
+      "highest_package": "N/A (Student Accommodation - 100% verified student occupants)",
+      "average_package": "Proximity to Top Colleges & Tech Hubs",
+      "median_package": "100% Verified Peaceful Study Environment",
+      "placement_rate": "100%",
+      "top_recruiters": [
+        "Christ University Students",
+        "St. John's Medical Students",
+        "Interns at Bengaluru Startups"
+      ]
+    },
+    "admissions": {
+      "process": "Online portal room reservation, college verification, digital agreement.",
+      "application_period": "Rolling Admissions for Semesters",
+      "entrance_exams": [
+        "Student ID / Admission Offer Letter"
+      ],
+      "scholarships_available": true
+    },
+    "images": {
+      "hero": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80"
+      ],
+      "virtual_tour_url": "https://tour.your-space.in"
+    },
+    "reviews": [
+      {
+        "author": "Pooja Hegde",
+        "role": "Christ University Student (Resident)",
+        "rating": 5,
+        "date": "2026-03-01",
+        "title": "Study lounge and peaceful environment helped me top my semester",
+        "comment": "The food is genuinely like home, the rooms are spotless, and having quiet study pods with reliable fast internet made my exam prep stress-free.",
+        "verified_student": true
+      }
+    ],
+    "ranking_evidence": {
+      "sources": [
+        "StudyFinder Physical Audit 2026",
+        "FSSAI Safety Rating",
+        "Bengaluru Police Tenant Verification"
+      ],
+      "last_audited": "2026-07-08",
+      "auditor": "StudyFinder Independent Verification Council",
+      "confidence_level": "High"
+    }
+  }
+]
